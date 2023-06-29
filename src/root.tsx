@@ -1,5 +1,6 @@
 import { component$ } from '@builder.io/qwik';
 import { QwikCityProvider, RouterOutlet, ServiceWorkerRegister } from '@builder.io/qwik-city';
+import { HueEyeProvider } from 'qwik-hueeye';
 import { RouterHead } from './components/router-head/router-head';
 
 import './global.css';
@@ -20,8 +21,10 @@ export default component$(() => {
         <RouterHead />
       </head>
       <body lang="en">
-        <RouterOutlet />
-        <ServiceWorkerRegister />
+        <HueEyeProvider>
+          <RouterOutlet />
+          <ServiceWorkerRegister />
+        </HueEyeProvider>
       </body>
     </QwikCityProvider>
   );

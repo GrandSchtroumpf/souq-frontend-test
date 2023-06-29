@@ -1,0 +1,85 @@
+
+#pool > header {
+  padding: 160px 80px;
+  background-image: url('https://i.seadn.io/gae/YPGHP7VAvzy-MCVU67CV85gSW_Di6LWbp-22LGEb3H6Yz9v4wOdAaAhiswnwwL5trMn8tZiJhgbdGuBN9wvpH10d_oGVjVIGM-zW5A?auto=format&dpr=1&w=3840');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#pool-performance > header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--block-padding);
+}
+
+.token-filters {
+  background-color: var(--background);
+  padding: var(--block-padding);
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.token-filters .form-field {
+  width: 100%;
+}
+
+.cards {
+  --card-width: 250px;
+  margin-block: 0;
+  padding-left: 0;
+  list-style: none;
+  display: grid;
+  gap: var(--size-2);
+  padding: 32px 64px;
+  grid-template-columns: repeat(auto-fit, minmax(var(--card-width), 1fr));
+}
+
+.card {
+  content-visibility: auto;
+  contain-intrinsic-size: 500px;
+  background-color: var(--surface);
+  border-radius: var(--size-0);
+}
+.card:hover {
+  background-color: var(--surface-high);
+  box-shadow: var(--overlay-shadow);
+}
+
+.card a {
+  display: block;
+  width: 100%;
+  color: inherit;
+  text-decoration: none;
+}
+
+.card img {
+  contain: paint;
+  aspect-ratio: 6 / 9;
+  width: 100%;
+  height: unset;
+  border-top-left-radius: var(--size-0);
+  border-top-right-radius: var(--size-0);
+}
+
+
+.card h3 {
+  padding: var(--block-padding);
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: var(--size-1);
+  padding: var(--block-padding);
+}
+
+@media (max-width: 899px) {
+  .cards {
+    --card-width: 150px;
+    padding: var(--size-2);
+  }
+}

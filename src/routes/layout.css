@@ -1,0 +1,20 @@
+header#banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--size-2) var(--size-3);
+  box-sizing: border-box;
+  gap: var(--size-3);
+}
+
+#banner nav {
+  display: flex;
+  align-items: center;
+  gap: var(--size-2);
+}
+
+@media (max-width: 899px) {
+  .logo {
+    display: none;
+  }
+}

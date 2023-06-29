@@ -1,0 +1,38 @@
+#token-page {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+#token-page nav {
+  display: flex;
+  align-items: center;
+  gap: var(--size-1);
+  padding: var(--block-padding);
+}
+
+
+.token-details {
+  place-self: center;
+  flex: 1;
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: 300px auto;
+  row-gap: var(--size-2);
+  column-gap: var(--size-4);
+}
+.token-details img {
+  contain: paint;
+  grid-row: 1 / span 4;
+  border-radius: var(--size-0);
+  padding: 2px;
+  background-image: var(--background-image);
+  box-sizing: border-box;
+}
+
+@media (max-width: 899px) {
+  .token-details {
+    grid-template-rows: repeat(8, 1fr);
+    grid-template-columns: auto;
+  }
+}

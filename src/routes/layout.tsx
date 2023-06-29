@@ -1,17 +1,26 @@
-import { component$, Slot } from '@builder.io/qwik';
-import type { RequestHandler } from '@builder.io/qwik-city';
+import { component$, Slot, useStyles$ } from '@builder.io/qwik';
+import { Logo } from '~/components/logo';
+import styles from './layout.css?inline';
 
-export const onGet: RequestHandler = async ({ cacheControl }) => {
-  // Control caching for this request for best performance and to reduce hosting costs:
-  // https://qwik.builder.io/docs/caching/
-  cacheControl({
-    // Always serve a cached response by default, up to a week stale
-    staleWhileRevalidate: 60 * 60 * 24 * 7,
-    // Max once every 5 seconds, revalidate on the server to get a fresh version of this page
-    maxAge: 5,
-  });
-};
 
 export default component$(() => {
-  return <Slot />;
+  useStyles$(styles);
+  return <>
+    <header id="banner">
+      <a class="logo" href="/">
+        <Logo/>
+      </a>
+      <nav aria-label="Primary">
+        <a class="btn" href="/vaults">Vaults</a>
+        <a class="btn" href="/pool/1f53a93b-9e8e-41fd-9b90-acfde6e5a6c2">Pools</a>
+      </nav>
+      <button class="btn-outline gradient">
+        Connect Wallet
+      </button>
+    </header>
+    <Slot />
+    <footer>
+
+    </footer>
+  </>
 });
