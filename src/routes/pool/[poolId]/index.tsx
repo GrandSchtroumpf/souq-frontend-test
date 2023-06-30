@@ -1,21 +1,47 @@
-import { component$, useContext, useStyles$ } from "@builder.io/qwik";
+import { component$, event$, useComputed$, useContext, useSignal, useStyles$, useVisibleTask$ } from "@builder.io/qwik";
+import type { Signal} from "@builder.io/qwik";
 import { Form, ToggleGroup, Toggle, FormField, Input, Select, Option } from "qwik-hueeye";
-import type { CollectionToken, Trait } from "~/models";
+import type { Trait } from "~/models";
 import { Bucket, BucketToken } from "~/components/bucket/bucket";
 import styles from './index.css?inline';
 import { Link } from "@builder.io/qwik-city";
 import { viewTransition } from "~/components/view-transition";
 import { PoolContext } from "./layout";
 
+/** Component used to load more tokens when it enters the view */
+const LastItem = component$(({ ref, completed }: { ref: Signal<HTMLElement | undefined>, completed: boolean }) => {
+  if (completed) return <></>;
+  return <footer class="last-item" ref={ref} aria-hidden="true">
+    <button disabled class="btn-fill">Loading Tokens</button>
+  </footer>;
+})
 
-interface TokenListProps {
-  tokens: CollectionToken[];
-}
+const TokenList = component$(() => {
+  const ref = useSignal<HTMLElement>();
+  const pool = useContext(PoolContext);
+  const pagination = useSignal(50);
+  const max = pool.collectionTokens.length;
+  const tokens = useComputed$(() => {
+    return pool.collectionTokens.slice(0, pagination.value);
+  });
 
-const TokenList = component$(({ tokens }: TokenListProps) => {
+  // Pagination
+  useVisibleTask$(() => {
+    const observer = new IntersectionObserver(([entry]) => {
+      if (!entry.isIntersecting) return;
+      const next = pagination.value + 50;
+      pagination.value = Math.min(max, next);
+      if (next >= max) observer.disconnect();
+    }, {
+      rootMargin: '300px 0px'
+    });
+    observer.observe(ref.value!);
+    return () => observer.disconnect();
+  });
+
   return <nav aria-label="List of tokens">
-    <ul role="list" class="cards">
-      {tokens.slice(0, 50).map((token) => (
+    <ul ref={ref} role="list" class="cards">
+      {tokens.value.map((token) => (
       <li class="card" key={token.id} id={token.id}>
         <Link href={'./token/' + token.id}>
           <img style={viewTransition(token.id)} src={token.metadata?.image} width="300" height="450" loading="lazy"/>
@@ -27,6 +53,7 @@ const TokenList = component$(({ tokens }: TokenListProps) => {
       </li>
       ))}
     </ul>
+    <LastItem ref={ref} completed={max === pagination.value}/>
   </nav>
 });
 
@@ -57,6 +84,10 @@ const TraitTokenFilter = component$(({ trait }: TraitTokenFilterProps) => {
 export default component$(() => {
   useStyles$(styles);
   const pool = useContext(PoolContext);
+  const filter = event$(() => {
+
+  });
+
   return <main id="pool-page">
     <section id="pool" aria-labelledby="pool-title">
       <header id="pool-header">
@@ -86,8 +117,15 @@ export default component$(() => {
         </FormField>
         <TraitListFilter />
       </Form>
-      <TokenList tokens={pool.collectionTokens} />
+      <TokenList/>
       <Bucket />
+      <div class="go-top tooltip-right" aria-label="Scroll to top">
+        <a href="#pool-title" class="btn-expand fill">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z"/>
+          </svg>
+        </a>
+      </div>
     </section>
   </main>
 

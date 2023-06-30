@@ -4,6 +4,7 @@ html {
   font-family: var(--font-family);
   background-image: none;
   scroll-padding-top: 80px;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -81,11 +82,58 @@ body {
   content: "";
   position: absolute;
   inset: 2px;
-  background-color: var(--on-gradient);
+  background-color: var(--background);
   border-radius: calc(var(--size-1) - 2px); /* reduce by the inset */
   z-index: -1;
 }
 .btn-expand[aria-expanded="true"] {
   transition: max-width 0.2s var(--ease-in);
   max-width: var(--btn-expand-width, 200px);
+}
+
+
+
+[class*="tooltip"] {
+  position: relative;
+}
+[class*="tooltip"]::after {
+  content: attr(aria-label);
+  pointer-events: none;
+  padding: var(--size-0) var(--size-1);
+  position: absolute;
+  height: fit-content;
+  width: fit-content;
+  z-index: 1;
+
+  box-shadow: var(--overlay-shadow);
+  background-color: var(--overlay);
+  border-radius: var(--size-0);
+  color: var(--secondary-text);
+  white-space: nowrap;
+  opacity: 0;
+  transform: scale(0.8);
+  transition: opacity 0.2s var(--ease-in),
+    transform 0.2s var(--ease-in);
+}
+[class*="tooltip"]:hover::after {
+  opacity: 1;
+  transform: scale(1);
+  transition: opacity 0.2s var(--ease-out),
+    transform 0.2s var(--ease-out);
+}
+.tooltip-top::after {
+  bottom: 110%;
+  left: -50%;
+}
+.tooltip-right::after {
+  top: 25%;
+  left: 110%;
+}
+.tooltip-bottom::after {
+  top: 110%;
+  left: -50%;
+}
+.tooltip-left::after {
+  top: 25%;
+  right: 110%;
 }

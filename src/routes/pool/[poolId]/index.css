@@ -93,6 +93,19 @@
   padding: var(--block-padding);
 }
 
+.last-item {
+  display: flex;
+  padding: var(--size-2);
+  justify-content: center;
+}
+
+.go-top {
+  width: fit-content;
+  position: sticky;
+  bottom: var(--size-2);
+  left: var(--size-2);
+}
+
 @media (max-width: 899px) {
   .filter-list {
     overflow-x: auto;
