@@ -1,10 +1,10 @@
-import { component$, useStyles$ } from "@builder.io/qwik";
+import { component$, useContext, useStyles$ } from "@builder.io/qwik";
 import { Link, useLocation } from "@builder.io/qwik-city";
-import type { Attribute, Pool } from "~/models";
-import poolData from '~/DATA.json';
-import styles from './index.css?inline';
+import type { Attribute } from "~/models";
 import { Bucket, BucketToken } from "~/components/bucket/bucket";
 import { viewTransition } from "~/components/view-transition";
+import { PoolContext } from "../../layout";
+import styles from './index.css?inline';
 
 interface TokenTraitsProps {
   attributes: Attribute[] | null;
@@ -24,7 +24,7 @@ const TokenAttributes = component$(({ attributes }: TokenTraitsProps) => {
 export default component$(() => {
   useStyles$(styles);
   const { params } = useLocation();
-  const pool = poolData as Pool;
+  const pool = useContext(PoolContext);
   const { poolId, tokenId } = params;
   const token = pool.collectionTokens.find(item => item.id === tokenId);
   if (!token?.metadata) return <p>No token found with id "{tokenId}"</p>

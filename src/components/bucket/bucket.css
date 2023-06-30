@@ -2,6 +2,8 @@
   position: fixed;
   bottom: var(--size-2);
   right: var(--size-2);
+}
+.bucket button {
   font-size: 1rem;
 }
 .bucket[aria-expanded="true"] {

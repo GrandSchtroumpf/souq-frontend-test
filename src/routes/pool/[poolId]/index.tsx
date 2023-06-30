@@ -1,11 +1,11 @@
-import { component$, useStyles$ } from "@builder.io/qwik";
-import { Form, ToggleGroup, Toggle, FormField, Input } from "qwik-hueeye";
-import type { CollectionToken, Pool } from "~/models";
+import { component$, useContext, useStyles$ } from "@builder.io/qwik";
+import { Form, ToggleGroup, Toggle, FormField, Input, Select, Option } from "qwik-hueeye";
+import type { CollectionToken, Trait } from "~/models";
 import { Bucket, BucketToken } from "~/components/bucket/bucket";
-import poolData from '~/DATA.json';
 import styles from './index.css?inline';
 import { Link } from "@builder.io/qwik-city";
 import { viewTransition } from "~/components/view-transition";
+import { PoolContext } from "./layout";
 
 
 interface TokenListProps {
@@ -13,7 +13,6 @@ interface TokenListProps {
 }
 
 const TokenList = component$(({ tokens }: TokenListProps) => {
-
   return <nav aria-label="List of tokens">
     <ul role="list" class="cards">
       {tokens.slice(0, 50).map((token) => (
@@ -22,17 +21,42 @@ const TokenList = component$(({ tokens }: TokenListProps) => {
           <img style={viewTransition(token.id)} src={token.metadata?.image} width="300" height="450" loading="lazy"/>
           <h3>{token.metadata?.name}</h3>
         </Link>
-        <BucketToken tokenId={token.id} aria-label="Bucket for this token"/>
+        <footer class="actions" aria-label="Bucket for this token">
+          <BucketToken tokenId={token.id}/>
+        </footer>
       </li>
       ))}
     </ul>
   </nav>
 });
 
+const TraitListFilter = component$(() => {
+  const pool = useContext(PoolContext);
+  return <ul role="list" class="filter-list">
+    {Object.values(pool.traits).map(trait => (
+      <li key={trait.name}>
+        <TraitTokenFilter trait={trait}/>
+      </li>
+    ))}
+  </ul>
+});
+
+interface TraitTokenFilterProps {
+  trait: Trait;
+}
+const TraitTokenFilter = component$(({ trait }: TraitTokenFilterProps) => {
+  return <FormField class="outline">
+    <Select aria-label={trait.name} name={trait.name} placeholder={trait.name}>
+      <Option value="">-- {trait.name} --</Option>
+      {trait.options.map(({ name, value }) => <Option key={value} value={value.toString()}>{name}</Option>)}
+    </Select>
+  </FormField>
+});
+
 
 export default component$(() => {
   useStyles$(styles);
-  const pool = poolData as Pool;
+  const pool = useContext(PoolContext);
   return <main id="pool-page">
     <section id="pool" aria-labelledby="pool-title">
       <header id="pool-header">
@@ -60,6 +84,7 @@ export default component$(() => {
         <FormField class="outline">
           <Input name="search" type="search" aria-label="search" placeholder="Search"/>
         </FormField>
+        <TraitListFilter />
       </Form>
       <TokenList tokens={pool.collectionTokens} />
       <Bucket />

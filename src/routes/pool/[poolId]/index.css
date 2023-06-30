@@ -26,6 +26,22 @@
   width: 100%;
 }
 
+.filter-wrapper {
+  overflow-x: auto;
+}
+
+.filter-list {
+  margin-block: 0;
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+  gap: var(--size-2);
+  padding-block: var(--size-1);
+}
+.filter-list li {
+  min-width: 150px;
+}
+
 .cards {
   --card-width: 250px;
   margin-block: 0;
@@ -78,6 +94,9 @@
 }
 
 @media (max-width: 899px) {
+  .filter-list {
+    overflow-x: auto;
+  }
   .cards {
     --card-width: 150px;
     padding: var(--size-2);

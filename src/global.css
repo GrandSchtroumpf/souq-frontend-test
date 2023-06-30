@@ -55,18 +55,37 @@ body {
   max-width: 48px;
   gap: 12px;
   padding: 12px;
-  background-color: var(--color, var(--background));
-  color: var(--on-color, var(--text));
   overflow: hidden;
   white-space: nowrap;
   transition: max-width 0.2s var(--ease-out);
 }
-.bucket[aria-expanded="true"] {
-  transition: max-width 0.2s var(--ease-in);
-  max-width: var(--btn-expand-width, 200px);
+.btn-expand.fill {
+  background-color: var(--color, var(--background));
+  color: var(--on-color, var(--text));
 }
-.btn-expand.gradient {
+.btn-expand.fill.gradient {
   background-image: var(--background-image);
   color: var(--on-gradient);
 }
-
+.btn-expand.outline {
+  background-color: transparent;
+  color: var(--on-color, var(--text));
+}
+.btn-expand.outline.gradient {
+  background-image: var(--background-image);
+  color: var(--text);
+  isolation: isolate;
+  position: relative;
+}
+.btn-expand.outline.gradient::before {
+  content: "";
+  position: absolute;
+  inset: 2px;
+  background-color: var(--on-gradient);
+  border-radius: calc(var(--size-1) - 2px); /* reduce by the inset */
+  z-index: -1;
+}
+.btn-expand[aria-expanded="true"] {
+  transition: max-width 0.2s var(--ease-in);
+  max-width: var(--btn-expand-width, 200px);
+}
