@@ -33,13 +33,40 @@ body {
   padding: var(--block-padding);
 }
 
-.btn, .btn-fill, .btn-outline {
+
+.btn, .btn-fill, .btn-outline, .btn-expand {
   display: inline-flex;
   align-items: center;
   gap: var(--size-1);
+  box-sizing: border-box;
 }
-.btn svg, .btn-fill svg, .btn-outline svg {
+.btn svg, .btn-fill svg, .btn-outline svg, .btn-expand svg {
   fill: currentColor;
   width: 24px;
   height: 24px;
+  flex-shrink: 0;
 }
+
+.btn-expand {
+  border: none;
+  border-radius: var(--size-1);
+  height: 48px;
+  min-width: 48px;
+  max-width: 48px;
+  gap: 12px;
+  padding: 12px;
+  background-color: var(--color, var(--background));
+  color: var(--on-color, var(--text));
+  overflow: hidden;
+  white-space: nowrap;
+  transition: max-width 0.2s var(--ease-out);
+}
+.bucket[aria-expanded="true"] {
+  transition: max-width 0.2s var(--ease-in);
+  max-width: var(--btn-expand-width, 200px);
+}
+.btn-expand.gradient {
+  background-image: var(--background-image);
+  color: var(--on-gradient);
+}
+

@@ -141,64 +141,20 @@ export interface Collection {
 }
 
 export interface Traits {
-  State: State
-  Rarity: Rarity
-  Class: Class
-  Artist: Artist
-  Parallel: Parallel
+  State: Trait
+  Rarity: Trait
+  Class: Trait
+  Artist: Trait
+  Parallel: Trait
 }
 
-export interface State {
+export interface Trait {
   name: string
   options: Option[]
   attributes: string[]
 }
 
 export interface Option {
-  name: string
-  value: number
-}
-
-export interface Rarity {
-  name: string
-  options: Option2[]
-  attributes: string[]
-}
-
-export interface Option2 {
-  name: string
-  value: number
-}
-
-export interface Class {
-  name: string
-  options: Option3[]
-  attributes: string[]
-}
-
-export interface Option3 {
-  name: string
-  value: number
-}
-
-export interface Artist {
-  name: string
-  options: Option4[]
-  attributes: string[]
-}
-
-export interface Option4 {
-  name: string
-  value: number
-}
-
-export interface Parallel {
-  name: string
-  options: Option5[]
-  attributes: string[]
-}
-
-export interface Option5 {
   name: string
   value: number
 }

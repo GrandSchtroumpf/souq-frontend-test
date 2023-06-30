@@ -1,60 +1,36 @@
-import { component$, useStore, $, useStyles$, createContextId, useContext, useContextProvider } from "@builder.io/qwik";
-import { Link } from "@builder.io/qwik-city";
+import { component$, useStyles$ } from "@builder.io/qwik";
 import { Form, ToggleGroup, Toggle, FormField, Input } from "qwik-hueeye";
 import type { CollectionToken, Pool } from "~/models";
+import { Bucket, BucketToken } from "~/components/bucket/bucket";
 import poolData from '~/DATA.json';
 import styles from './index.css?inline';
+
 
 interface TokenListProps {
   tokens: CollectionToken[];
 }
 
-const BucketContext = createContextId<Record<string, number>>('BucketContext');
-
 const TokenList = component$(({ tokens }: TokenListProps) => {
-  const bucket = useContext(BucketContext);
-  const add = $((tokenId: string) => {
-    bucket[tokenId] ||= 0;
-    bucket[tokenId]++;
-  });
-
-  const remove = $((tokenId: string) => {
-    bucket[tokenId] ||= 0;
-    bucket[tokenId] = Math.max(bucket[tokenId] - 1, 0);
-  });
 
   return <nav aria-label="List of tokens">
     <ul role="list" class="cards">
       {tokens.slice(0, 50).map((token, i) => (
       <li class="card" key={token.id} id={token.id}>
-        <Link href={'./token/' + token.id}>
+        <a href={'./token/' + token.id}>
           <img style={'view-transition-name: token-'+i} src={token.metadata?.image} width="300" height="450" loading="lazy"/>
           <h3>{token.metadata?.name}</h3>
-        </Link>
-        <div class="actions">
-          <button class="btn-icon" disabled={!bucket[token.id]} onClick$={() => remove(token.id)}>
-            <svg xmlns="http://www.w3.org/2000/svg"viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-              <path d="M19 13H5v-2h14v2z"/>
-            </svg>
-          </button>
-          <span>{bucket[token.id] ?? 0}</span>
-          <button class="btn-icon" onClick$={() => add(token.id)}>
-            <svg xmlns="http://www.w3.org/2000/svg"viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-              <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/>
-            </svg>
-          </button>
-        </div>
+        </a>
+        <BucketToken tokenId={token.id} aria-label="Bucket for this token"/>
       </li>
       ))}
     </ul>
   </nav>
-})
+});
+
 
 export default component$(() => {
   useStyles$(styles);
   const pool = poolData as Pool;
-  const bucket = useStore<Record<string, number>>({}, { deep: false });
-  useContextProvider(BucketContext, bucket);
   return <main id="pool-page">
     <section id="pool" aria-labelledby="pool-title">
       <header id="pool-header">
@@ -84,6 +60,7 @@ export default component$(() => {
         </FormField>
       </Form>
       <TokenList tokens={pool.collectionTokens} />
+      <Bucket />
     </section>
   </main>
 
