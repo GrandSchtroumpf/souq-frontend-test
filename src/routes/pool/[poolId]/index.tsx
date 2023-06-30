@@ -4,6 +4,8 @@ import type { CollectionToken, Pool } from "~/models";
 import { Bucket, BucketToken } from "~/components/bucket/bucket";
 import poolData from '~/DATA.json';
 import styles from './index.css?inline';
+import { Link } from "@builder.io/qwik-city";
+import { viewTransition } from "~/components/view-transition";
 
 
 interface TokenListProps {
@@ -14,12 +16,12 @@ const TokenList = component$(({ tokens }: TokenListProps) => {
 
   return <nav aria-label="List of tokens">
     <ul role="list" class="cards">
-      {tokens.slice(0, 50).map((token, i) => (
+      {tokens.slice(0, 50).map((token) => (
       <li class="card" key={token.id} id={token.id}>
-        <a href={'./token/' + token.id}>
-          <img style={'view-transition-name: token-'+i} src={token.metadata?.image} width="300" height="450" loading="lazy"/>
+        <Link href={'./token/' + token.id}>
+          <img style={viewTransition(token.id)} src={token.metadata?.image} width="300" height="450" loading="lazy"/>
           <h3>{token.metadata?.name}</h3>
-        </a>
+        </Link>
         <BucketToken tokenId={token.id} aria-label="Bucket for this token"/>
       </li>
       ))}
