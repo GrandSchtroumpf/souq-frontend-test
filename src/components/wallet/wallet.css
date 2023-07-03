@@ -1,0 +1,24 @@
+.client-list {
+  min-width: 500px;
+  max-width: 80vw;
+  padding: var(--block-padding);
+}
+
+.wallet-widget {
+  border-radius: var(--size-0);
+  border: 1px solid var(--outline);
+}
+
+.wallet-widget button {
+  border: none;
+  padding: var(--size-1) var(--size-2);
+}
+
+.wallet-widget button:first-child {
+  border-top-left-radius: var(--size-0);
+  border-bottom-left-radius: var(--size-0);
+}
+.wallet-widget button:last-child {
+  border-top-right-radius: var(--size-0);
+  border-bottom-right-radius: var(--size-0);
+}

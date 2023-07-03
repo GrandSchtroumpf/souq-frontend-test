@@ -1,4 +1,4 @@
-import { component$, event$, useComputed$, useContext, useSignal, useStyles$, useVisibleTask$ } from "@builder.io/qwik";
+import { component$, useComputed$, useContext, useSignal, useStyles$, useVisibleTask$ } from "@builder.io/qwik";
 import type { Signal} from "@builder.io/qwik";
 import { Form, ToggleGroup, Toggle, FormField, Input, Select, Option } from "qwik-hueeye";
 import type { Trait } from "~/models";
@@ -84,14 +84,11 @@ const TraitTokenFilter = component$(({ trait }: TraitTokenFilterProps) => {
 export default component$(() => {
   useStyles$(styles);
   const pool = useContext(PoolContext);
-  const filter = event$(() => {
-
-  });
-
+  
   return <main id="pool-page">
-    <section id="pool" aria-labelledby="pool-title">
+    <section id="pool" aria-label={pool.collectionName}>
       <header id="pool-header">
-        <h1 id="pool-title">{pool.collectionName}</h1>
+        <img width={2000} height={450} src="https://i.seadn.io/gae/YPGHP7VAvzy-MCVU67CV85gSW_Di6LWbp-22LGEb3H6Yz9v4wOdAaAhiswnwwL5trMn8tZiJhgbdGuBN9wvpH10d_oGVjVIGM-zW5A?auto=format&dpr=1&w=1920"/>
       </header>
       <article id="pool-performance" aria-labelledby="pool-performance-title">
         <header>
@@ -120,7 +117,7 @@ export default component$(() => {
       <TokenList/>
       <Bucket />
       <div class="go-top tooltip-right" aria-label="Scroll to top">
-        <a href="#pool-title" class="btn-expand fill">
+        <a href="#pool-header" class="btn-expand fill">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
             <path d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z"/>
           </svg>
