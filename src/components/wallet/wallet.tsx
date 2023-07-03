@@ -77,7 +77,7 @@ export const WalletWidget = component$(() => {
   const { state } = useEthereum();
   
   if (!state.account) return <ConnectWallet/>
-  return <div class="wallet-widget">
+  return <div class="wallet-widget gradient">
     <button>{state.chainId}</button>
     <button>{shortAddress(state.account)}</button>
   </div>

@@ -41,14 +41,14 @@ const TokenList = component$(() => {
 
   return <nav aria-label="List of tokens">
     <ul ref={ref} role="list" class="cards">
-      {tokens.value.map((token) => (
-      <li class="card" key={token.id} id={token.id}>
-        <Link href={'./token/' + token.id}>
-          <img style={viewTransition(token.id)} src={token.metadata?.image} width="300" height="450" loading="lazy"/>
-          <h3>{token.metadata?.name}</h3>
+      {tokens.value.map(({ id, metadata }) => (
+      <li class="card" key={id} id={id}>
+        <Link href={'./token/' + id}>
+          <img style={viewTransition(id)} src={metadata?.image} width="300" height="450" loading="lazy"/>
+          <h3>{metadata?.name}</h3>
         </Link>
         <footer class="actions" aria-label="Bucket for this token">
-          <BucketToken tokenId={token.id}/>
+          <BucketToken tokenId={id}/>
         </footer>
       </li>
       ))}

@@ -1,4 +1,4 @@
 /** Set view transition name in the style */
-export const viewTransition = (id: string) => {
-  return `view-transition-name: _${id.split(' ').join('-')}_`
+export const viewTransition = (id: string | number) => {
+  return `view-transition-name: _${id.toString().split(' ').join('-')}_`
 }

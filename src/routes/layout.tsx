@@ -1,7 +1,7 @@
 import { component$, Slot, useStyles$ } from '@builder.io/qwik';
 import { Logo } from '~/components/logo';
 import { useEthereumProvider } from '~/hooks/ethereum';
-import { injected } from '~/hooks/ethereum/injected';
+import { injected } from '~/hooks/ethereum/connectors/injected';
 import { WalletWidget } from '~/components/wallet/wallet';
 import styles from './layout.css?inline';
 

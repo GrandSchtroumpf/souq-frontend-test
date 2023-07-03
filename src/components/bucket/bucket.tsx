@@ -1,7 +1,10 @@
 import { component$, $, useStore, useVisibleTask$, useComputed$, useContextProvider, createContextId, useStyles$, useContext, useSignal } from "@builder.io/qwik";
+import { Contract } from "ethers";
 import { Modal } from "qwik-hueeye";
+import { useEthereum } from "~/hooks/ethereum";
 import type { CollectionToken } from "~/models";
 import { PoolContext } from "~/routes/pool/[poolId]/layout";
+import MME1155ABI from "~/hooks/ethereum/abi/MME1155.json";
 import styles from './bucket.css?inline';
 
 export type BucketService = ReturnType<typeof useBucketProvider>;
@@ -42,8 +45,10 @@ export const useBucketProvider = (poolId: string) => {
   return service;
 }
 
+
 export const Bucket = component$(() => {
   useStyles$(styles);
+  const { state } = useEthereum();
   const { total, bucket, clear } = useContext(BucketContext);
   const pool = useContext(PoolContext);
   const open = useSignal(false);
@@ -51,6 +56,21 @@ export const Bucket = component$(() => {
   for (const token of pool.collectionTokens) {
     tokenRecord[token.id] = token;
   }
+
+  const buy = $(async () => {
+    if (!state.provider) throw new Error('No provider. Use connect button');
+    const signer = await state.provider.getSigner();
+    const contract = new Contract('0x72f2A9e83c31686b7803AA1b9B822521901DaEa4', MME1155ABI, signer);
+    const tokenIds = [];
+    const requiredAmounts = [];
+    const maxStable = 13234278; // From my tx in Etherscan
+    for (const [id, amount] of Object.entries(bucket)) {
+      tokenIds.push(tokenRecord[id].tokenId);
+      requiredAmounts.push(amount);
+    }
+    contract.swapStable(requiredAmounts, tokenIds, maxStable);
+  });
+
   return <>
     <div class="bucket-trigger">
       <button class="btn-expand outline gradient" aria-expanded={!!total.value} onClick$={() => open.value = true}>
@@ -83,7 +103,7 @@ export const Bucket = component$(() => {
         </ul>
         <footer class="bucket-buy">
           <p>Total: {total.value}</p>
-          <button class="btn-fill primary">Buy</button>
+          <button class="btn-fill primary" onClick$={buy}>Buy</button>
         </footer>
       </div>
     </Modal>

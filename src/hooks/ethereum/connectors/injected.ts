@@ -1,7 +1,7 @@
 import type { NoSerialize } from "@builder.io/qwik";
 import { $, noSerialize } from "@builder.io/qwik";
 import { BrowserProvider } from "ethers";
-import type {  ConnectorClient, EthereumState } from "../ethereum";
+import type {  ConnectorClient, EthereumState } from "..";
 import { getChain, toChainHex, toChainId, toEIP3085Chain } from "./utils";
 
 interface InjectedProviders {
