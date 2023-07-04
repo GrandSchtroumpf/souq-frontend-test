@@ -3,6 +3,7 @@ import { Logo } from '~/components/logo';
 import { useEthereumProvider } from '~/hooks/ethereum';
 import { injected } from '~/hooks/ethereum/connectors/injected';
 import { WalletWidget } from '~/components/wallet/wallet';
+import { Link } from '@builder.io/qwik-city';
 import styles from './layout.css?inline';
 
 
@@ -15,8 +16,8 @@ export default component$(() => {
         <Logo/>
       </a>
       <nav aria-label="Primary">
-        <a class="btn" href="/vaults">Vaults</a>
-        <a class="btn" href="/pool/1f53a93b-9e8e-41fd-9b90-acfde6e5a6c2">Pools</a>
+        <Link class="btn" href="/vaults">Vaults</Link>
+        <Link class="btn" href="/pool/1f53a93b-9e8e-41fd-9b90-acfde6e5a6c2">Pools</Link>
       </nav>
       <WalletWidget/>
     </header>

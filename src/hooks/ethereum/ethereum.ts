@@ -1,9 +1,10 @@
 import { $, createContextId, noSerialize, useContext, useContextProvider, useStore, useVisibleTask$ } from '@builder.io/qwik';
 import type { QRL, NoSerialize} from '@builder.io/qwik';
-import type { BrowserProvider } from 'ethers';
+import type { AbstractProvider} from 'ethers';
+import { BrowserProvider, getDefaultProvider } from 'ethers';
 
 export interface EthereumState {
-  provider?: NoSerialize<BrowserProvider>;
+  provider?: NoSerialize<AbstractProvider | BrowserProvider>;
   clients: ConnectorClient[];
   client?: ConnectorClient;
   account?: string;
@@ -48,6 +49,7 @@ export function useEthereumProvider(props: EthereumProps) {
     status: 'disconnected',
     clients: [],
     chainId: props.chainId,
+    provider: noSerialize(getDefaultProvider('https://eth.llamarpc.com'))
   }, { deep: false });
 
   const findClients = $(async () => {
@@ -74,13 +76,14 @@ export function useEthereumProvider(props: EthereumProps) {
       const connector = await getConnector(client);
       if (!connector) throw new Error(`No connector found`);
       const data = await connector.connect(client);
-      console.log(data.provider);
       state.account = data.account;
       state.chainId = data.chainId;
       state.provider = noSerialize(data.provider);
       state.client = client;
       state.status = 'connected';
-      console.log(state.provider);
+      new Promise(() => {
+        localStorage.setItem('wallet', JSON.stringify({...client, account: data.account }));
+      });
     }
     catch(err) {
       console.log(err);
@@ -103,7 +106,13 @@ export function useEthereumProvider(props: EthereumProps) {
     return connector?.switchChain(chainId);
   });
 
-  const service = { state, findClients, connect, disconnect, switchChain };
+  const getSigner = $(() => {
+    if (!state.provider) throw new Error('No provider provided');
+    if (!(state.provider instanceof BrowserProvider)) throw new Error('To access signer provider must be a Browser Provider');
+    return state.provider.getSigner();
+  })
+
+  const service = { state, findClients, connect, disconnect, switchChain, getSigner };
   useContextProvider(EthereumContext, service);
   return service;
 }
@@ -111,9 +120,12 @@ export function useEthereumProvider(props: EthereumProps) {
 export const useEthereum = () => {
   const service = useContext(EthereumContext);
   useVisibleTask$(() => {
-    const wallet = localStorage.getItem('wallet');
-    if (!wallet) return;
-    service.connect(JSON.parse(wallet));
+    const wallet = sessionStorage.getItem('wallet');
+    if (wallet) {
+      service.connect(JSON.parse(wallet));
+    } else {
+      service.state.provider = noSerialize(getDefaultProvider('https://eth.llamarpc.com'))
+    }
   });
   return service;
 }

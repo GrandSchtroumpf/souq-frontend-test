@@ -37,6 +37,6 @@
   },
   "dependencies": {
     "ethers": "^6.6.2",
-    "qwik-hueeye": "^0.0.4"
+    "qwik-hueeye": "^0.0.5"
   }
 }

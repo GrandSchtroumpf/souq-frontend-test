@@ -22,6 +22,7 @@
   row-gap: var(--size-2);
   column-gap: var(--size-4);
   padding: var(--size-2);
+  max-width: 60%;
 }
 .token-details img {
   contain: paint;

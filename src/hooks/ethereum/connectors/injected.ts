@@ -181,9 +181,6 @@ export function injected() {
     if (!provider) throw new Error('No provider found');
     const [account] = await provider.request({  method: 'eth_requestAccounts' });
     addListeners();
-    new Promise(() => {
-      localStorage.setItem('wallet', JSON.stringify({...client, account}));
-    });
     return {
       account,
       chainId: toChainId(provider.chainId),

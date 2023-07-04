@@ -1,5 +1,5 @@
 
-#pool > header img {
+#pool-header img {
   width: 100%;
   height: 450px;
   object-fit: cover;
@@ -10,6 +10,11 @@
   align-items: center;
   justify-content: space-between;
   padding: var(--block-padding);
+}
+
+.search-field {
+  display: flex;
+  align-items: flex-end;
 }
 
 .token-filters {
@@ -48,26 +53,32 @@
   display: grid;
   gap: var(--size-2);
   padding: 32px 64px;
-  grid-template-columns: repeat(auto-fit, minmax(var(--card-width), 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(var(--card-width), 1fr));
 }
 
 .card {
+  display: contents;
+}
+
+.card a {
   content-visibility: auto;
   contain-intrinsic-size: 500px;
   background-color: var(--surface);
   border-radius: var(--size-0);
-}
-.card:hover {
-  background-color: var(--surface-high);
-  box-shadow: var(--overlay-shadow);
-}
-
-.card a {
   display: block;
   width: 100%;
   color: inherit;
   text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
+
+.card a:hover {
+  background-color: var(--surface-high);
+  box-shadow: var(--overlay-shadow);
+}
+
 
 .card img {
   contain: paint;
@@ -109,7 +120,17 @@
     overflow-x: auto;
   }
   .cards {
-    --card-width: 150px;
+    --card-width: 200px;
     padding: var(--size-2);
+  }
+}
+@media (max-width: 399px) {
+  .card a {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    grid-template-rows: auto auto;
+  }
+  .card img {
+    grid-row: 1 / span 2;
   }
 }
