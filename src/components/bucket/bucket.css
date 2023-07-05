@@ -11,9 +11,10 @@
 
 .bucket-wrapper {
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   gap: var(--size-1);
   height: 100%;
+  min-width: 300px;
 }
 
 .bucket-list {

@@ -1,4 +1,4 @@
-import { component$, createContextId, useComputed$, useContext, useContextProvider, useSignal, useStyles$, useVisibleTask$ } from "@builder.io/qwik";
+import { $, component$, createContextId, useComputed$, useContext, useContextProvider, useSignal, useStyles$, useVisibleTask$ } from "@builder.io/qwik";
 import type { Signal} from "@builder.io/qwik";
 import { Form, ToggleGroup, Toggle, FormField, Input, Select, Option } from "qwik-hueeye";
 import type { CollectionToken, Trait, Traits } from "~/models";
@@ -74,7 +74,7 @@ const TokenList = component$(() => {
     return () => observer.disconnect();
   });
 
-  return <nav ref={gridNavRef} aria-label="List of tokens">
+  return <nav ref={gridNavRef} aria-label="List of tokens" class="token-nav">
     <ul role="list" class="cards">
       {tokens.value.map((token) => {
         const { id, metadata } = token;
@@ -113,7 +113,7 @@ interface TraitTokenFilterProps {
 const TraitTokenFilter = component$(({ trait }: TraitTokenFilterProps) => {
   return <FormField class="outline">
     <Select aria-label={trait.name} name={trait.name} placeholder={trait.name} multi>
-      {trait.options.map(({ name, value }) => <Option key={value} value={name}>{name}</Option>)}
+      {trait.options.map(({ name }) => <Option key={name} value={name}>{name}</Option>)}
     </Select>
   </FormField>
 });
@@ -145,6 +145,10 @@ export default component$(() => {
     history.replaceState(null, '', '?' + url.searchParams.toString());
   });
   
+  const focusSearch = $(() => {
+    document.querySelector<HTMLElement>('input[type="search"]')?.focus();
+  })
+
   return <main id="pool-page">
     <header id="pool-header">
       <img width={1920} height={450} src="https://i.seadn.io/gae/YPGHP7VAvzy-MCVU67CV85gSW_Di6LWbp-22LGEb3H6Yz9v4wOdAaAhiswnwwL5trMn8tZiJhgbdGuBN9wvpH10d_oGVjVIGM-zW5A?auto=format&dpr=1&w=1920"/>
@@ -170,7 +174,7 @@ export default component$(() => {
     <section aria-label="Tokens">
       <Form class="token-filters" role="search" initialValue={filter.value} onChange$={v => filter.value = v}>
         <FormField class="outline">
-          <Input name="q" type="search" aria-label="search" placeholder="Search"/>
+          <Input id="search-token" name="q" type="search" aria-label="search" placeholder="Search"/>
         </FormField>
         <TraitListFilter />
       </Form>
@@ -178,7 +182,7 @@ export default component$(() => {
       <Bucket />
       <TokenList/>
       <div class="go-top tooltip-right" aria-label="Scroll to top">
-        <a href="#pool-header" class="btn-expand fill">
+        <a href="#pool-header" onClick$={focusSearch} class="btn-expand fill">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
             <path d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z"/>
           </svg>

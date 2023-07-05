@@ -52,6 +52,9 @@ body {
   height: 24px;
   flex-shrink: 0;
 }
+.btn-fill:focus-visible {
+  outline-offset: 2px;
+}
 
 .btn-expand {
   border: none;

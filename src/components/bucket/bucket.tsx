@@ -1,12 +1,11 @@
-import { component$, $, useStore, useVisibleTask$, useContextProvider, createContextId, useStyles$, useContext, useSignal, useComputed$, event$, QwikMouseEvent } from "@builder.io/qwik";
-import { Contract } from "ethers";
+import { component$, $, useStore, useVisibleTask$, useContextProvider, createContextId, useStyles$, useContext, useSignal, useComputed$, event$ } from "@builder.io/qwik";
+import type { QwikMouseEvent } from "@builder.io/qwik";
 import { Modal } from "qwik-hueeye";
 import { useEthereum } from "~/hooks/ethereum";
 import type { CollectionToken, Pool } from "~/models";
 import { PoolContext } from "~/routes/pool/[poolId]/layout";
-import MME1155ABI from "~/hooks/ethereum/abi/MME1155.json";
 import styles from './bucket.css?inline';
-import { MME1155 } from "~/hooks/ethereum/contracts";
+import { getMME1155 } from "~/hooks/ethereum/contracts";
 
 export type BucketService = ReturnType<typeof useBucketProvider>;
 
@@ -37,6 +36,10 @@ export const useBucketProvider = (pool: Pool) => {
 
   useVisibleTask$(({ track }) => {
     track(() => totalItems.value);
+    if (!totalItems.value) {
+      total.value = BigInt(0);
+      return;
+    } 
     const timeout = setTimeout(async () => {
       const amounts = [];
       const tokenIds = [];
@@ -45,10 +48,10 @@ export const useBucketProvider = (pool: Pool) => {
         tokenIds.push(tokens[key].tokenId);
       }
       if (!state.provider) throw new Error('You need a provider');
-      const contract = new MME1155(state.provider);
+      const contract = getMME1155(state.provider);
       const quotation = await contract.getQuote(amounts, tokenIds, true, true);
       total.value = quotation.total;
-    }, 1000);
+    }, 300);
     return () => clearTimeout(timeout);
   })
 
@@ -88,7 +91,7 @@ export const Bucket = component$(() => {
 
   const buy = $(async () => {
     const signer = await getSigner();
-    const contract = new Contract('0x72f2A9e83c31686b7803AA1b9B822521901DaEa4', MME1155ABI, signer);
+    const contract = getMME1155(signer);
     const tokenIds = [];
     const requiredAmounts = [];
     const maxStable = 13234278; // From my tx in Etherscan
@@ -110,6 +113,10 @@ export const Bucket = component$(() => {
     </div>
     <Modal open={open} type="sidenav">
       <div class="bucket-wrapper">
+        <header class="bucket-buy">
+          <p>Total: {total.value.toLocaleString()}</p>
+          <button class="btn-fill primary gradient" onClick$={buy}>Buy</button>
+        </header>
         <ul class="bucket-list">
           {Object.keys(bucket).map(id => {
             const token = tokenRecord[id];
@@ -129,10 +136,6 @@ export const Bucket = component$(() => {
             </li>
           })}
         </ul>
-        <footer class="bucket-buy">
-          <p>Total: {total.value.toLocaleString()}</p>
-          <button class="btn-fill primary gradient" onClick$={buy}>Buy</button>
-        </footer>
       </div>
     </Modal>
   </>
@@ -155,13 +158,13 @@ export const BucketToken = component$(({ token }: BucketTokenProps) => {
   });
   return <>
     <data style="margin-right: auto" value={price}>{`${formatter.format(price)} USDC`}</data>
-    <button class="btn-icon" disabled={!bucket[token.id]} onClick$={down}>
+    <button class="btn-icon" disabled={!bucket[token.id]} onClick$={down} preventdefault:click>
       <svg xmlns="http://www.w3.org/2000/svg"viewBox="0 0 24 24" aria-hidden="true" focusable="false">
         <path d="M19 13H5v-2h14v2z"/>
       </svg>
     </button>
     <span>{bucket[token.id] ?? 0}</span>
-    <button class="btn-icon" disabled={bucket[token.id] === token.supply} onClick$={up}>
+    <button class="btn-icon" disabled={bucket[token.id] === token.supply} onClick$={up} preventdefault:click>
       <svg xmlns="http://www.w3.org/2000/svg"viewBox="0 0 24 24" aria-hidden="true" focusable="false">
         <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/>
       </svg>

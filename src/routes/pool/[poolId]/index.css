@@ -45,6 +45,10 @@
   min-width: 150px;
 }
 
+.token-nav {
+  padding: 32px 64px;
+}
+
 .cards {
   --card-width: 250px;
   margin-block: 0;
@@ -52,7 +56,6 @@
   list-style: none;
   display: grid;
   gap: var(--size-2);
-  padding: 32px 64px;
   grid-template-columns: repeat(auto-fill, minmax(var(--card-width), 1fr));
 }
 
@@ -119,9 +122,11 @@
   .filter-list {
     overflow-x: auto;
   }
+  .token-nav {
+    padding: var(--size-2);
+  }
   .cards {
     --card-width: 200px;
-    padding: var(--size-2);
   }
 }
 @media (max-width: 399px) {

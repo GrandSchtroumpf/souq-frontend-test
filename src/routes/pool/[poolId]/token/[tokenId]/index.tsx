@@ -58,7 +58,7 @@ export default component$(() => {
         <h3>Token ID: {token.tokenId}</h3>
       </article>
       <article aria-label="token description">
-        <p>{token.metadata.description}</p>
+        <p class="description">{token.metadata.description}</p>
       </article>
       <article aria-labelledby="token-attributes">
         <h3 id="token-attributes">Attributes</h3>

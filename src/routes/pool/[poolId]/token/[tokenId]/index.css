@@ -22,7 +22,7 @@
   row-gap: var(--size-2);
   column-gap: var(--size-4);
   padding: var(--size-2);
-  max-width: 60%;
+  margin: var(--size-4);
 }
 .token-details img {
   contain: paint;
@@ -49,6 +49,10 @@
   height: 1px;
   transform: translateY(var(--size-1));
   background-color: var(--divider);
+}
+
+.token-details .description {
+  max-width: 60ch;
 }
 
 .token-details .bucket-token {

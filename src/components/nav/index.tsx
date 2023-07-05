@@ -37,6 +37,16 @@ const nextLine = $((root: HTMLElement, selector: string) => {
   list[nextIndex].focus();
 });
 
+const leaveFocus = $((root: HTMLElement) => {
+  const focusableSelector = 'a[href], button, input, select, textarea, [tabindex]:not([tabindex="-1"])';
+  const focusables = document.querySelectorAll<HTMLElement>(focusableSelector);
+  for (const focusable of focusables) {
+    if (root.compareDocumentPosition(focusable) === Node.DOCUMENT_POSITION_FOLLOWING) {
+      return focusable.focus();
+    }
+  }
+})
+
 export const useGridFocus = (root: Signal<HTMLElement | undefined>, selector: string = 'li > a') => {
   useVisibleTask$(() => {
     const handler = (event: KeyboardEvent) => {
@@ -47,7 +57,7 @@ export const useGridFocus = (root: Signal<HTMLElement | undefined>, selector: st
       if (key === 'ArrowLeft') previousFocus(root.value.querySelectorAll<HTMLElement>(selector));
       if (key === 'ArrowDown') nextLine(root.value, selector);
       if (key === 'ArrowUp') previousLine(root.value, selector);
-      if (key === 'Esc') root.value.blur();
+      if (key === 'Escape') leaveFocus(root.value);
     }
     root.value?.addEventListener('keydown', handler);
     return () => root.value?.removeEventListener('keydown', handler);
