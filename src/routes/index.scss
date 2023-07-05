@@ -1,0 +1,34 @@
+#home {
+  display: flex;
+  flex-direction: column;
+  gap: var(--size-3);
+  padding: var(--size-4);
+  section {
+    background-image: var(--background-image);
+    border: solid 1px var(--primary);
+    margin-bottom: var(--size-4);
+    margin-inline: auto;
+    padding: var(--size-2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--size-2);
+    border-radius: var(--size-1);
+  }
+  nav {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: var(--size-2);
+  }
+  a {
+    color: inherit;
+    text-decoration: none;
+    &:hover {
+      background-color: var(--surface-high);
+    }
+    &:active {
+      background-color: var(--surface-higher);
+    }
+  }
+
+}

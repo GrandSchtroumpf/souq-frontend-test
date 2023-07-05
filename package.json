@@ -18,7 +18,8 @@
     "lint": "eslint \"src/**/*.ts*\"",
     "preview": "qwik build preview && vite preview --open",
     "start": "vite --open --mode ssr",
-    "qwik": "qwik"
+    "qwik": "qwik",
+    "download-img": "node ./tools/download-img.mjs"
   },
   "devDependencies": {
     "@builder.io/qwik": "~1.2.0",
@@ -30,6 +31,8 @@
     "eslint": "8.41.0",
     "eslint-plugin-qwik": "~1.2.0",
     "prettier": "2.8.8",
+    "sass": "^1.63.6",
+    "sharp": "^0.32.1",
     "typescript": "5.0.4",
     "undici": "5.22.1",
     "vite": "4.3.9",

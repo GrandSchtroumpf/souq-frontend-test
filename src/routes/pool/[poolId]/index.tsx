@@ -5,9 +5,9 @@ import type { CollectionToken, Trait, Traits } from "~/models";
 import { Bucket, BucketToken } from "~/components/bucket/bucket";
 import styles from './index.css?inline';
 import { Link, useLocation } from "@builder.io/qwik-city";
-import { viewTransition } from "~/components/view-transition";
 import { PoolContext } from "./layout";
 import { useGridFocus } from "~/components/nav";
+import { TokenImg } from "~/components/token-img";
 
 const TokenFilterContext = createContextId<Signal<TokenFilter>>('TokenFilterContext');
 type TokenFilter = {
@@ -80,7 +80,7 @@ const TokenList = component$(() => {
         const { id, metadata } = token;
         return <li class="card" key={id} id={id}>
           <Link href={'./token/' + id}>
-            <img style={viewTransition(id)} src={metadata?.internalImg} width="300" height="450" loading="lazy"/>
+            <TokenImg width={300} token={token}/>
             <h3>{metadata?.name}</h3>
             <footer class="actions" aria-label="Bucket for this token">
               <BucketToken token={token}/>

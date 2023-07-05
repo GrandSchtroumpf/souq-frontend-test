@@ -2,7 +2,7 @@ import { component$, useContext, useStyles$ } from "@builder.io/qwik";
 import { Link, useLocation } from "@builder.io/qwik-city";
 import type { Attribute, Pool } from "~/models";
 import { Bucket, BucketToken } from "~/components/bucket/bucket";
-import { viewTransition } from "~/components/view-transition";
+import { TokenImg } from "~/components/token-img";
 import { PoolContext } from "../../layout";
 import styles from './index.css?inline';
 
@@ -52,7 +52,7 @@ export default component$(() => {
       </Link>
     </nav>
     <section class="surface token-details" aria-label={'Description of ' + token.metadata.name}>
-      <img style={viewTransition(token.id)} class="gradient token-img" src={token.metadata.image} height={450} width={300} alt="" />
+      <TokenImg token={token} width={300} eager class="gradient token-img"/>
       <article aria-labelledby="token-name">
         <h1 id="token-name">{token.metadata.name}</h1>
         <h3>Token ID: {token.tokenId}</h3>

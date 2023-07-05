@@ -106,9 +106,12 @@ export function useEthereumProvider(props: EthereumProps) {
     return connector?.switchChain(chainId);
   });
 
-  const getSigner = $(() => {
-    if (!state.provider) throw new Error('No provider provided');
-    if (!(state.provider instanceof BrowserProvider)) throw new Error('To access signer provider must be a Browser Provider');
+  const getSigner = $(async () => {
+    console.log(state);
+    if (!(state.provider instanceof BrowserProvider)) {
+      await connect();
+    }
+    if (!(state.provider instanceof BrowserProvider)) throw new Error('You need to be connected');
     return state.provider.getSigner();
   })
 

@@ -5,7 +5,7 @@ import { useEthereum } from "~/hooks/ethereum";
 import styles from './wallet.css?inline';
 
 const supportedChain = 1;
-const shortAddress = (address: string) => `${address.slice(0, 6)}...${address.slice(-4)}`
+const shortAddress = (address: string) => `${address.slice(0, 6)}...${address.slice(-4)}`;
 
 const ConnectWallet = component$(() => {
   const { state, connect, findClients, switchChain } = useEthereum();
@@ -70,6 +70,15 @@ const ConnectWallet = component$(() => {
       </footer>
     </Modal>
   </>
+});
+
+
+const WalletNetwork = component$(() => {
+  const { state, switchChain } = useEthereum();
+  if (state.chainId === supportedChain) return <span>{state.chainId}</span>
+  return <button onClick$={() => switchChain(supportedChain)} class="warn">
+    {state.chainId}
+  </button>
 })
 
 export const WalletWidget = component$(() => {
@@ -78,7 +87,7 @@ export const WalletWidget = component$(() => {
   
   if (!state.account) return <ConnectWallet/>
   return <div class="wallet-widget gradient">
-    <button>{state.chainId}</button>
+    <WalletNetwork/>
     <button>{shortAddress(state.account)}</button>
   </div>
 })

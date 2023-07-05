@@ -6,6 +6,7 @@ import type { CollectionToken, Pool } from "~/models";
 import { PoolContext } from "~/routes/pool/[poolId]/layout";
 import styles from './bucket.css?inline';
 import { getMME1155 } from "~/hooks/ethereum/contracts";
+import { TokenImg } from "../token-img";
 
 export type BucketService = ReturnType<typeof useBucketProvider>;
 
@@ -69,6 +70,7 @@ export const useBucketProvider = (pool: Pool) => {
       save();
     }),
     clear: $((tokenId: string) => {
+      bucket[tokenId] = 0; // trigger rerender
       delete bucket[tokenId];
     })
   }
@@ -115,13 +117,13 @@ export const Bucket = component$(() => {
       <div class="bucket-wrapper">
         <header class="bucket-buy">
           <p>Total: {total.value.toLocaleString()}</p>
-          <button class="btn-fill primary gradient" onClick$={buy}>Buy</button>
+          <button class="btn-fill primary gradient" disabled={!total.value}  onClick$={buy}>Buy</button>
         </header>
         <ul class="bucket-list">
           {Object.keys(bucket).map(id => {
             const token = tokenRecord[id];
             return <li key={id}>
-              <img src={token.metadata?.image} width="150" height="225" loading="lazy"/>
+              <TokenImg token={token} width={150}/>
               <header>
                 <h4>{token.metadata?.name}</h4>
                 <button class="btn-icon" onClick$={() => clear(id)}>
