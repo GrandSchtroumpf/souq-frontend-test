@@ -35,12 +35,12 @@ const sortTokenFn = (sort: 'ASC' | 'DESC' = 'ASC') => {
 const TokenList = component$(() => {
   const ref = useSignal<HTMLElement>();
   const gridNavRef = useSignal<HTMLElement>();
-  const pool = useContext(PoolContext);
+  const { tokens } = useContext(PoolContext);
   const filter = useContext(TokenFilterContext);
   const pagination = useSignal(50);
-  const allTokens = pool.subPools.map(subPool => subPool.shares.map(share => share.collectionToken)).flat();
+  const allTokens = Object.values(tokens);
   const max = allTokens.length;
-  const tokens = useComputed$(() => {
+  const filteredTokens = useComputed$(() => {
     const { q, sort, ...traits } = filter.value;
     return allTokens
     .filter((token) => {
@@ -76,7 +76,7 @@ const TokenList = component$(() => {
 
   return <nav ref={gridNavRef} aria-label="List of tokens" class="token-nav">
     <ul role="list" class="cards">
-      {tokens.value.map((token) => {
+      {filteredTokens.value.map((token) => {
         const { id, metadata } = token;
         return <li class="card" key={id} id={id}>
           <Link href={'./token/' + id}>
@@ -96,7 +96,7 @@ const TokenList = component$(() => {
 
 
 const TraitListFilter = component$(() => {
-  const pool = useContext(PoolContext);
+  const {pool} = useContext(PoolContext);
   return <ul role="list" class="filter-list">
     {Object.values(pool.traits).map(trait => (
       <li key={trait.name}>
@@ -121,7 +121,7 @@ const TraitTokenFilter = component$(({ trait }: TraitTokenFilterProps) => {
 
 export default component$(() => {
   useStyles$(styles);
-  const pool = useContext(PoolContext);
+  const { pool } = useContext(PoolContext);
   const { url } = useLocation();
   const initialFilters: any = {};
   if (url.searchParams.get('q')) initialFilters['q'] = url.searchParams.get('q');

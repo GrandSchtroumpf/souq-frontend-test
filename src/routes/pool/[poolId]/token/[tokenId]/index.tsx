@@ -1,6 +1,6 @@
 import { component$, useContext, useStyles$ } from "@builder.io/qwik";
 import { Link, useLocation } from "@builder.io/qwik-city";
-import type { Attribute, Pool } from "~/models";
+import type { Attribute } from "~/models";
 import { Bucket, BucketToken } from "~/components/bucket/bucket";
 import { TokenImg } from "~/components/token-img";
 import { PoolContext } from "../../layout";
@@ -21,20 +21,12 @@ const TokenAttributes = component$(({ attributes }: TokenTraitsProps) => {
   </ul>
 })
 
-const getToken = (pool: Pool, tokenId: string) => {
-  for (const subPool of pool.subPools) {
-    for (const share of subPool.shares) {
-      if (share.collectionToken.id === tokenId) return share.collectionToken;
-    }
-  }
-}
-
 export default component$(() => {
   useStyles$(styles);
   const { params, prevUrl, url } = useLocation();
-  const pool = useContext(PoolContext);
+  const { pool, tokens } = useContext(PoolContext);
   const { poolId, tokenId } = params;
-  const token = getToken(pool, tokenId);
+  const token = tokens[tokenId];
 
   // If previous nav, we want to go to the exact card
   const back = prevUrl && prevUrl.toString() !== url.toString()

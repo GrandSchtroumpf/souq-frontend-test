@@ -1,6 +1,6 @@
 :root {
   --primary-hue: 172 !important;
-  --secondary-hue:var(--hue) !important;
+  --secondary-hue: calc(var(--primary-hue) + 90) !important;
 }
 
 html {

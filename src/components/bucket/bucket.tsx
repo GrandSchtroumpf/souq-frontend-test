@@ -4,9 +4,12 @@ import { Modal } from "qwik-hueeye";
 import { useEthereum } from "~/hooks/ethereum";
 import type { CollectionToken, Pool } from "~/models";
 import { PoolContext } from "~/routes/pool/[poolId]/layout";
-import styles from './bucket.css?inline';
 import { getMME1155 } from "~/hooks/ethereum/contracts";
 import { TokenImg } from "../token-img";
+import styles from './bucket.scss?inline';
+
+
+const priceFormatter = new Intl.NumberFormat(undefined, { style: 'currency', currency: 'USD' });
 
 export type BucketService = ReturnType<typeof useBucketProvider>;
 
@@ -79,17 +82,41 @@ export const useBucketProvider = (pool: Pool) => {
 }
 
 
+const BucketList = component$(() => {
+  const { tokens } = useContext(PoolContext);
+  const { bucket, clear } = useContext(BucketContext);
+  const tokenIds = Object.keys(bucket);
+  if (!tokenIds.length) return <article class="empty">
+    <h3>Empty Bucket</h3>
+    <p>There is no token in your bucket yet.</p>
+  </article>
+  return <ul class="bucket-list">
+  {tokenIds.map(id => {
+    const token = tokens[id];
+    return <li key={id}>
+      <TokenImg token={token} width={150}/>
+      <header>
+        <h4>{token.metadata?.name}</h4>
+        <button class="btn-icon" onClick$={() => clear(id)}>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path d="M16 9v10H8V9h8m-1.5-6h-5l-1 1H5v2h14V4h-3.5l-1-1zM18 7H6v12c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7z"/>
+          </svg>
+        </button>
+      </header>
+      <footer>
+        <BucketToken token={token}/>
+      </footer>
+    </li>
+  })}
+</ul>
+})
+
 export const Bucket = component$(() => {
   useStyles$(styles);
   const { getSigner } = useEthereum();
-  const { total, bucket, clear } = useContext(BucketContext);
-  const pool = useContext(PoolContext);
+  const { total, bucket } = useContext(BucketContext);
+  const { tokens } = useContext(PoolContext);
   const open = useSignal(false);
-  const tokenRecord: Record<string, CollectionToken> = {};
-  const allTokens = pool.subPools.map(subPool => subPool.shares.map(share => share.collectionToken)).flat();
-  for (const token of allTokens) {
-    tokenRecord[token.id] = token;
-  }
 
   const buy = $(async () => {
     const signer = await getSigner();
@@ -98,7 +125,7 @@ export const Bucket = component$(() => {
     const requiredAmounts = [];
     const maxStable = 13234278; // From my tx in Etherscan
     for (const [id, amount] of Object.entries(bucket)) {
-      tokenIds.push(tokenRecord[id].tokenId);
+      tokenIds.push(tokens[id].tokenId);
       requiredAmounts.push(amount);
     }
     contract.swapStable(requiredAmounts, tokenIds, maxStable);
@@ -119,25 +146,7 @@ export const Bucket = component$(() => {
           <p>Total: {total.value.toLocaleString()}</p>
           <button class="btn-fill primary gradient" disabled={!total.value}  onClick$={buy}>Buy</button>
         </header>
-        <ul class="bucket-list">
-          {Object.keys(bucket).map(id => {
-            const token = tokenRecord[id];
-            return <li key={id}>
-              <TokenImg token={token} width={150}/>
-              <header>
-                <h4>{token.metadata?.name}</h4>
-                <button class="btn-icon" onClick$={() => clear(id)}>
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-                    <path d="M16 9v10H8V9h8m-1.5-6h-5l-1 1H5v2h14V4h-3.5l-1-1zM18 7H6v12c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7z"/>
-                  </svg>
-                </button>
-              </header>
-              <footer>
-                <BucketToken token={token}/>
-              </footer>
-            </li>
-          })}
-        </ul>
+        <BucketList/>
       </div>
     </Modal>
   </>
@@ -146,10 +155,10 @@ export const Bucket = component$(() => {
 interface BucketTokenProps {
   token: CollectionToken;
 }
-const formatter = new Intl.NumberFormat(undefined, { maximumSignificantDigits: 2 });
 export const BucketToken = component$(({ token }: BucketTokenProps) => {
   const { bucket, add, remove } = useContext(BucketContext);
   const price = token.sales?.[0].unitPriceUSD ?? 0;
+  console.log(token);
   const down = event$((event: QwikMouseEvent) => {
     event.stopPropagation();
     remove(token.id);
@@ -159,7 +168,7 @@ export const BucketToken = component$(({ token }: BucketTokenProps) => {
     add(token.id);
   });
   return <>
-    <data style="margin-right: auto" value={price}>{`${formatter.format(price)} USDC`}</data>
+    <data style="margin-right: auto" value={price}>{priceFormatter.format(price)}</data>
     <button class="btn-icon" disabled={!bucket[token.id]} onClick$={down} preventdefault:click>
       <svg xmlns="http://www.w3.org/2000/svg"viewBox="0 0 24 24" aria-hidden="true" focusable="false">
         <path d="M19 13H5v-2h14v2z"/>
