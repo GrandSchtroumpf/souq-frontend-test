@@ -12,7 +12,7 @@ interface TokenImgProps {
 const sizes = [50, 150, 300, 450];
 
 export const TokenImg = component$(({width, token, eager, ...props}: TokenImgProps) => {
-  const src = `img/${token.id}/original.webp`;
+  const src = `/img/${token.id}/original.webp`;
   const srcset = sizes.map(size => `/img/${token.id}/${size}w.webp ${size}w`).join(', ');
   const height = 9/6 * width;
   const optimization = {

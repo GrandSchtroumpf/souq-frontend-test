@@ -4,7 +4,7 @@ import type { Attribute } from "~/models";
 import { Bucket, BucketToken } from "~/components/bucket/bucket";
 import { TokenImg } from "~/components/token-img";
 import { PoolContext } from "../../layout";
-import styles from './index.css?inline';
+import styles from './index.scss?inline';
 
 interface TokenTraitsProps {
   attributes: Attribute[] | null;
@@ -47,7 +47,10 @@ export default component$(() => {
       <TokenImg token={token} width={300} eager class="gradient token-img"/>
       <article aria-labelledby="token-name">
         <h1 id="token-name">{token.metadata.name}</h1>
-        <h3>Token ID: {token.tokenId}</h3>
+        <p class="subtitle">
+          Address: <a target="_blank" href={`https://etherscan.io/address/${token.collection.address}`}>{token.collection.address}</a><br/>
+          Token ID: <b>{token.tokenId}</b>
+        </p>
       </article>
       <article aria-label="token description">
         <p class="description">{token.metadata.description}</p>

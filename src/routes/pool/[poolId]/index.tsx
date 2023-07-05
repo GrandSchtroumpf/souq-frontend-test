@@ -1,6 +1,6 @@
 import { $, component$, createContextId, useComputed$, useContext, useContextProvider, useSignal, useStyles$, useVisibleTask$ } from "@builder.io/qwik";
 import type { Signal} from "@builder.io/qwik";
-import { Form, ToggleGroup, Toggle, FormField, Input, Select, Option } from "qwik-hueeye";
+import { Form, FormField, Input, Select, Option } from "qwik-hueeye";
 import type { CollectionToken, Trait, Traits } from "~/models";
 import { Bucket, BucketToken } from "~/components/bucket/bucket";
 import styles from './index.css?inline';
@@ -153,24 +153,6 @@ export default component$(() => {
     <header id="pool-header">
       <img width={1920} height={450} src="https://i.seadn.io/gae/YPGHP7VAvzy-MCVU67CV85gSW_Di6LWbp-22LGEb3H6Yz9v4wOdAaAhiswnwwL5trMn8tZiJhgbdGuBN9wvpH10d_oGVjVIGM-zW5A?auto=format&dpr=1&w=1920"/>
     </header>
-    <section id="pool" aria-label={pool.collectionName}>
-      <article id="pool-performance" aria-labelledby="pool-performance-title">
-        <header>
-          <h2 id="pool-performance-title">Pool Performance</h2>
-          <Form initialValue={{time: 'all'}}>
-            <ToggleGroup name="time" class="outline">
-              <Toggle value="week">1W</Toggle>
-              <Toggle value="month">1M</Toggle>
-              <Toggle value="all">ALL</Toggle>
-            </ToggleGroup>
-          </Form>
-        </header>
-
-      </article>
-      <article>
-
-      </article>
-    </section>
     <section aria-label="Tokens">
       <Form class="token-filters" role="search" initialValue={filter.value} onChange$={v => filter.value = v}>
         <FormField class="outline">
