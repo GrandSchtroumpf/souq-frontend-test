@@ -71,7 +71,7 @@ export default component$(() => {
 })
 
 export const onStaticGenerate: StaticGenerateHandler = async () => {
-  const ids = poolData.subPools.map(subpool => subpool.shares.map(share => share.id)).flat();
+  const ids = poolData.subPools.map(subpool => subpool.shares.map(share => share.collectionToken.id)).flat();
   return {
     params: ids.map(tokenId => ({ poolId: '1f53a93b-9e8e-41fd-9b90-acfde6e5a6c2', tokenId }))
   };
