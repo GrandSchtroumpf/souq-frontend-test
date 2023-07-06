@@ -87,11 +87,15 @@
   
   @media (max-width: 899px) {
     .token-details {
-      grid-template-rows: repeat(8, 1fr);
-      grid-template-columns: auto;
+      display: flex;
+      flex-direction: column;
+      gap: var(--size-2);
     }
     .token-details img {
-      justify-self: center;
+      align-self: center;
+    }
+    .attributes {
+      flex-direction: column;
     }
   }
 }

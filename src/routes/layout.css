@@ -12,9 +12,3 @@ header#banner {
   align-items: center;
   gap: var(--size-2);
 }
-
-@media (max-width: 899px) {
-  .logo {
-    display: none;
-  }
-}

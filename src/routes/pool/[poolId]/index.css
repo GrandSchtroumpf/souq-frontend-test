@@ -130,6 +130,9 @@
   }
 }
 @media (max-width: 399px) {
+  #pool-header img {
+    height: unset;
+  }
   .card a {
     display: grid;
     grid-template-columns: 100px 1fr;
