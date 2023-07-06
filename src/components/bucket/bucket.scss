@@ -13,7 +13,6 @@
   display: flex;
   flex-direction: column-reverse;
   justify-content: space-between;
-  gap: var(--size-1);
   height: 100%;
   min-width: 300px;
   
@@ -29,7 +28,34 @@
     }
   }
 
+  details {
+    background-color: var(--surface);
+    summary {
+      cursor: pointer;
+      padding: var(--block-padding);
+      &:hover {
+        background-color: var(--surface-high);
+      }
+      &:active {
+        background-color: var(--surface-higher);
+      }
+    }
+    ul {
+      list-style: none;
+      margin-block: 0;
+      padding: var(--block-padding);
+      display: flex;
+      flex-direction: column;
+      gap: var(--size-1);
+    }
+    strong {
+      font-size: inherit;
+      color: var(--primary);
+    }
+  }
+
   .bucket-list {
+    flex: 1;
     margin-block: 0;
     padding-left: 0;
     list-style: none;

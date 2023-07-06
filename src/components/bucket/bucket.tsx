@@ -2,7 +2,7 @@ import { component$, $, useStore, useVisibleTask$, useContextProvider, createCon
 import type { QwikMouseEvent } from "@builder.io/qwik";
 import { Modal } from "qwik-hueeye";
 import { useEthereum } from "~/hooks/ethereum";
-import type { CollectionToken, Pool } from "~/models";
+import type { CollectionToken, FeeReturn, Pool } from "~/models";
 import { PoolContext } from "~/routes/pool/[poolId]/layout";
 import { getMME1155 } from "~/hooks/ethereum/contracts";
 import { TokenImg } from "../token-img";
@@ -10,7 +10,10 @@ import styles from './bucket.scss?inline';
 
 
 const priceFormatter = new Intl.NumberFormat(undefined, { style: 'currency', currency: 'USD' });
-const usdcToCurrency = (usdc: bigint) => priceFormatter.format(usdc / BigInt(1_000_000))
+const usdcToCurrency = (usdc: bigint) => {
+  const price = Number(usdc / BigInt(10_000)) / 100; // Need cents
+  return priceFormatter.format(price);
+}
 
 export type BucketService = ReturnType<typeof useBucketProvider>;
 
@@ -21,6 +24,8 @@ export const useBucketProvider = (pool: Pool) => {
   const bucket = useStore<Record<string, number>>({}, {deep: false});
   const totalItems = useComputed$(() => Object.values(bucket).reduce((acc, value) => acc + value, 0));
   const total = useSignal(BigInt(0));
+  const tokenPrice = useSignal(BigInt(0));
+  const fees = useSignal<FeeReturn>();
   const tokens: Record<string, CollectionToken> = {};
   const allTokens = pool.subPools.map(subPool => subPool.shares.map(share => share.collectionToken)).flat();
   for (const token of allTokens) {
@@ -55,7 +60,9 @@ export const useBucketProvider = (pool: Pool) => {
       if (!state.provider) throw new Error('You need a provider');
       const contract = getMME1155(state.provider);
       const quotation = await contract.getQuote(amounts, tokenIds, true, true);
+      fees.value = quotation.fees;
       total.value = quotation.total;
+      tokenPrice.value = quotation.shares.reduce((acc, token) => acc + token.value - token.fees.totalFee, BigInt(0))
     }, 300);
     return () => clearTimeout(timeout);
   })
@@ -63,6 +70,8 @@ export const useBucketProvider = (pool: Pool) => {
   const service = {
     bucket,
     total,
+    fees,
+    tokenPrice,
     add: $((tokenId: string) => {
       bucket[tokenId] ||= 0;
       bucket[tokenId]++;
@@ -113,6 +122,24 @@ const BucketList = component$(() => {
 </ul>
 })
 
+
+export const BucketPriceDetails = component$(() => {
+  const { fees, tokenPrice } = useContext(BucketContext);
+  if (!fees.value || !tokenPrice.value) return <></>;
+  const { lpFee, protocolFee, royalties, swapFee } = fees.value;
+  console.log({ lpFee, protocolFee, royalties, swapFee });
+  return <details>
+    <summary>Price details</summary>
+    <ul role="list">
+      <li>Token Price: <strong>{usdcToCurrency(tokenPrice.value)}</strong></li>
+      <li>LP Fee: <strong>{usdcToCurrency(lpFee)}</strong></li>
+      <li>Protocol Fee: <strong>{usdcToCurrency(protocolFee)}</strong></li>
+      <li>Royalties: <strong>{usdcToCurrency(royalties)}</strong></li>
+      <li>Swap: <strong>{usdcToCurrency(swapFee)}</strong></li>
+    </ul>
+  </details>
+})
+
 export const Bucket = component$(() => {
   useStyles$(styles);
   const { getSigner } = useEthereum();
@@ -148,6 +175,7 @@ export const Bucket = component$(() => {
           <p>Total: {usdcToCurrency(total.value)}</p>
           <button class="btn-fill primary gradient" disabled={!total.value}  onClick$={buy}>Buy</button>
         </header>
+        <BucketPriceDetails />
         <BucketList/>
       </div>
     </Modal>

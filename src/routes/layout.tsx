@@ -5,10 +5,10 @@ import { injected } from '~/hooks/ethereum/connectors/injected';
 import { WalletWidget } from '~/components/wallet/wallet';
 import styles from './layout.css?inline';
 
-
 export default component$(() => {
   useStyles$(styles);
   useEthereumProvider({ chainId: 1, connectors: [injected()]});
+
   return <>
     <header id="banner">
       <a class="logo" href="/">
