@@ -4,6 +4,7 @@ import { Form, FormField, Input, Select, Option } from "qwik-hueeye";
 import type { CollectionToken, Trait, Traits } from "~/models";
 import { Bucket, BucketToken } from "~/components/bucket/bucket";
 import styles from './index.css?inline';
+import type { StaticGenerateHandler} from "@builder.io/qwik-city";
 import { Link, useLocation } from "@builder.io/qwik-city";
 import { PoolContext } from "./layout";
 import { useGridFocus } from "~/components/nav";
@@ -174,3 +175,10 @@ export default component$(() => {
   </main>
 
 })
+
+
+export const onStaticGenerate: StaticGenerateHandler = async () => {
+  return {
+    params: [{ poolId: '1f53a93b-9e8e-41fd-9b90-acfde6e5a6c2' }]
+  };
+};

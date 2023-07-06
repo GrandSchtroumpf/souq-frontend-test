@@ -1,9 +1,11 @@
 import { component$, useContext, useStyles$ } from "@builder.io/qwik";
+import type { StaticGenerateHandler} from "@builder.io/qwik-city";
 import { Link, useLocation } from "@builder.io/qwik-city";
 import type { Attribute } from "~/models";
 import { Bucket, BucketToken } from "~/components/bucket/bucket";
 import { TokenImg } from "~/components/token-img";
 import { PoolContext } from "../../layout";
+import poolData from '~/DATA.json';
 import styles from './index.scss?inline';
 
 interface TokenTraitsProps {
@@ -67,3 +69,10 @@ export default component$(() => {
     <Bucket />
   </main>
 })
+
+export const onStaticGenerate: StaticGenerateHandler = async () => {
+  const ids = poolData.subPools.map(subpool => subpool.shares.map(share => share.id)).flat();
+  return {
+    params: ids.map(tokenId => ({ poolId: '1f53a93b-9e8e-41fd-9b90-acfde6e5a6c2', tokenId }))
+  };
+};
