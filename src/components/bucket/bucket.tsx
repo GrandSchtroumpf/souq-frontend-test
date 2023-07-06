@@ -124,8 +124,8 @@ const BucketList = component$(() => {
 
 
 export const BucketPriceDetails = component$(() => {
-  const { fees, tokenPrice } = useContext(BucketContext);
-  if (!fees.value || !tokenPrice.value) return <></>;
+  const { total, fees, tokenPrice } = useContext(BucketContext);
+  if (!total.value || !fees.value) return <></>;
   const { lpFee, protocolFee, royalties, swapFee } = fees.value;
   console.log({ lpFee, protocolFee, royalties, swapFee });
   return <details>
