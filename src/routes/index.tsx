@@ -14,7 +14,10 @@ export default component$(() => {
         </p>
       </section>
       <nav aria-label="Pool list">
-        <Link href="/pool/1f53a93b-9e8e-41fd-9b90-acfde6e5a6c2" class="surface">Parallel NFT</Link>
+        <Link href="/pool/1f53a93b-9e8e-41fd-9b90-acfde6e5a6c2">
+          <img width={400} height={100} src="https://i.seadn.io/gae/YPGHP7VAvzy-MCVU67CV85gSW_Di6LWbp-22LGEb3H6Yz9v4wOdAaAhiswnwwL5trMn8tZiJhgbdGuBN9wvpH10d_oGVjVIGM-zW5A?auto=format&dpr=1&w=300" />
+          <h3>Parallel NFT</h3>
+        </Link>
       </nav>
     </main>
   );

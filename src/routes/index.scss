@@ -21,6 +21,9 @@
     gap: var(--size-2);
   }
   a {
+    background-color: var(--surface);
+    border-radius: var(--size-1);
+    overflow: hidden;
     color: inherit;
     text-decoration: none;
     &:hover {
@@ -28,6 +31,13 @@
     }
     &:active {
       background-color: var(--surface-higher);
+    }
+    img {
+      width: 100%;
+      object-fit: cover;
+    }
+    h3 {
+      padding: var(--block-padding);
     }
   }
 

@@ -4,7 +4,7 @@ import { join } from 'path';
 import { cwd } from 'process'; 
 import { existsSync } from 'fs';
 
-const images = {
+const tokens = {
   "d4cfaa66-8b9a-4fcd-9adb-5203c82df958": "https://nftmedia.parallelnft.com/parallel-alpha/QmWfHP231QbgzNagvxKD64XiTt4zVx5YM1mTRuVKVPxHGx/image.png",
   "a052271c-0149-4555-8705-28937cc3f3b9": "https://nftmedia.parallelnft.com/parallel-alpha/QmVzfyTxx7upahaug2omqNeHneng8puzJ3rvXkM9DhW12o/image.png",
   "ea45fce9-0092-4370-adba-fe808b429571": "https://nftmedia.parallelnft.com/parallel-alpha/Qmch9WYTBdMW8JkYjuWUpNNwrt9CtXsAXpWkSDqd63xYBX/image.png",
@@ -222,6 +222,10 @@ const images = {
   "0e1b4d5a-9cc6-4084-a484-316af3d4f274": "https://nftmedia.parallelnft.com/parallel-alpha/QmYjHWuimyXMoukafR8HNzkugN4ZyyfeuGiVDsEbmNC3Yu/image.png"
 }
 
+const pools = {
+  "parallel": "YPGHP7VAvzy-MCVU67CV85gSW_Di6LWbp-22LGEb3H6Yz9v4wOdAaAhiswnwwL5trMn8tZiJhgbdGuBN9wvpH10d_oGVjVIGM-zW5A.avif",
+}
+
 async function optimizeImg([id, url]) {
   const folder = join(cwd(), 'public/img', id);
   if (!existsSync(folder)) await mkdir(folder);
@@ -240,7 +244,7 @@ async function optimizeImg([id, url]) {
 }
 
 async function main() {
-  return Promise.all(Object.entries(images).map(optimizeImg));
+  return Promise.all(Object.entries(tokens).map(optimizeImg));
 }
 
 main();
