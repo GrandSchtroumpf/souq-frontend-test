@@ -7,6 +7,7 @@ import { PoolContext } from "~/routes/pool/[poolId]/layout";
 import { getMME1155 } from "~/hooks/ethereum/contracts";
 import { TokenImg } from "../token-img";
 import styles from './bucket.scss?inline';
+import { useSwipe } from "../swipe";
 
 
 const priceFormatter = new Intl.NumberFormat(undefined, { style: 'currency', currency: 'USD' });
@@ -127,7 +128,6 @@ export const BucketPriceDetails = component$(() => {
   const { total, fees, tokenPrice } = useContext(BucketContext);
   if (!total.value || !fees.value) return <></>;
   const { lpFee, protocolFee, royalties, swapFee } = fees.value;
-  console.log({ lpFee, protocolFee, royalties, swapFee });
   return <details>
     <summary>Price details</summary>
     <ul role="list">
@@ -146,6 +146,11 @@ export const Bucket = component$(() => {
   const { total, bucket } = useContext(BucketContext);
   const { tokens } = useContext(PoolContext);
   const open = useSignal(false);
+
+  const onSwipeLeft$ = $((delta: number) => {
+    if (delta > 100) open.value = false
+  });
+  const swipe = useSwipe({ onSwipeLeft$ });
 
   const buy = $(async () => {
     const signer = await getSigner();
@@ -170,7 +175,7 @@ export const Bucket = component$(() => {
       </button>
     </div>
     <Modal open={open} type="sidenav">
-      <div class="bucket-wrapper">
+      <div class="bucket-wrapper" {...swipe}>
         <header class="bucket-buy">
           <p>Total: {usdcToCurrency(total.value)}</p>
           <button class="btn-fill primary gradient" disabled={!total.value}  onClick$={buy}>Buy</button>

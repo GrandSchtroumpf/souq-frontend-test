@@ -83,7 +83,7 @@ const TokenList = component$(() => {
           <Link href={'./token/' + id}>
             <TokenImg width={300} token={token}/>
             <h3>{metadata?.name}</h3>
-            <footer class="actions" aria-label="Bucket for this token">
+            <footer class="actions" aria-label="Bucket for this token" preventdefault:click onClick$={e => e.stopPropagation()}>
               <BucketToken token={token}/>
             </footer>
           </Link>
