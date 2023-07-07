@@ -25,7 +25,7 @@ interface LastItemProps {
 }
 /** Component used to load more tokens when it enters the view */
 const LastItem = component$(({ amount, max }: LastItemProps) => {
-  if (amount >= max) return <></>;
+  if (amount === max) return <></>;
   return <button disabled class="btn-fill">Loading Tokens {amount} / {max}</button>;
 });
 
