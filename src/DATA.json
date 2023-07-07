@@ -503,7 +503,7 @@
             "id": "d4cfaa66-8b9a-4fcd-9adb-5203c82df958",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10250,
-            "supply": 4000,
+            "supply": 2,
             "burnedSupply": 0,
             "uri": "/ipfs/QmZEEc9sK9wy7P6ZCoZ86ptvsfErqiprNx27MDv634xPcj",
             "metadataId": "c384654e-4099-45d2-a727-eeafc45f3404",
@@ -550,7 +550,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.890917
+                "unitPriceUSD": 4.025277
               }
             ],
             "collection": {
@@ -576,7 +576,7 @@
             "id": "a052271c-0149-4555-8705-28937cc3f3b9",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10527,
-            "supply": 10000,
+            "supply": 4,
             "burnedSupply": 0,
             "uri": "/ipfs/QmTNuGTGv8WeM5cZkbZhwBXM6tr46Y2gAvi9Kb1kKBFR3D",
             "metadataId": "5a17f9a4-8a23-4f1b-b629-817037fa3a6c",
@@ -618,7 +618,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.890917
+                "unitPriceUSD": 4.025277
               }
             ],
             "collection": {
@@ -644,7 +644,7 @@
             "id": "ea45fce9-0092-4370-adba-fe808b429571",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10318,
-            "supply": 9000,
+            "supply": 4,
             "burnedSupply": 2,
             "uri": "/ipfs/QmNPwBo5Efb6m49hBPfuEtSEE7BBGUDuL1HoYPRnrj1xJk",
             "metadataId": "d917ebbf-983e-40ac-9d83-a0d34bac80b4",
@@ -686,7 +686,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.890917
+                "unitPriceUSD": 4.025277
               }
             ],
             "collection": {
@@ -712,7 +712,7 @@
             "id": "5c0c9726-7a15-45f3-aac9-f7347b716b5b",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10504,
-            "supply": 10000,
+            "supply": 2,
             "burnedSupply": 0,
             "uri": "/ipfs/QmSRJHia5fcQ4X8BK1D9cKA5hWMxzGuv58F2XHbLRU5mi8",
             "metadataId": "4980f455-60b7-497a-a6ca-14f98f9b869b",
@@ -754,7 +754,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.890917
+                "unitPriceUSD": 4.025277
               }
             ],
             "collection": {
@@ -780,7 +780,7 @@
             "id": "deebde2c-8bfe-4d68-a63a-8a947bec6f87",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10541,
-            "supply": 10000,
+            "supply": 2,
             "burnedSupply": 2,
             "uri": "/ipfs/QmX4CN6uLkkN5ziyMdALpwSMGDdF7vZqrg17mxTfnpTPYu",
             "metadataId": "c73fa6e8-d655-4519-b3bc-aded2a3874e1",
@@ -822,7 +822,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.890917
+                "unitPriceUSD": 4.025277
               }
             ],
             "collection": {
@@ -848,7 +848,7 @@
             "id": "7aebfbc7-842a-4a75-b1d7-55c32670ea83",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10562,
-            "supply": 10000,
+            "supply": 2,
             "burnedSupply": 0,
             "uri": "/ipfs/QmNxZLZmKaxGUMzhktWiLpbD1YLPyk2UcLwVsBCAs4eUD2",
             "metadataId": "5e5a49b3-36a0-4e9e-84fa-d52e71e11220",
@@ -890,7 +890,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.890917
+                "unitPriceUSD": 4.025277
               }
             ],
             "collection": {
@@ -916,7 +916,7 @@
             "id": "6fd93c80-0789-41ea-9010-06de847def99",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 15,
-            "supply": 10000,
+            "supply": 6,
             "burnedSupply": 6,
             "uri": "/ipfs/QmNgAp7tKpw1LdjKWKY1QpXuANXu6s1YutZK2LyHciNCp9",
             "metadataId": "462b7229-1946-4f33-a5a3-ff60a9ed5eb8",
@@ -958,7 +958,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.890917
+                "unitPriceUSD": 4.025277
               }
             ],
             "collection": {
@@ -984,7 +984,7 @@
             "id": "12687626-e27d-4041-b65c-cb6aee3e1fac",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10213,
-            "supply": 6000,
+            "supply": 1,
             "burnedSupply": 0,
             "uri": "/ipfs/QmPByrcopQMcQ7FC9W65Je9R63Z2ogSk1C9iqKR2ZYFVAD",
             "metadataId": "b62c9487-6cae-4575-8db4-41a3bf812876",
@@ -1026,7 +1026,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.890917
+                "unitPriceUSD": 4.025277
               }
             ],
             "collection": {
@@ -1052,7 +1052,7 @@
             "id": "b51c74be-c581-417b-8643-445af16e0d1b",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10523,
-            "supply": 10000,
+            "supply": 8,
             "burnedSupply": 0,
             "uri": "/ipfs/QmShG7BxsyhkRMjMjnGwvpXKHX2uGMXiB8oC3CAixS2zTc",
             "metadataId": "8c69f92b-3bf6-40e4-97b6-b32c7f34ebd3",
@@ -1094,7 +1094,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.890917
+                "unitPriceUSD": 4.025277
               }
             ],
             "collection": {
@@ -1120,7 +1120,7 @@
             "id": "5cfeabd8-6be8-45ed-a398-74a5d73208a6",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10871,
-            "supply": 10000,
+            "supply": 6,
             "burnedSupply": 0,
             "uri": "/ipfs/QmVVmzY87AjWwhVnixEM1SuY9fUe5M7iaJVUexxj56MHhN",
             "metadataId": "be7021dd-2c62-4004-8300-1d03e34c6e76",
@@ -1162,7 +1162,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.890917
+                "unitPriceUSD": 4.025277
               }
             ],
             "collection": {
@@ -1188,7 +1188,7 @@
             "id": "dcc0335a-6235-45ef-8a55-f7a926f5d5bc",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10564,
-            "supply": 10000,
+            "supply": 2,
             "burnedSupply": 0,
             "uri": "/ipfs/Qmdd7Ubn1z74dsQprjoUekWH2nqodasiLyzP6y69XcEfqi",
             "metadataId": "df40314a-5693-4bf0-8e27-c907b4be6871",
@@ -1230,7 +1230,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.890917
+                "unitPriceUSD": 4.025277
               }
             ],
             "collection": {
@@ -1256,7 +1256,7 @@
             "id": "ba7d7dd6-9f92-4e72-8335-71f2ce6bd089",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10251,
-            "supply": 4000,
+            "supply": 3,
             "burnedSupply": 0,
             "uri": "/ipfs/QmazsK1GDMBqXKBfXRGkiaSBAY3Dicyw8FALJ1sFifqG28",
             "metadataId": "4a1dbc63-a99b-4df8-9a5c-288f1b30519b",
@@ -1303,7 +1303,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.890917
+                "unitPriceUSD": 4.025277
               }
             ],
             "collection": {
@@ -1329,7 +1329,7 @@
             "id": "0ad6b62a-4f2c-438c-8882-09f437904bbf",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10494,
-            "supply": 10000,
+            "supply": 2,
             "burnedSupply": 0,
             "uri": "/ipfs/QmeUB6XkXXnymD3ivry1CX5dQxbroGnXh9c8DgEeUCRyws",
             "metadataId": "b0c075de-512f-4201-a298-0d52cdded558",
@@ -1371,7 +1371,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.890917
+                "unitPriceUSD": 4.025277
               }
             ],
             "collection": {
@@ -1397,7 +1397,7 @@
             "id": "35e6b733-f977-4560-a06a-511928a3e900",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 13,
-            "supply": 10000,
+            "supply": 1,
             "burnedSupply": 6,
             "uri": "/ipfs/QmWvxC3VXbERrd4EafSY6b4tRGFqwvHiDvuYkgLiqdsjiX",
             "metadataId": "03a81200-524a-4d59-a5e3-2a7d4e36cd52",
@@ -1439,7 +1439,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.890917
+                "unitPriceUSD": 4.025277
               }
             ],
             "collection": {
@@ -1465,7 +1465,7 @@
             "id": "1e69ac2b-64cc-4c03-8d32-d934cfd9c443",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10539,
-            "supply": 10000,
+            "supply": 1,
             "burnedSupply": 0,
             "uri": "/ipfs/QmbcdqjEwvkMm17P6bFMyfkK9LXaCPk2KAopX6WJcJK8J6",
             "metadataId": "2c89d4a3-69ad-45a4-b4cd-27e8f6003b2a",
@@ -1507,7 +1507,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.890917
+                "unitPriceUSD": 4.025277
               }
             ],
             "collection": {
@@ -1533,7 +1533,7 @@
             "id": "04776c71-8d9b-476a-a5c9-c4665e18c5ec",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10242,
-            "supply": 2500,
+            "supply": 1,
             "burnedSupply": 0,
             "uri": "/ipfs/QmSpvuBUvPDYv95NXLrgPwG8Rvn8a3KHGjvUSwsVSTbfZn",
             "metadataId": "93ed8ec2-a7e0-4b31-a7a7-ee5c8be30eb5",
@@ -1580,7 +1580,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.890917
+                "unitPriceUSD": 4.025277
               }
             ],
             "collection": {
@@ -1606,7 +1606,7 @@
             "id": "f8003d50-9e7a-406f-9737-dcc734e90c1f",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10117,
-            "supply": 9000,
+            "supply": 5,
             "burnedSupply": 0,
             "uri": "/ipfs/QmbDQ3e3GbHzChxVvyjLF2ARD77HVRtXs3Ckmr3GC5wbUm",
             "metadataId": "c33121d0-6317-4343-aad5-5c80bfbe2fe2",
@@ -1648,7 +1648,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.890917
+                "unitPriceUSD": 4.025277
               }
             ],
             "collection": {
@@ -1674,7 +1674,7 @@
             "id": "3dc6ecc0-9ad2-48f4-a74c-98ab6e84f600",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10314,
-            "supply": 9000,
+            "supply": 5,
             "burnedSupply": 0,
             "uri": "/ipfs/QmT4CZwqkXpddDuApvvGdeLmXmqCm5YWxWz9XPGXovcLpB",
             "metadataId": "adedf583-a132-4ea0-aec3-5f2def7bf289",
@@ -1716,7 +1716,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.890917
+                "unitPriceUSD": 4.025277
               }
             ],
             "collection": {
@@ -1742,7 +1742,7 @@
             "id": "b4e09c7d-91a4-4ff1-a6ef-3bfa26d22c1b",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10348,
-            "supply": 8800,
+            "supply": 1,
             "burnedSupply": 0,
             "uri": "/ipfs/QmWgcd3Hj5yX52BoAgD7paUX7sbdc7peDZPHhK3bKPKNYo",
             "metadataId": "42318c8a-9f6c-4cd2-b68e-4c39a1e8da31",
@@ -1784,7 +1784,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.890917
+                "unitPriceUSD": 4.025277
               }
             ],
             "collection": {
@@ -1810,7 +1810,7 @@
             "id": "e78c95c5-4352-4986-ac49-6a9764970c44",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10326,
-            "supply": 10000,
+            "supply": 4,
             "burnedSupply": 0,
             "uri": "/ipfs/QmfYC3ZS7qB4tPHrQKPY7YpKhMdKc8c2uvyzBvQtg24ZKA",
             "metadataId": "270768df-5c7b-47ea-a89b-0a10a41c5ba2",
@@ -1852,7 +1852,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.890917
+                "unitPriceUSD": 4.025277
               }
             ],
             "collection": {
@@ -1878,7 +1878,7 @@
             "id": "9f0fd4e3-6332-4cf7-aa51-06456b5ac024",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 17,
-            "supply": 20000,
+            "supply": 1,
             "burnedSupply": 20,
             "uri": "/ipfs/QmXBP5Vj5WxU3NzXoEs9bBKGWjxxk4UQ1Ex9AdsZcgZZSf",
             "metadataId": "3d96a4fe-f54c-40f5-90c4-0310feb5b12f",
@@ -1920,7 +1920,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.890917
+                "unitPriceUSD": 4.025277
               }
             ],
             "collection": {
@@ -1946,7 +1946,7 @@
             "id": "60d12bad-a158-46a5-940e-c15d1fc83869",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 11001,
-            "supply": 10000,
+            "supply": 5,
             "burnedSupply": 0,
             "uri": "/ipfs/QmdPth5w5V6UTgTPW4pjTpuSSeMJ8hoqThCDcKRJFdJggv",
             "metadataId": "16982520-9dd5-4953-9fd8-93176b6908e2",
@@ -1988,7 +1988,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.890917
+                "unitPriceUSD": 4.025277
               }
             ],
             "collection": {
@@ -2014,7 +2014,7 @@
             "id": "b4772e15-624c-4bd3-9c88-2db6cd250c4c",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10550,
-            "supply": 10000,
+            "supply": 2,
             "burnedSupply": 0,
             "uri": "/ipfs/QmZUhhN3oWi4LHvbKtwQdbWJfCfVQnKt9Uc81Wz5PE14bZ",
             "metadataId": "c6c5a81e-c807-4162-8713-b08d84486066",
@@ -2056,7 +2056,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.890917
+                "unitPriceUSD": 4.025277
               }
             ],
             "collection": {
@@ -2082,7 +2082,7 @@
             "id": "9ffdbdaa-811d-45f7-806f-0ce2fbcf1318",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10378,
-            "supply": 7800,
+            "supply": 2,
             "burnedSupply": 0,
             "uri": "/ipfs/QmW5HGgdwQ8E9WWCGcJgqJ5wNwdHipHhckoxGBUBcixFLn",
             "metadataId": "67f11e6d-2cb6-4286-88dc-fe7240311eb0",
@@ -2124,7 +2124,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.890917
+                "unitPriceUSD": 4.025277
               }
             ],
             "collection": {
@@ -2150,7 +2150,7 @@
             "id": "aaf2a46a-8b4b-4b06-834b-3dad8824bbf8",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10393,
-            "supply": 8800,
+            "supply": 3,
             "burnedSupply": 0,
             "uri": "/ipfs/QmanKHwU1X8JVZLzud27CD9vWLHk4h61GFjN3GQtDTsCTV",
             "metadataId": "0140a0f7-4d0f-414b-9f86-aaf9ba8cd9be",
@@ -2192,7 +2192,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.890917
+                "unitPriceUSD": 4.025277
               }
             ],
             "collection": {
@@ -2218,7 +2218,7 @@
             "id": "3790d8f3-f360-4e0b-bbdc-bcc7396d9535",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10332,
-            "supply": 9000,
+            "supply": 3,
             "burnedSupply": 0,
             "uri": "/ipfs/QmQBgCARGZfwkWSz6UFkTcNiANXFsPM7HmoEb9SXcHpoiQ",
             "metadataId": "76347243-a9e4-44c7-8e01-38a350ec00b9",
@@ -2260,7 +2260,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.890917
+                "unitPriceUSD": 4.025277
               }
             ],
             "collection": {
@@ -2286,7 +2286,7 @@
             "id": "5f6d4111-2179-4df5-a546-95aa12c90198",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10212,
-            "supply": 5000,
+            "supply": 1,
             "burnedSupply": 0,
             "uri": "/ipfs/QmbDNGaKH9Q5bubAf3Ymhq1XN6SHt6ExXBwnxuELh1mLkQ",
             "metadataId": "c7d59586-d822-4c07-8484-ebe116208103",
@@ -2328,7 +2328,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.890917
+                "unitPriceUSD": 4.025277
               }
             ],
             "collection": {
@@ -2354,7 +2354,7 @@
             "id": "9055283c-d357-4777-92b6-d633aff3bdc1",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10328,
-            "supply": 9200,
+            "supply": 5,
             "burnedSupply": 0,
             "uri": "/ipfs/QmWtJeRA5PBYQuaw2oL4oPqmn8CNwE1jVxy5kTAuoiQRQV",
             "metadataId": "d5b126ca-3b3d-470b-a0dc-7dfa2ca0a4d9",
@@ -2396,7 +2396,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.890917
+                "unitPriceUSD": 4.025277
               }
             ],
             "collection": {
@@ -2422,7 +2422,7 @@
             "id": "aa6a9ad2-4ec8-47f8-af95-7bee7ffca842",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10202,
-            "supply": 3000,
+            "supply": 3,
             "burnedSupply": 0,
             "uri": "/ipfs/QmbQ2e87PaM25vFQYYT6CuqLnPtmux7TPk3XKAK2MgxXTk",
             "metadataId": "dab6eecd-f2da-418e-abda-bdc1c2cd0c64",
@@ -2469,7 +2469,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.890917
+                "unitPriceUSD": 4.025277
               }
             ],
             "collection": {
@@ -2495,7 +2495,7 @@
             "id": "ef27cf84-f2c7-4912-af74-6193efd2e976",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10105,
-            "supply": 10000,
+            "supply": 6,
             "burnedSupply": 0,
             "uri": "/ipfs/QmfHNfM2ZDLR4Som7N4SjH2LFsF3D7zRwzxmUH9hGVF1Ly",
             "metadataId": "06e6d5a7-8f21-4ce1-91cd-cc30dd5b2d2c",
@@ -2537,7 +2537,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.890917
+                "unitPriceUSD": 4.025277
               }
             ],
             "collection": {
@@ -2563,7 +2563,7 @@
             "id": "0fbba2e2-7d88-4eba-b9bb-0115beec64a6",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 9,
-            "supply": 10000,
+            "supply": 5,
             "burnedSupply": 4,
             "uri": "/ipfs/Qmeb8BvuJAmpFkRGk5sS9d3Sd8SPYheiAmwyQjG6Q6sRNC",
             "metadataId": "1e825c51-06f7-4541-b5d1-44aae869e1c9",
@@ -2605,7 +2605,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.890917
+                "unitPriceUSD": 4.025277
               }
             ],
             "collection": {
@@ -2631,7 +2631,7 @@
             "id": "ae8aa84b-a3b7-40b8-94fc-cd08184bcb1e",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10338,
-            "supply": 9000,
+            "supply": 2,
             "burnedSupply": 0,
             "uri": "/ipfs/QmXYihuRJFUqCjyRnLyCUMCV7LGYGRQVBfbEKk69rweF9c",
             "metadataId": "63473981-aec7-4805-a1ad-01bdf85bbac8",
@@ -2673,7 +2673,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.890917
+                "unitPriceUSD": 4.025277
               }
             ],
             "collection": {
@@ -2699,7 +2699,7 @@
             "id": "9a7dadf0-0c8f-4877-8a53-06033d7178ec",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10090,
-            "supply": 5000,
+            "supply": 2,
             "burnedSupply": 4,
             "uri": "/ipfs/Qmaqrs8eULvnzG6XAKYTtLjVGLtMGjhxtK1LJyAH2AiHqN",
             "metadataId": "1a8ddb64-a931-4663-bab7-f78420a72009",
@@ -2746,7 +2746,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.890917
+                "unitPriceUSD": 4.025277
               }
             ],
             "collection": {
@@ -2784,7 +2784,7 @@
             "id": "88b4373c-2575-42c3-9e3b-755b38e0cd78",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10957,
-            "supply": 1500,
+            "supply": 7,
             "burnedSupply": 8,
             "uri": "/ipfs/QmWXwTDrSaUYvR4FYgjQc6GETBnXVKvmoMQ8pGE5prpshg",
             "metadataId": "24ddeb1f-504d-4177-8374-31b5654d1d0b",
@@ -2826,7 +2826,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 31.090883
+                "unitPriceUSD": 30.57283
               }
             ],
             "collection": {
@@ -2852,7 +2852,7 @@
             "id": "e4a8a02e-e79b-4d7a-bd2e-5e329f963b77",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10627,
-            "supply": 1500,
+            "supply": 5,
             "burnedSupply": 8,
             "uri": "/ipfs/Qmf6RywX5AUzPVh8GFnvGrF19ZXx6htCRef8V6658akk6v",
             "metadataId": "19b57e89-8b0e-4d3a-909b-a3dbf98179d7",
@@ -2894,7 +2894,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 31.090883
+                "unitPriceUSD": 30.57283
               }
             ],
             "collection": {
@@ -2920,7 +2920,7 @@
             "id": "67d75280-7c33-41d7-a14c-1799257d0b3f",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 11012,
-            "supply": 1500,
+            "supply": 6,
             "burnedSupply": 8,
             "uri": "/ipfs/QmcTpiWt8mhrA3X3VkXdisXRTyJpnH747wJHhXeQAjS1MF",
             "metadataId": "cc1bcbd2-1cad-493b-97e9-e1979c91cf5d",
@@ -2962,7 +2962,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 31.090883
+                "unitPriceUSD": 30.57283
               }
             ],
             "collection": {
@@ -2988,7 +2988,7 @@
             "id": "b9d59fb7-ef5e-4f62-b154-d87e37072f86",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10982,
-            "supply": 1500,
+            "supply": 8,
             "burnedSupply": 8,
             "uri": "/ipfs/QmRZL2s5ojf1sQ1o5A9K1zxmMciNWxe6v78bSJ844Vch8c",
             "metadataId": "6cf5e6dd-2cc9-41fe-83d5-26d2f5e52c9d",
@@ -3030,7 +3030,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 31.090883
+                "unitPriceUSD": 30.57283
               }
             ],
             "collection": {
@@ -3056,7 +3056,7 @@
             "id": "f129176d-1437-4cfb-ac90-af2c8187c327",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10998,
-            "supply": 1500,
+            "supply": 4,
             "burnedSupply": 8,
             "uri": "/ipfs/QmU9EMkNJUNtv3RMCeDVyowFcJfG92YJiNc8qte29ES2wy",
             "metadataId": "89af35ea-61b7-4aa4-963d-4689123ce33c",
@@ -3098,7 +3098,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 31.090883
+                "unitPriceUSD": 30.57283
               }
             ],
             "collection": {
@@ -3136,7 +3136,7 @@
             "id": "68a5f6bc-8351-45ae-ab47-30b43edd016e",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10337,
-            "supply": 1500,
+            "supply": 3,
             "burnedSupply": 0,
             "uri": "/ipfs/Qmd3U4U25qn9fFwaLoTcagLEuds18CNRSZHrYuTo8YUJ1k",
             "metadataId": "617405f2-fa21-49e6-ace3-829d5a4806c4",
@@ -3178,7 +3178,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 14.119533
+                "unitPriceUSD": 13.602946
               }
             ],
             "collection": {
@@ -3204,7 +3204,7 @@
             "id": "1e9fac98-4e93-4aed-a928-d76e93cb8201",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10845,
-            "supply": 1500,
+            "supply": 3,
             "burnedSupply": 0,
             "uri": "/ipfs/Qmeyk7zbY9QYM8SYYtAksCFLnRtYhuZLNB9Shdc7dYYWf4",
             "metadataId": "3c978b92-14df-4350-a8ee-2ff4014b7934",
@@ -3246,7 +3246,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 14.119533
+                "unitPriceUSD": 13.602946
               }
             ],
             "collection": {
@@ -3272,7 +3272,7 @@
             "id": "ac2fb5d1-6430-42c0-8e47-da91af048858",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10828,
-            "supply": 1500,
+            "supply": 3,
             "burnedSupply": 0,
             "uri": "/ipfs/QmUCSqnHk6KfyQahMgmygekWw23hdjPKeBAfVRwgudXHhw",
             "metadataId": "2f61e53b-1bb7-4700-bbdf-e76810f7f11c",
@@ -3314,7 +3314,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 14.119533
+                "unitPriceUSD": 13.602946
               }
             ],
             "collection": {
@@ -3340,7 +3340,7 @@
             "id": "a10ebf11-e589-40f0-85e4-462c955ce53b",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10312,
-            "supply": 1500,
+            "supply": 4,
             "burnedSupply": 0,
             "uri": "/ipfs/QmVq9eWbNun3xS1pSRX4R3LrWwf8uPrGY4AyxdL4UNv87c",
             "metadataId": "e4b607b2-8552-44d2-a028-954109520ea1",
@@ -3382,7 +3382,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 14.119533
+                "unitPriceUSD": 13.602946
               }
             ],
             "collection": {
@@ -3408,7 +3408,7 @@
             "id": "7fdf6861-74ec-4111-8bd6-a0a77e028026",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10343,
-            "supply": 1500,
+            "supply": 3,
             "burnedSupply": 4,
             "uri": "/ipfs/Qmb3E4zCZtidPRUE7A7dGFhzombz2aTPjwWWQ5gWGANVWN",
             "metadataId": "ece4df9c-0c70-4ec4-8261-bd50bb2404c7",
@@ -3450,7 +3450,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 14.119533
+                "unitPriceUSD": 13.602946
               }
             ],
             "collection": {
@@ -3476,7 +3476,7 @@
             "id": "ad40540c-1a55-4ed1-a50b-71e98bd121c1",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10854,
-            "supply": 750,
+            "supply": 1,
             "burnedSupply": 6,
             "uri": "/ipfs/QmUJyJsrWsqkmeQvd1Aeyyhk29uLhF9mLYXP1Asup5c4K6",
             "metadataId": "9b3efda6-83b9-4252-bc95-0fce409c960c",
@@ -3523,7 +3523,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 14.119533
+                "unitPriceUSD": 13.602946
               }
             ],
             "collection": {
@@ -3549,7 +3549,7 @@
             "id": "0705ed82-afea-4891-ace4-58462d1de860",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10802,
-            "supply": 1500,
+            "supply": 1,
             "burnedSupply": 8,
             "uri": "/ipfs/QmZETbC2Dce5oiyYsiadBMCHNGuQagjWQkULg5kdTrp7m8",
             "metadataId": "448be827-3ca0-4fbc-a547-9544fe6f69ee",
@@ -3591,7 +3591,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 14.119533
+                "unitPriceUSD": 13.602946
               }
             ],
             "collection": {
@@ -3617,7 +3617,7 @@
             "id": "dd8e3dd0-0725-403e-8f78-a68676077a0c",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10536,
-            "supply": 1500,
+            "supply": 1,
             "burnedSupply": 2,
             "uri": "/ipfs/QmTJKTid7hdKhuV4qnZKfPTugVkHjjHk4MFX6Tsjdyf56H",
             "metadataId": "35ecd6bd-6de0-4b65-8546-2c04287fd0ce",
@@ -3659,7 +3659,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 14.119533
+                "unitPriceUSD": 13.602946
               }
             ],
             "collection": {
@@ -3685,7 +3685,7 @@
             "id": "07fed2d2-df42-4b1f-86d0-ffeae4d470cb",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10959,
-            "supply": 1500,
+            "supply": 1,
             "burnedSupply": 0,
             "uri": "/ipfs/QmeaeM16jkqUF5BHTmsJp9dCh3zfGwj35RWETkpX3YHXem",
             "metadataId": "fa62fd38-2b4f-444a-8cf9-b96bf4a741db",
@@ -3727,7 +3727,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 14.119533
+                "unitPriceUSD": 13.602946
               }
             ],
             "collection": {
@@ -3753,7 +3753,7 @@
             "id": "f7e0d473-6a4f-40c3-8a04-b645b8e3b371",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 11031,
-            "supply": 1500,
+            "supply": 1,
             "burnedSupply": 0,
             "uri": "/ipfs/QmTrDgTUMRcuEuJTpJ6X7QTzioW7QFFgwKUTdunSbepWMV",
             "metadataId": "a6ab36fc-9386-4e61-bcd2-5500e13ef738",
@@ -3795,7 +3795,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 14.119533
+                "unitPriceUSD": 13.602946
               }
             ],
             "collection": {
@@ -3821,7 +3821,7 @@
             "id": "03a5533a-2281-4dc2-a3bf-41ed6bdbc494",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10981,
-            "supply": 1500,
+            "supply": 1,
             "burnedSupply": 0,
             "uri": "/ipfs/QmfUz8ftcNXuCLWPsMvQwHCAQsfB2No7S1MSG2DY5ca4iC",
             "metadataId": "943432b4-c970-418b-a424-a2856832653d",
@@ -3863,7 +3863,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 14.119533
+                "unitPriceUSD": 13.602946
               }
             ],
             "collection": {
@@ -3889,7 +3889,7 @@
             "id": "d96d04a5-ef74-4af8-b84d-2c3953281d04",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10952,
-            "supply": 1500,
+            "supply": 1,
             "burnedSupply": 4,
             "uri": "/ipfs/QmaxAX2mbQj6CECScpKKA4YSpR1qpVyiTnCDwRaPDzXavF",
             "metadataId": "fe907616-42c5-427a-8e7c-39b51b133a59",
@@ -3931,7 +3931,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 14.119533
+                "unitPriceUSD": 13.602946
               }
             ],
             "collection": {
@@ -3957,7 +3957,7 @@
             "id": "c79571b2-cc8b-4c4d-8112-1215ab71c7d2",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10997,
-            "supply": 1500,
+            "supply": 1,
             "burnedSupply": 0,
             "uri": "/ipfs/QmeDcbewPo4MSnU8URV9jL5TrEoni43eA9bjgA4qtyT2gv",
             "metadataId": "9a5848cd-226b-4df1-9624-a887b47ddf44",
@@ -3999,7 +3999,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 14.119533
+                "unitPriceUSD": 13.602946
               }
             ],
             "collection": {
@@ -4025,7 +4025,7 @@
             "id": "35f63f4e-70f7-4fb5-9937-9c1d9d85ae38",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10870,
-            "supply": 1500,
+            "supply": 1,
             "burnedSupply": 0,
             "uri": "/ipfs/QmcFsw16WMJRiTkDsbFA8zTW8UYtaxJdyVozaFoJCWkM6G",
             "metadataId": "c0b37be0-3726-487c-a29c-98665bdac7c2",
@@ -4067,7 +4067,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 14.119533
+                "unitPriceUSD": 13.602946
               }
             ],
             "collection": {
@@ -4093,7 +4093,7 @@
             "id": "c466d872-4bea-42bc-98cc-79e3dc0b89ca",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 11022,
-            "supply": 1500,
+            "supply": 6,
             "burnedSupply": 0,
             "uri": "/ipfs/QmYAbnAXk1xzGwQcWEvf9Dfc9BXL9Cjs49FXq4upGKxfpu",
             "metadataId": "b150c839-4e7d-4852-aaaa-e6f2921df5fd",
@@ -4135,7 +4135,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 14.119533
+                "unitPriceUSD": 13.602946
               }
             ],
             "collection": {
@@ -4161,7 +4161,7 @@
             "id": "4a9cce61-6aca-4d18-9885-7339f2f6bb87",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10670,
-            "supply": 1500,
+            "supply": 4,
             "burnedSupply": 0,
             "uri": "/ipfs/QmXSABo7AwtbogB7VUaSfZkfz9USMUReQvuGf2azEktriJ",
             "metadataId": "89e7c9ea-9c77-49af-b884-5dd3ca1317e9",
@@ -4203,7 +4203,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 14.119533
+                "unitPriceUSD": 13.602946
               }
             ],
             "collection": {
@@ -4229,7 +4229,7 @@
             "id": "c041e73c-8c56-4228-93cb-e6ebc0bcc502",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10668,
-            "supply": 1500,
+            "supply": 2,
             "burnedSupply": 0,
             "uri": "/ipfs/QmbhqbjSA93jnFZ5mpuM5YsBKf8TTGd5AySsyiBFY1A8oq",
             "metadataId": "2627d2ae-c5f9-462d-ba15-7a6bfc7002d6",
@@ -4271,7 +4271,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 14.119533
+                "unitPriceUSD": 13.602946
               }
             ],
             "collection": {
@@ -4297,7 +4297,7 @@
             "id": "97b3fcf7-c84e-4573-9897-f6b4ab6f00ad",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 11011,
-            "supply": 1500,
+            "supply": 1,
             "burnedSupply": 0,
             "uri": "/ipfs/QmVBwEaxSiq2BLt9A3tZkfRFGdabsDBVdPmWm7eECGtCD1",
             "metadataId": "1c47918e-568c-4379-9f88-269773788f13",
@@ -4339,7 +4339,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 14.119533
+                "unitPriceUSD": 13.602946
               }
             ],
             "collection": {
@@ -4365,7 +4365,7 @@
             "id": "7635311d-a9c3-418b-b5fa-d15cf9e06931",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10965,
-            "supply": 1500,
+            "supply": 3,
             "burnedSupply": 2,
             "uri": "/ipfs/QmQFikkkbsUNX2xrSRFSx47UmXAbC3xwwcK5UJvTbyWSDP",
             "metadataId": "1be49263-aa5f-4b67-88e7-4c1343cb374b",
@@ -4407,7 +4407,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 14.119533
+                "unitPriceUSD": 13.602946
               }
             ],
             "collection": {
@@ -4433,7 +4433,7 @@
             "id": "ff85d95f-6eeb-4965-9c8d-1747e17dd5e0",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 11024,
-            "supply": 1500,
+            "supply": 3,
             "burnedSupply": 8,
             "uri": "/ipfs/QmcozeuFbUu2zrKF7PK4deJ3He3FKdXrft3gfjvmARYcsP",
             "metadataId": "02ce5325-298c-4fb8-b3fe-9f9b62355ae1",
@@ -4475,7 +4475,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 14.119533
+                "unitPriceUSD": 13.602946
               }
             ],
             "collection": {
@@ -4501,7 +4501,7 @@
             "id": "d6aed0f2-0ff3-4611-ae13-24d73221ffa6",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10961,
-            "supply": 1500,
+            "supply": 7,
             "burnedSupply": 0,
             "uri": "/ipfs/QmRPamuhYApii2aYbh6fxqYJ8EaGNySFTxrRPvaXqVxiMX",
             "metadataId": "5ec87494-f210-4d0b-af5d-340d8dcf6baf",
@@ -4543,7 +4543,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 14.119533
+                "unitPriceUSD": 13.602946
               }
             ],
             "collection": {
@@ -4569,7 +4569,7 @@
             "id": "f090cfe6-5910-47d5-9ddb-2ab30092268a",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10492,
-            "supply": 1500,
+            "supply": 1,
             "burnedSupply": 0,
             "uri": "/ipfs/Qmb2Xfjkr3UErWsWHyqDdDV54vGCGpS22msXsohof1ZtYo",
             "metadataId": "601b6328-26d7-4b1b-8dc7-f00c70c04490",
@@ -4611,7 +4611,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 14.119533
+                "unitPriceUSD": 13.602946
               }
             ],
             "collection": {
@@ -4637,7 +4637,7 @@
             "id": "9c5be0f5-059c-455d-a791-7549020bffc8",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10821,
-            "supply": 1500,
+            "supply": 1,
             "burnedSupply": 4,
             "uri": "/ipfs/QmWSPFxJcfNsiSQW2CtaX2NhZPgsa1pD321T6YCqFFH2QF",
             "metadataId": "fa6367f0-0786-4e12-bd65-7ae405168a2c",
@@ -4679,7 +4679,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 14.119533
+                "unitPriceUSD": 13.602946
               }
             ],
             "collection": {
@@ -4705,7 +4705,7 @@
             "id": "d99444f1-765f-4872-9626-56751ebbb543",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 11018,
-            "supply": 1500,
+            "supply": 7,
             "burnedSupply": 0,
             "uri": "/ipfs/QmdMb3iG5E6R26quvFQqgK8DDhkpHVGdft1gMBd6p9ShND",
             "metadataId": "3a5a4db5-c378-4349-bf29-6b5d582fe381",
@@ -4747,7 +4747,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 14.119533
+                "unitPriceUSD": 13.602946
               }
             ],
             "collection": {
@@ -4773,7 +4773,7 @@
             "id": "1c2f0ff2-4947-4703-9170-b10c0362a1b1",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10530,
-            "supply": 1500,
+            "supply": 1,
             "burnedSupply": 8,
             "uri": "/ipfs/QmPbbWeSmUV9fQ7iSJ4VBJDc1QUpbB9xdcUJLCwpcLN6rJ",
             "metadataId": "123906fe-aa40-4562-98ec-5fdba0597c9d",
@@ -4815,7 +4815,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 14.119533
+                "unitPriceUSD": 13.602946
               }
             ],
             "collection": {
@@ -4841,7 +4841,7 @@
             "id": "5bf76bb6-8ec5-4812-a5eb-6dfc53f6e724",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10956,
-            "supply": 1500,
+            "supply": 5,
             "burnedSupply": 0,
             "uri": "/ipfs/QmQfQx5EYaGzytQ3M9fHtBXfZ25mgzgKPh5LMFnsb5JgrE",
             "metadataId": "20773f6c-d36a-4e03-814f-0ab19c257797",
@@ -4883,7 +4883,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 14.119533
+                "unitPriceUSD": 13.602946
               }
             ],
             "collection": {
@@ -4909,7 +4909,7 @@
             "id": "aae773b7-d310-43f3-84d5-66db2a8ed834",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10858,
-            "supply": 1500,
+            "supply": 1,
             "burnedSupply": 12,
             "uri": "/ipfs/QmRKcL7NYrZA5g4BGfUXFUTS5XEmVit7EPAXTukVW7avdT",
             "metadataId": "71415216-5001-40f9-be78-3fffd1be32f5",
@@ -4951,7 +4951,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 14.119533
+                "unitPriceUSD": 13.602946
               }
             ],
             "collection": {
@@ -4977,7 +4977,7 @@
             "id": "2f69321b-4165-4951-a331-b83b4f9da7b0",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10954,
-            "supply": 1500,
+            "supply": 5,
             "burnedSupply": 0,
             "uri": "/ipfs/QmezmEn2zEgdmHNMRXvkCpeGSgBcuxM811GgVwW2stTthb",
             "metadataId": "9d8e82a3-0296-4ab2-bbe9-6f2773f5cc60",
@@ -5019,7 +5019,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 14.119533
+                "unitPriceUSD": 13.602946
               }
             ],
             "collection": {
@@ -5045,7 +5045,7 @@
             "id": "7235e2c1-90e3-4cb9-9083-4f16485d2ed4",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10567,
-            "supply": 1500,
+            "supply": 2,
             "burnedSupply": 0,
             "uri": "/ipfs/QmQzKTPs7V8LyCFEVxub3asVDeYADMVAmoQR1dgGw9Ji5q",
             "metadataId": "939aa907-40df-4f5e-9a7b-3b2f1b1d45ae",
@@ -5087,7 +5087,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 14.119533
+                "unitPriceUSD": 13.602946
               }
             ],
             "collection": {
@@ -5113,7 +5113,7 @@
             "id": "b5199eb5-23e6-43c1-9252-d42daf8ba82d",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10979,
-            "supply": 1500,
+            "supply": 1,
             "burnedSupply": 0,
             "uri": "/ipfs/QmXGuABB7G8CoJdEvvE7paMV55ZBC94eCYKZziaz3adKGv",
             "metadataId": "ba84a7b9-c8c6-44eb-ae9d-6e53d87bad3f",
@@ -5155,7 +5155,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 14.119533
+                "unitPriceUSD": 13.602946
               }
             ],
             "collection": {
@@ -5193,7 +5193,7 @@
             "id": "589c6a88-2765-4e91-918a-deb00a191b4d",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10739,
-            "supply": 3500,
+            "supply": 4,
             "burnedSupply": 2,
             "uri": "/ipfs/QmXQgP1chn5TtnWCnzggwpLZkhVYwPQfFps8a4ZsDKHMjL",
             "metadataId": "9150d088-512e-413d-9332-644206b9f8cc",
@@ -5235,7 +5235,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 8.233296
+                "unitPriceUSD": 8.046351
               }
             ],
             "collection": {
@@ -5261,7 +5261,7 @@
             "id": "9b84d10b-c36c-4a4c-ad0b-53af2b8faeb1",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 11003,
-            "supply": 3500,
+            "supply": 4,
             "burnedSupply": 0,
             "uri": "/ipfs/QmTWzhk2DDvEQoR6f9zMRS58cz7ZH21PBEM1ajvmPqgKVW",
             "metadataId": "fbb14858-f539-49b1-9eb9-253664776543",
@@ -5303,7 +5303,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 8.233296
+                "unitPriceUSD": 8.046351
               }
             ],
             "collection": {
@@ -5329,7 +5329,7 @@
             "id": "cf56f297-df11-47a1-818f-021f5584b6e2",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10875,
-            "supply": 3500,
+            "supply": 4,
             "burnedSupply": 0,
             "uri": "/ipfs/QmUuh7R9GcSg1vQFrmswf37P5enemw2FtgzRCDUAfTMG7E",
             "metadataId": "169d9c72-2a49-42dc-9777-0aef6f03187b",
@@ -5371,7 +5371,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 8.233296
+                "unitPriceUSD": 8.046351
               }
             ],
             "collection": {
@@ -5397,7 +5397,7 @@
             "id": "7795af58-3aec-4030-982d-3c6c0f43b9d9",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10861,
-            "supply": 3500,
+            "supply": 4,
             "burnedSupply": 0,
             "uri": "/ipfs/QmdmnCrqcmvKCPPZgvd5BKX6QcX4R6kNTRfHWmqiPzH3Dj",
             "metadataId": "30b7743a-17ee-4832-96f7-638918ff5646",
@@ -5439,7 +5439,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 8.233296
+                "unitPriceUSD": 8.046351
               }
             ],
             "collection": {
@@ -5465,7 +5465,7 @@
             "id": "f9eef160-41ec-4b8f-93f7-edc80b0c4845",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10949,
-            "supply": 3500,
+            "supply": 4,
             "burnedSupply": 0,
             "uri": "/ipfs/Qmc1ScKCgg1Yr23Az9EW1fsE3oBaKViXmjNSyT8tt5hCFG",
             "metadataId": "0e899455-6915-410e-9cf7-2135951b4430",
@@ -5507,7 +5507,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 8.233296
+                "unitPriceUSD": 8.046351
               }
             ],
             "collection": {
@@ -5533,7 +5533,7 @@
             "id": "6cc46d06-7bcd-47a1-8f60-dfd53ba3f220",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10719,
-            "supply": 3500,
+            "supply": 3,
             "burnedSupply": 0,
             "uri": "/ipfs/Qmbtn56kdRAdoJthdKRgRuMdSwHxtNszDVfXouc8Qy8WQg",
             "metadataId": "364fde33-842f-4660-89bf-ff41ff0b4823",
@@ -5575,7 +5575,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 8.233296
+                "unitPriceUSD": 8.046351
               }
             ],
             "collection": {
@@ -5601,7 +5601,7 @@
             "id": "89a6c5a8-91bb-484f-8036-58c0d9a46d23",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10838,
-            "supply": 3500,
+            "supply": 5,
             "burnedSupply": 0,
             "uri": "/ipfs/QmXF9qdDrHDFqg2b1eeSn4cvVjjShVHRNPsLH9dWzjxqCo",
             "metadataId": "864ffb3d-766a-4dfa-86f7-28298db81b7c",
@@ -5643,7 +5643,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 8.233296
+                "unitPriceUSD": 8.046351
               }
             ],
             "collection": {
@@ -5669,7 +5669,7 @@
             "id": "c4bdca55-55ac-4eb2-aeb1-a6a4d2abbc20",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10840,
-            "supply": 3500,
+            "supply": 4,
             "burnedSupply": 2,
             "uri": "/ipfs/Qmb7HwBvXCwsZibzhGmVtqjyBWQ6wVRZGrtsqXJfhF4AJe",
             "metadataId": "fb3af0dd-e170-4e50-b685-6ea8b27464a5",
@@ -5711,7 +5711,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 8.233296
+                "unitPriceUSD": 8.046351
               }
             ],
             "collection": {
@@ -5737,7 +5737,7 @@
             "id": "eb1bc2b5-6ebc-4c7f-b057-bb2b022fcf12",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10675,
-            "supply": 3500,
+            "supply": 4,
             "burnedSupply": 4,
             "uri": "/ipfs/QmfE22EZPFJz7erVcxcXUfR1nnMd7xM1VPSS2CZna4pmUC",
             "metadataId": "8b399072-2438-445e-aa8b-0f71543d429e",
@@ -5779,7 +5779,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 8.233296
+                "unitPriceUSD": 8.046351
               }
             ],
             "collection": {
@@ -5805,7 +5805,7 @@
             "id": "d76336d7-7e54-40d8-8e50-f3304db295ac",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10715,
-            "supply": 3500,
+            "supply": 4,
             "burnedSupply": 4,
             "uri": "/ipfs/QmTjGsVtz9oktwtAGdeYQ8trUxdrWra48F2MSqmH1sBAZ8",
             "metadataId": "b151c24b-84d8-440c-8ac6-bc5c97bdfcb6",
@@ -5847,7 +5847,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 8.233296
+                "unitPriceUSD": 8.046351
               }
             ],
             "collection": {
@@ -5873,7 +5873,7 @@
             "id": "41ee1330-1dc8-4579-9879-989e46909525",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10974,
-            "supply": 3500,
+            "supply": 4,
             "burnedSupply": 0,
             "uri": "/ipfs/QmciHxsc7XL2Gonvuym3h8LFG5J1j925WUKL8Wr9KuemGn",
             "metadataId": "249dbf75-3923-454d-806f-a71f10c25493",
@@ -5915,7 +5915,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 8.233296
+                "unitPriceUSD": 8.046351
               }
             ],
             "collection": {
@@ -5941,7 +5941,7 @@
             "id": "24acb0fe-42ab-4870-ac5b-ddd5b7f51f16",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10679,
-            "supply": 3500,
+            "supply": 4,
             "burnedSupply": 0,
             "uri": "/ipfs/QmSZLsbtEsgtecPH4LjVyCAX8StoZsqkKt1Xi23qkPtDzS",
             "metadataId": "96b2e1c7-90bf-41b4-aaa7-e115cc675ccb",
@@ -5983,7 +5983,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 8.233296
+                "unitPriceUSD": 8.046351
               }
             ],
             "collection": {
@@ -6009,7 +6009,7 @@
             "id": "f77dff8b-7a7b-418a-a8c6-e8c89362c8da",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10972,
-            "supply": 3500,
+            "supply": 5,
             "burnedSupply": 0,
             "uri": "/ipfs/QmQE8dqBdHo9dniy49ikWp5Vsc7L5ytcJrR9nP97mSrGrB",
             "metadataId": "28b12012-653b-4fe0-a12c-01f99e4d4a8d",
@@ -6051,7 +6051,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 8.233296
+                "unitPriceUSD": 8.046351
               }
             ],
             "collection": {
@@ -6077,7 +6077,7 @@
             "id": "3eeeb18c-9c4a-4395-9821-ed5e10526e60",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10945,
-            "supply": 3500,
+            "supply": 4,
             "burnedSupply": 2,
             "uri": "/ipfs/QmdD7AkwZMStr5TH5e4vodg4TjiuV6Vi9X7fM9mSw8z2Ri",
             "metadataId": "b807bae5-c68a-4a60-a066-0b264cbf29c8",
@@ -6119,7 +6119,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 8.233296
+                "unitPriceUSD": 8.046351
               }
             ],
             "collection": {
@@ -6145,7 +6145,7 @@
             "id": "64b3c8ef-2f78-453e-9066-b9c6e9cf50af",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10814,
-            "supply": 3500,
+            "supply": 5,
             "burnedSupply": 0,
             "uri": "/ipfs/QmSaD4gZwMYr2VzdmFzsv6TPZHbvQRYpbajuGXQWqXAeQY",
             "metadataId": "5e59217a-2dab-4862-9cc2-b75d4537ed30",
@@ -6187,7 +6187,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 8.233296
+                "unitPriceUSD": 8.046351
               }
             ],
             "collection": {
@@ -6213,7 +6213,7 @@
             "id": "a6799706-2cfa-42b0-b26e-158feb1720b2",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10962,
-            "supply": 3500,
+            "supply": 4,
             "burnedSupply": 0,
             "uri": "/ipfs/QmRRPgg6nt3VoHjTwQxDi1kbQUU75uruVCe5z42DcDFdXR",
             "metadataId": "3f035d7d-3775-4b91-8b2f-a5e5c75e5377",
@@ -6255,7 +6255,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 8.233296
+                "unitPriceUSD": 8.046351
               }
             ],
             "collection": {
@@ -6281,7 +6281,7 @@
             "id": "de74bbc3-d658-4945-9f10-dfee9acd7195",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10717,
-            "supply": 3500,
+            "supply": 4,
             "burnedSupply": 0,
             "uri": "/ipfs/QmaxGW8xQfkEh7438F5LeFSNWcK4L5pVj5fiWceYuaZXKq",
             "metadataId": "ba56a4dd-8801-4ce6-a0a6-c1d7ae778ef2",
@@ -6323,7 +6323,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 8.233296
+                "unitPriceUSD": 8.046351
               }
             ],
             "collection": {
@@ -6349,7 +6349,7 @@
             "id": "c1829164-9585-4246-afd6-3596035ba223",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10835,
-            "supply": 3500,
+            "supply": 5,
             "burnedSupply": 2,
             "uri": "/ipfs/QmdUztw2Gqo5McVaUssAcQ3QwMg9YweqWFFmNwWX2oGV6T",
             "metadataId": "34410959-ebc4-467b-bec1-6ccabc6d49fd",
@@ -6391,7 +6391,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 8.233296
+                "unitPriceUSD": 8.046351
               }
             ],
             "collection": {
@@ -6417,7 +6417,7 @@
             "id": "0cdec675-116e-49e6-9ad4-3d3345933b5d",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10655,
-            "supply": 3500,
+            "supply": 1,
             "burnedSupply": 0,
             "uri": "/ipfs/QmZ2XoYVywMqzokreQbjwKBgzkewg7fqVmFJTG5SRZFDUk",
             "metadataId": "5796253f-1777-4739-8782-c43134801ee8",
@@ -6459,7 +6459,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 8.233296
+                "unitPriceUSD": 8.046351
               }
             ],
             "collection": {
@@ -6485,7 +6485,7 @@
             "id": "443b1a43-a34c-4aea-b807-0f968bad7a56",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10992,
-            "supply": 3500,
+            "supply": 5,
             "burnedSupply": 0,
             "uri": "/ipfs/QmVWFUvNTLbcEAVmKpisAQqa8HMc2EchbXNwdu1KRSpRSS",
             "metadataId": "a14a44f5-d2c7-4d47-a2f3-2b80e2abb2fb",
@@ -6527,7 +6527,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 8.233296
+                "unitPriceUSD": 8.046351
               }
             ],
             "collection": {
@@ -6553,7 +6553,7 @@
             "id": "55c587bd-9623-4f9f-ae3a-e9a428a97ad8",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10677,
-            "supply": 3500,
+            "supply": 1,
             "burnedSupply": 2,
             "uri": "/ipfs/QmYuuZ4JPnEh8y1y7yBTV3u69L2bkm4n3WWYanMZR23wfS",
             "metadataId": "4794e482-ace0-4de5-b528-fe42dc38beb2",
@@ -6595,7 +6595,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 8.233296
+                "unitPriceUSD": 8.046351
               }
             ],
             "collection": {
@@ -6621,7 +6621,7 @@
             "id": "91b6a57c-a55d-497d-b910-791848d9e002",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10797,
-            "supply": 3500,
+            "supply": 5,
             "burnedSupply": 0,
             "uri": "/ipfs/QmZNB4kYmMPhTME9U2FTh8Dugsj5rmDppu6a4cz7Lf2Wi8",
             "metadataId": "f712db95-e7e8-4731-aced-e6729f7a1752",
@@ -6663,7 +6663,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 8.233296
+                "unitPriceUSD": 8.046351
               }
             ],
             "collection": {
@@ -6689,7 +6689,7 @@
             "id": "c9abfb31-4da4-414a-a96b-cb3766f17584",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10531,
-            "supply": 3500,
+            "supply": 1,
             "burnedSupply": 0,
             "uri": "/ipfs/QmR66PFXJGJayXmwn95aLBK4rwiuLxTRt499ocSXQ1oKPz",
             "metadataId": "91e19f0d-451f-46f6-b104-c15d6808f3c4",
@@ -6731,7 +6731,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 8.233296
+                "unitPriceUSD": 8.046351
               }
             ],
             "collection": {
@@ -6757,7 +6757,7 @@
             "id": "28751181-8812-41fa-bc48-0508ca1ed6ab",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 11028,
-            "supply": 3500,
+            "supply": 7,
             "burnedSupply": 0,
             "uri": "/ipfs/QmcXLwK47qBLNv8q7BuwJWbmHV8c12rTgNHAWHBPBvPKCn",
             "metadataId": "f76e5757-fa38-43bb-97a8-abfa8de6dd91",
@@ -6799,7 +6799,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 8.233296
+                "unitPriceUSD": 8.046351
               }
             ],
             "collection": {
@@ -6825,7 +6825,7 @@
             "id": "07a5ab1f-f3f9-439a-908f-f5c3533ccc99",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10508,
-            "supply": 3500,
+            "supply": 1,
             "burnedSupply": 0,
             "uri": "/ipfs/Qmbozs7jgdiSJ3VzNjeDft2NkFjQqqwBtCSYdanYJjrEKm",
             "metadataId": "ceab01ec-3b17-4363-a662-8c7c9430a0fc",
@@ -6867,7 +6867,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 8.233296
+                "unitPriceUSD": 8.046351
               }
             ],
             "collection": {
@@ -6893,7 +6893,7 @@
             "id": "240a5f36-e184-4fbe-8fcd-1c9daabf478a",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 11005,
-            "supply": 3500,
+            "supply": 5,
             "burnedSupply": 0,
             "uri": "/ipfs/Qmb4dCuDQ3WJtWbv5HGb4vWp7wubPuSYbz1jrhv3YpxdGf",
             "metadataId": "618c6004-9693-4b41-a3e2-9473a7a54642",
@@ -6935,7 +6935,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 8.233296
+                "unitPriceUSD": 8.046351
               }
             ],
             "collection": {
@@ -6973,7 +6973,7 @@
             "id": "4dc58d2d-92ed-4ef7-9875-d5baed4a02d9",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10811,
-            "supply": 1000,
+            "supply": 6,
             "burnedSupply": 8,
             "uri": "/ipfs/QmQpUH79LQa6mM3WGH7KtwPg4E6hhURwznTrbjKLXU4AiA",
             "metadataId": "39984571-5819-4339-a026-36b0855dae9b",
@@ -7015,7 +7015,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 35.539855
+                "unitPriceUSD": 34.930708
               }
             ],
             "collection": {
@@ -7041,7 +7041,7 @@
             "id": "f8bd692e-13e9-48fb-9485-696326a23863",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10806,
-            "supply": 1000,
+            "supply": 2,
             "burnedSupply": 8,
             "uri": "/ipfs/QmSCm28omQYvRmV4d2XaDbPhcjvXoas23z9MnM83MeU2b2",
             "metadataId": "bd09722e-23e1-4796-bd6e-ef5cf60cae76",
@@ -7083,7 +7083,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 35.539855
+                "unitPriceUSD": 34.930708
               }
             ],
             "collection": {
@@ -7109,7 +7109,7 @@
             "id": "ddf41093-5d65-42bc-89ca-7261c73a489c",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10792,
-            "supply": 1000,
+            "supply": 1,
             "burnedSupply": 8,
             "uri": "/ipfs/QmddJDkh2S2L6R7uvpHtXXkhcYExY9cw9w3fyoJCXWL818",
             "metadataId": "32b08431-87e6-4204-9983-5c84a0ec940e",
@@ -7151,7 +7151,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 35.539855
+                "unitPriceUSD": 34.930708
               }
             ],
             "collection": {
@@ -7177,7 +7177,7 @@
             "id": "74c101b0-dbfe-4b9a-b1ad-de173310053e",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10465,
-            "supply": 1000,
+            "supply": 4,
             "burnedSupply": 8,
             "uri": "/ipfs/QmWUwLX7b2zQsRi6VZczmGmXgzQy6MvwSKKCz3z73DwHY8",
             "metadataId": "d9279f9b-4571-4c0d-984b-3aadccd4928b",
@@ -7219,7 +7219,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 35.539855
+                "unitPriceUSD": 34.930708
               }
             ],
             "collection": {
@@ -7245,7 +7245,7 @@
             "id": "02863cb8-6a89-4c8a-bbfe-9a7a2f43c544",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 11027,
-            "supply": 1000,
+            "supply": 5,
             "burnedSupply": 8,
             "uri": "/ipfs/QmXsaio7pPFFsgtVJfh7H7HJ5Etf12GyPTNS6cZQtt7JJQ",
             "metadataId": "9bb54db6-0bb9-4d76-ac4c-1fd3c28ea1ad",
@@ -7287,7 +7287,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 35.539855
+                "unitPriceUSD": 34.930708
               }
             ],
             "collection": {
@@ -7313,7 +7313,7 @@
             "id": "a2c9e1ae-3e0c-4e94-a7dc-a5475be7c9f3",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10805,
-            "supply": 1000,
+            "supply": 3,
             "burnedSupply": 8,
             "uri": "/ipfs/QmZnCHK5xMfDJfWcWfJRp5idYAd2yipPMK84TSkGKng6KZ",
             "metadataId": "3dc1e1f7-81b2-4e6c-bf14-7b137a66ca6d",
@@ -7355,7 +7355,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 35.539855
+                "unitPriceUSD": 34.930708
               }
             ],
             "collection": {
@@ -7381,7 +7381,7 @@
             "id": "bf097e9b-2066-4259-bb92-ecb6f719de2b",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10987,
-            "supply": 1000,
+            "supply": 6,
             "burnedSupply": 8,
             "uri": "/ipfs/QmdCkbeRT4ua15Gh2xHDqt6b6VuZJGpD19GyLr1kFU4Pko",
             "metadataId": "3ebec4ea-4849-4d4a-8343-97a733324a8c",
@@ -7423,7 +7423,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 35.539855
+                "unitPriceUSD": 34.930708
               }
             ],
             "collection": {
@@ -7449,7 +7449,7 @@
             "id": "c4f5624b-aaf5-4c7c-98d7-e83e0ffac0bc",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10848,
-            "supply": 1000,
+            "supply": 8,
             "burnedSupply": 8,
             "uri": "/ipfs/Qmasvzp2PMiy3dC4qLsToAzhQWug9xPM6uBQTavnPx2nSE",
             "metadataId": "f75581e6-a2e1-46c6-b5f0-5ad1cd885c10",
@@ -7491,7 +7491,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 35.539855
+                "unitPriceUSD": 34.930708
               }
             ],
             "collection": {
@@ -7529,7 +7529,7 @@
             "id": "bb59bf8a-c7af-4375-9a40-cf691a3489f5",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10327,
-            "supply": 1000,
+            "supply": 3,
             "burnedSupply": 0,
             "uri": "/ipfs/Qmam3FEwCT5LmiPL59VLnHq1dWBbCEhjBcwWdNv6Zgv3R8",
             "metadataId": "22150194-a803-489c-92cb-f8c96f23ee13",
@@ -7571,7 +7571,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 20.787265
+                "unitPriceUSD": 19.609511
               }
             ],
             "collection": {
@@ -7597,7 +7597,7 @@
             "id": "383d864e-788e-4d03-bca0-528658173676",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10333,
-            "supply": 1000,
+            "supply": 3,
             "burnedSupply": 0,
             "uri": "/ipfs/QmdyRGGBDZR7YGpia3p6rj7Xx82KxB1wtCbizGxmco9j6b",
             "metadataId": "55e93209-345d-4d50-b705-c2d43e8d7bfb",
@@ -7639,7 +7639,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 20.787265
+                "unitPriceUSD": 19.609511
               }
             ],
             "collection": {
@@ -7665,7 +7665,7 @@
             "id": "ddd6115c-1bfd-4792-855d-8817ebc4b256",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10331,
-            "supply": 1500,
+            "supply": 3,
             "burnedSupply": 0,
             "uri": "/ipfs/QmRMiUp4bV1PHm5wmtZwDA9WnqKV3TA5quoqbdGtyPuB4b",
             "metadataId": "66c09af6-2c06-44e9-bdbd-4149ba3ed051",
@@ -7707,7 +7707,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 20.787265
+                "unitPriceUSD": 19.609511
               }
             ],
             "collection": {
@@ -7733,7 +7733,7 @@
             "id": "e1fe3d76-56f5-433d-8c6a-a1d2c31620e2",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10315,
-            "supply": 1000,
+            "supply": 4,
             "burnedSupply": 0,
             "uri": "/ipfs/Qmcdn6DjFkmqP3wzHqyDf3JngeVseTrwGXZ4hgurttaEKP",
             "metadataId": "0b6e3ec1-6be0-4664-a86f-05fb8cc7ff51",
@@ -7775,7 +7775,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 20.787265
+                "unitPriceUSD": 19.609511
               }
             ],
             "collection": {
@@ -7801,7 +7801,7 @@
             "id": "62454e13-adcf-4e0a-8782-0e0156c062bd",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10144,
-            "supply": 1000,
+            "supply": 1,
             "burnedSupply": 12,
             "uri": "/ipfs/QmXtDpHV3mg5kQ1EuQ1xNaX6PsDfZtmVngPTfXpNPRxseb",
             "metadataId": "fd9c8169-1a56-4c9c-a72a-f9a8c8291473",
@@ -7843,7 +7843,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 20.787265
+                "unitPriceUSD": 19.609511
               }
             ],
             "collection": {
@@ -7869,7 +7869,7 @@
             "id": "626cac85-b43c-4715-9d44-94d50d30d375",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10156,
-            "supply": 1000,
+            "supply": 1,
             "burnedSupply": 4,
             "uri": "/ipfs/QmS3WmCV6oyD9tAVnS4LZYBptUm13N1eEimwT2BJPPJo5P",
             "metadataId": "3e221a32-8de9-4363-a15a-2cd61adc791c",
@@ -7911,7 +7911,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 20.787265
+                "unitPriceUSD": 19.609511
               }
             ],
             "collection": {
@@ -7937,7 +7937,7 @@
             "id": "3721b690-d6e6-4a5d-8412-d646c740c771",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10551,
-            "supply": 1000,
+            "supply": 1,
             "burnedSupply": 0,
             "uri": "/ipfs/QmWX4XdpA24dS9t5ajAvYj1QwSP7CAay624RNueX11xALo",
             "metadataId": "ef582c33-036d-4c83-a62f-01eb46649d86",
@@ -7979,7 +7979,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 20.787265
+                "unitPriceUSD": 19.609511
               }
             ],
             "collection": {
@@ -8005,7 +8005,7 @@
             "id": "fc947c5e-323d-435e-8305-56c09b33749c",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10394,
-            "supply": 1000,
+            "supply": 1,
             "burnedSupply": 1,
             "uri": "/ipfs/QmRYhjAFuqJX4xk1n1Jhd5dCwEJcrK9n6LF61hkV4C11vh",
             "metadataId": "0e0487f8-7dfe-4996-8352-5c9233c0e866",
@@ -8047,7 +8047,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 20.787265
+                "unitPriceUSD": 19.609511
               }
             ],
             "collection": {
@@ -8073,7 +8073,7 @@
             "id": "9c8f4567-121f-4eb2-950b-3b1f1b3afb91",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10864,
-            "supply": 1000,
+            "supply": 2,
             "burnedSupply": 0,
             "uri": "/ipfs/QmY5TmUCT7hxrpwMbhMGemAm6ha6g1F7Gunok6LmQDjC85",
             "metadataId": "fdf268d6-b2cc-4145-871d-898791b1d384",
@@ -8115,7 +8115,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 20.787265
+                "unitPriceUSD": 19.609511
               }
             ],
             "collection": {
@@ -8141,7 +8141,7 @@
             "id": "8e6087fb-a4ec-4174-87ce-9b6a6a6b98b7",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10385,
-            "supply": 1000,
+            "supply": 1,
             "burnedSupply": 8,
             "uri": "/ipfs/QmYibEx1qDo3DsbNW2o1SJ6nSx9enEJ6afhWKKzaWx6PER",
             "metadataId": "d951b06b-8957-42f1-b846-0f068be6ba49",
@@ -8183,7 +8183,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 20.787265
+                "unitPriceUSD": 19.609511
               }
             ],
             "collection": {
@@ -8209,7 +8209,7 @@
             "id": "6c9a265f-e911-4275-bc58-b9b72239d1f3",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10319,
-            "supply": 1000,
+            "supply": 1,
             "burnedSupply": 12,
             "uri": "/ipfs/QmfB24qqEETXvUceqyGEG43tgZNwGnDgfhUV2qUkuWRgb9",
             "metadataId": "32cedfad-edd3-4cbe-8488-bed9e3a95665",
@@ -8251,7 +8251,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 20.787265
+                "unitPriceUSD": 19.609511
               }
             ],
             "collection": {
@@ -8277,7 +8277,7 @@
             "id": "cedb06f1-9d63-4d8b-9d33-1f3e7db797ae",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10565,
-            "supply": 1000,
+            "supply": 1,
             "burnedSupply": 2,
             "uri": "/ipfs/QmVioappS7944hmZc6bMHcwDawtDquUwki6He32raqgKMS",
             "metadataId": "44abad0b-1945-4eca-b9ec-044f749099bd",
@@ -8319,7 +8319,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 20.787265
+                "unitPriceUSD": 19.609511
               }
             ],
             "collection": {
@@ -8345,7 +8345,7 @@
             "id": "2520d937-a355-4b7e-9c83-03147f624b27",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10794,
-            "supply": 1000,
+            "supply": 2,
             "burnedSupply": 8,
             "uri": "/ipfs/Qmbi9WaF7FWVn4kWXTZACvCmdJ7nT5P6FzVH2653QDBDHu",
             "metadataId": "d93179e1-95c5-448f-8d44-70c49e0cf886",
@@ -8387,7 +8387,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 20.787265
+                "unitPriceUSD": 19.609511
               }
             ],
             "collection": {
@@ -8413,7 +8413,7 @@
             "id": "ac66ecbd-91b7-4c86-911d-e913a832a150",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10986,
-            "supply": 1000,
+            "supply": 4,
             "burnedSupply": 0,
             "uri": "/ipfs/Qma2GjP6cdiwFhZqAhAaCNVmoC8Vwp2RQnmVxrFUvyfDgR",
             "metadataId": "159e290f-da52-4556-84d9-e99b2bdf0cf1",
@@ -8455,7 +8455,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 20.787265
+                "unitPriceUSD": 19.609511
               }
             ],
             "collection": {
@@ -8481,7 +8481,7 @@
             "id": "7ae6d527-f87e-4e10-b99a-70ce8442bc9c",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10995,
-            "supply": 1000,
+            "supply": 2,
             "burnedSupply": 0,
             "uri": "/ipfs/QmTvJYyS1bMGtUSimYvLbGbdJsPyy5Gjn3ULSj5fTNFSHT",
             "metadataId": "d55a380d-af89-4571-a4eb-3b6b0a777471",
@@ -8523,7 +8523,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 20.787265
+                "unitPriceUSD": 19.609511
               }
             ],
             "collection": {
@@ -8549,7 +8549,7 @@
             "id": "52dfa5bf-d605-4f06-a72e-94f1f073828e",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10674,
-            "supply": 1000,
+            "supply": 3,
             "burnedSupply": 2,
             "uri": "/ipfs/QmeeigarNtWFLoqfr92pcuTKPjYThKPToZHYnLbqssfU1g",
             "metadataId": "7a05fdaa-4ef4-414e-9e5b-5359f4fc25e9",
@@ -8591,7 +8591,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 20.787265
+                "unitPriceUSD": 19.609511
               }
             ],
             "collection": {
@@ -8617,7 +8617,7 @@
             "id": "61bc2465-e07a-4530-9a89-0ee408243848",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10170,
-            "supply": 1000,
+            "supply": 1,
             "burnedSupply": 12,
             "uri": "/ipfs/QmcxxJz9UYafdCSQpGB1mTadh5Pb3GQhq34H8UzpXzzaxA",
             "metadataId": "9d7d3308-703c-4d70-aa7c-5a5602e8ef3c",
@@ -8659,7 +8659,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 20.787265
+                "unitPriceUSD": 19.609511
               }
             ],
             "collection": {
@@ -8685,7 +8685,7 @@
             "id": "fa93dff0-a31c-4218-8ef5-75f80436f756",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10984,
-            "supply": 1000,
+            "supply": 3,
             "burnedSupply": 0,
             "uri": "/ipfs/Qmasda8ZKnGjTYH3hGZkic5TK1oYZ886HvDY4LPR8ShPn6",
             "metadataId": "decfb2b4-8384-44d4-ad95-c8ac8c1fe616",
@@ -8727,7 +8727,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 20.787265
+                "unitPriceUSD": 19.609511
               }
             ],
             "collection": {
@@ -8753,7 +8753,7 @@
             "id": "efe8a70a-1ac9-4b2e-bccc-d449602890c9",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 11026,
-            "supply": 1000,
+            "supply": 1,
             "burnedSupply": 0,
             "uri": "/ipfs/QmPHayREydmSpJ85F4fSDEDb4aPcpjwxWy3YwcsDFSMjTk",
             "metadataId": "7f64d321-6887-4a79-bb09-87ab460f4db6",
@@ -8795,7 +8795,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 20.787265
+                "unitPriceUSD": 19.609511
               }
             ],
             "collection": {
@@ -8821,7 +8821,7 @@
             "id": "3a1251e0-a780-439f-8884-0599363a8f5c",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 11020,
-            "supply": 1000,
+            "supply": 3,
             "burnedSupply": 2,
             "uri": "/ipfs/QmUS7WKbRi5uUPzDHahV9TZGSJsXQf1toZiCT3HtDQHbMj",
             "metadataId": "5dde1231-626d-43c0-9142-deca4a685f86",
@@ -8863,7 +8863,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 20.787265
+                "unitPriceUSD": 19.609511
               }
             ],
             "collection": {
@@ -8889,7 +8889,7 @@
             "id": "2de83173-bc5f-454c-87cb-004fca17a8e6",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 11016,
-            "supply": 1000,
+            "supply": 6,
             "burnedSupply": 0,
             "uri": "/ipfs/QmPzeQrvmFizfEmtJ5E9S6HKwJFUVFVA8GGBGDuydCrEGZ",
             "metadataId": "6607c053-49e4-48bd-b9c8-529724693926",
@@ -8931,7 +8931,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 20.787265
+                "unitPriceUSD": 19.609511
               }
             ],
             "collection": {
@@ -8957,7 +8957,7 @@
             "id": "d29b7eba-30f1-4d9e-97e4-92713a2d5fc3",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10872,
-            "supply": 1000,
+            "supply": 4,
             "burnedSupply": 2,
             "uri": "/ipfs/QmPUtcjRR9spZhm5PgfR7udqwWmXiw6AjJNdMPq5RnhAC8",
             "metadataId": "b024f71d-47e1-4d2a-9519-b682f92f1d72",
@@ -8999,7 +8999,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 20.787265
+                "unitPriceUSD": 19.609511
               }
             ],
             "collection": {
@@ -9025,7 +9025,7 @@
             "id": "86d53ac1-46d8-487f-889e-4efb428e85c6",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10971,
-            "supply": 1000,
+            "supply": 3,
             "burnedSupply": 0,
             "uri": "/ipfs/QmeQk5XHS4EbXjeYNvusRosAqqr2tPmHJxXXzR4k4rJi84",
             "metadataId": "6de2dfd8-3caa-40d8-b749-7c0e1ed920c0",
@@ -9067,7 +9067,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 20.787265
+                "unitPriceUSD": 19.609511
               }
             ],
             "collection": {
@@ -9093,7 +9093,7 @@
             "id": "00d44f8d-de4c-41fe-b259-522da656c6d2",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10379,
-            "supply": 1000,
+            "supply": 2,
             "burnedSupply": 0,
             "uri": "/ipfs/QmV6QHGQNgakCKhr1vN5bm1EuRR8Dgqe1dUjxSsNBovo83",
             "metadataId": "01b659a1-c121-452f-84c1-90927ac76ae7",
@@ -9135,7 +9135,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 20.787265
+                "unitPriceUSD": 19.609511
               }
             ],
             "collection": {
@@ -9161,7 +9161,7 @@
             "id": "2adff81e-fd99-4f91-ba09-25b6783127d8",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10989,
-            "supply": 1000,
+            "supply": 1,
             "burnedSupply": 0,
             "uri": "/ipfs/QmUFUx5JARf7NA9dfn5XknDp7u97FtT8Ey9xvQoXDnBcZ2",
             "metadataId": "d0f01a93-c3d9-464a-bcfa-d1b4b0d448d6",
@@ -9203,7 +9203,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 20.787265
+                "unitPriceUSD": 19.609511
               }
             ],
             "collection": {
@@ -9229,7 +9229,7 @@
             "id": "6e6a2d82-3582-45b8-882e-17d04fda7b7a",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10991,
-            "supply": 1000,
+            "supply": 6,
             "burnedSupply": 0,
             "uri": "/ipfs/QmPjFZeHRrfsdGWu1c7oqfabXsnF19tFq5PoZ3WRfBiyxM",
             "metadataId": "41596168-1e17-45ac-adfc-5c4b202a5c8f",
@@ -9271,7 +9271,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 20.787265
+                "unitPriceUSD": 19.609511
               }
             ],
             "collection": {
@@ -9297,7 +9297,7 @@
             "id": "24654ede-0e80-480e-90c9-7e6baf8f8679",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 11002,
-            "supply": 1000,
+            "supply": 5,
             "burnedSupply": 0,
             "uri": "/ipfs/QmUz3ANfZnwsJkDCConL6gKCxiFtSA7iv2Nq9x38DXhVhs",
             "metadataId": "d23a8da6-d0c6-4f69-b5ec-8c1f6ef1dd01",
@@ -9339,7 +9339,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 20.787265
+                "unitPriceUSD": 19.609511
               }
             ],
             "collection": {
@@ -9365,7 +9365,7 @@
             "id": "101bf085-0d43-4035-a2f4-442e7d9db048",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10764,
-            "supply": 1000,
+            "supply": 3,
             "burnedSupply": 4,
             "uri": "/ipfs/QmVfBiDH71JBq2CPNLT9DtgmoyESRUtw9xy1xfSuq37gNt",
             "metadataId": "65f7c8e5-aa84-44e2-8ba8-36aadd7c766a",
@@ -9407,7 +9407,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 20.787265
+                "unitPriceUSD": 19.609511
               }
             ],
             "collection": {
@@ -9433,7 +9433,7 @@
             "id": "5c909fcc-c5c6-42a7-b5cb-af919d4ce429",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10850,
-            "supply": 1000,
+            "supply": 2,
             "burnedSupply": 4,
             "uri": "/ipfs/QmQVRPQBA19ssh7xDJTym6t4stjPxh39JJ7QxjURmijrze",
             "metadataId": "2a692682-79b2-4e9e-81a2-641ef22b029f",
@@ -9475,7 +9475,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 20.787265
+                "unitPriceUSD": 19.609511
               }
             ],
             "collection": {
@@ -9501,7 +9501,7 @@
             "id": "25aa8c1f-4b3d-4e2f-9d87-11727ea69684",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10714,
-            "supply": 1000,
+            "supply": 1,
             "burnedSupply": 2,
             "uri": "/ipfs/QmZ2Gjb429QKifgaEgawWD89AVVFBZmRi1nu5WxEhdLobq",
             "metadataId": "b9aeacd3-5af0-4049-b5cb-578387f0df80",
@@ -9543,7 +9543,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 20.787265
+                "unitPriceUSD": 19.609511
               }
             ],
             "collection": {
@@ -9581,7 +9581,7 @@
             "id": "9566ce42-be1b-4509-abfd-edd4a531e64d",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10298,
-            "supply": 50000,
+            "supply": 1,
             "burnedSupply": 0,
             "uri": "/ipfs/QmdrRTVuj155KChfmuSZPTqNDTzmxR32EDVSvR3MPPHnHr",
             "metadataId": "f8f2bc85-9fb9-4508-a579-93cff3d76eec",
@@ -9623,7 +9623,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.463091
+                "unitPriceUSD": 3.399037
               }
             ],
             "collection": {
@@ -9649,7 +9649,7 @@
             "id": "51e99d47-b0af-4440-ba17-6210192315e9",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10869,
-            "supply": 60000,
+            "supply": 4,
             "burnedSupply": 0,
             "uri": "/ipfs/Qme5oZ5JBJEakRTqhAJnYSR3CRp5ASTY1m3Fq98sJdZMVH",
             "metadataId": "834592a1-1a5d-4cdc-a5eb-aef4fadf5511",
@@ -9691,7 +9691,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.463091
+                "unitPriceUSD": 3.399037
               }
             ],
             "collection": {
@@ -9717,7 +9717,7 @@
             "id": "2af7c30f-c68b-46d2-941f-0ecca245228c",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10659,
-            "supply": 60000,
+            "supply": 6,
             "burnedSupply": 0,
             "uri": "/ipfs/QmXq7kgjnC41oM5D9btrcJdnU2f2B1dnbCiBkoKwx4meBY",
             "metadataId": "da9f798a-9d1a-43db-bc2e-74db958c6bba",
@@ -9759,7 +9759,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.463091
+                "unitPriceUSD": 3.399037
               }
             ],
             "collection": {
@@ -9785,7 +9785,7 @@
             "id": "c627fb32-2fac-436a-94a0-088b920f0a22",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10801,
-            "supply": 60000,
+            "supply": 7,
             "burnedSupply": 0,
             "uri": "/ipfs/QmQDmwm2WPcWaXxzyE5vNRHGrgzmjt4qSY67Pip2bUFJX4",
             "metadataId": "c410d01d-b0ef-49c9-9d28-d8898e21e053",
@@ -9827,7 +9827,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.463091
+                "unitPriceUSD": 3.399037
               }
             ],
             "collection": {
@@ -9853,7 +9853,7 @@
             "id": "0145a980-3b80-4587-b4d9-8859a72d61cb",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10669,
-            "supply": 60000,
+            "supply": 3,
             "burnedSupply": 0,
             "uri": "/ipfs/QmPmn3wonxUgRkfNVkKUohW9wseayEaWXpsLV22oFUnPnw",
             "metadataId": "02a25b2e-cbff-479a-b2ab-e9580f0a0681",
@@ -9895,7 +9895,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.463091
+                "unitPriceUSD": 3.399037
               }
             ],
             "collection": {
@@ -9921,7 +9921,7 @@
             "id": "4636ba50-88e7-46df-882e-ffb394267173",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10844,
-            "supply": 60000,
+            "supply": 4,
             "burnedSupply": 0,
             "uri": "/ipfs/QmZQ6vA6U5Q9M86UUuKqX77be1vLZ7uRU63mdaceprwayU",
             "metadataId": "6b78916f-b002-4a7d-bd6b-816264926c2e",
@@ -9963,7 +9963,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.463091
+                "unitPriceUSD": 3.399037
               }
             ],
             "collection": {
@@ -9989,7 +9989,7 @@
             "id": "105173b3-2cd2-4e53-86e2-130b8c5e5c57",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10755,
-            "supply": 60000,
+            "supply": 5,
             "burnedSupply": 0,
             "uri": "/ipfs/QmVYPPmFK3tZYVDFQuhq9rp8e1Kg7ThayXbBvbv8i6FCpB",
             "metadataId": "e10225cf-b538-47bf-b6d8-eb879030d255",
@@ -10031,7 +10031,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.463091
+                "unitPriceUSD": 3.399037
               }
             ],
             "collection": {
@@ -10057,7 +10057,7 @@
             "id": "05a66c44-953f-4c60-950e-f9da55554edd",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10827,
-            "supply": 60000,
+            "supply": 4,
             "burnedSupply": 0,
             "uri": "/ipfs/QmQWM6G3AssFxbr752M7pJq7EZLPfLfyQu4Zs5k6wNBbNY",
             "metadataId": "00170a90-8ef9-4f23-9de8-a1fed0cd009b",
@@ -10099,7 +10099,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.463091
+                "unitPriceUSD": 3.399037
               }
             ],
             "collection": {
@@ -10125,7 +10125,7 @@
             "id": "1b409581-72ed-48d7-b56f-a856a679bd69",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10237,
-            "supply": 45000,
+            "supply": 4,
             "burnedSupply": 4,
             "uri": "/ipfs/QmQHN9pzGCTsWaURShRx58Pt46XcpZJv6Lq38qty3kpy9s",
             "metadataId": "02d899bd-9d53-48e1-a61e-9d7d83ab65f9",
@@ -10167,7 +10167,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.463091
+                "unitPriceUSD": 3.399037
               }
             ],
             "collection": {
@@ -10193,7 +10193,7 @@
             "id": "29678aae-f567-4979-aa60-738342311485",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10951,
-            "supply": 60000,
+            "supply": 3,
             "burnedSupply": 0,
             "uri": "/ipfs/QmV6LUvMkMRQiVHRtEGmApPpk2uYY5K4AUC57JGKUBDrum",
             "metadataId": "6b968e16-8992-4928-8252-69352a74bd2a",
@@ -10235,7 +10235,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.463091
+                "unitPriceUSD": 3.399037
               }
             ],
             "collection": {
@@ -10261,7 +10261,7 @@
             "id": "706522d8-c28a-4a2b-bcd7-9cca371ba1e0",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10960,
-            "supply": 60000,
+            "supply": 7,
             "burnedSupply": 0,
             "uri": "/ipfs/QmcALQRtBjFVW5ohr1Phbw4TTngonGtUes9aZHQonxKabT",
             "metadataId": "b8f81cc8-d01f-4ba2-85a6-a5637d871349",
@@ -10303,7 +10303,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.463091
+                "unitPriceUSD": 3.399037
               }
             ],
             "collection": {
@@ -10329,7 +10329,7 @@
             "id": "860fd394-4e25-45e4-8f30-93858aa0c915",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10521,
-            "supply": 60000,
+            "supply": 3,
             "burnedSupply": 0,
             "uri": "/ipfs/QmWoQGZhU2722H7FypRxx9rnZyvEbGEZVVig69rdXyT28D",
             "metadataId": "234c0604-b2bc-4c64-9ff8-6c5e0a8f0765",
@@ -10371,7 +10371,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.463091
+                "unitPriceUSD": 3.399037
               }
             ],
             "collection": {
@@ -10397,7 +10397,7 @@
             "id": "adc4a98c-6960-4465-9a84-2637f532e888",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10964,
-            "supply": 60000,
+            "supply": 5,
             "burnedSupply": 0,
             "uri": "/ipfs/QmbbZzsYrfuB9AMGRkWyZ8En69YVzbgqWrMu7LoVbCCwJB",
             "metadataId": "48f9c608-7ab7-4f57-bfc4-5413e009bd20",
@@ -10439,7 +10439,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.463091
+                "unitPriceUSD": 3.399037
               }
             ],
             "collection": {
@@ -10465,7 +10465,7 @@
             "id": "514a8ea2-27bf-4ce9-a2ad-c5fa37d8fe37",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10367,
-            "supply": 20000,
+            "supply": 3,
             "burnedSupply": 0,
             "uri": "/ipfs/QmTCbW7f63gnEnXxU6kFs4yqPcuYLjE3Dv9ZYjDEJtWB4H",
             "metadataId": "602e2818-d802-47d9-a48a-603414d93e4f",
@@ -10512,7 +10512,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.463091
+                "unitPriceUSD": 3.399037
               }
             ],
             "collection": {
@@ -10538,7 +10538,7 @@
             "id": "262a7c4e-cc32-4f39-9c23-81636c52942e",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10958,
-            "supply": 60000,
+            "supply": 4,
             "burnedSupply": 0,
             "uri": "/ipfs/QmaonhzAifjqVbsXvW2voRwsr978ygkWu3fBDiddwwXntQ",
             "metadataId": "7183a368-6d39-4e59-a94b-5c2871370d26",
@@ -10580,7 +10580,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.463091
+                "unitPriceUSD": 3.399037
               }
             ],
             "collection": {
@@ -10606,7 +10606,7 @@
             "id": "df7f7a60-8db4-4078-b27f-119394ae6856",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 11030,
-            "supply": 60000,
+            "supply": 3,
             "burnedSupply": 0,
             "uri": "/ipfs/QmYRH2gv4VA4m8ST7y1jJgAhVWum1TZcbKjaVUgkuwEVWT",
             "metadataId": "c1f4551c-f59c-44a8-8e7a-062a13b8a1b1",
@@ -10648,7 +10648,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.463091
+                "unitPriceUSD": 3.399037
               }
             ],
             "collection": {
@@ -10674,7 +10674,7 @@
             "id": "49009226-3bbc-4059-a920-a0ee5c551481",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10955,
-            "supply": 60000,
+            "supply": 6,
             "burnedSupply": 0,
             "uri": "/ipfs/QmQ3U7NDHSvwRwnWZgieyrJAP5Xq3eMxQ56nN62Si8HhKE",
             "metadataId": "8c04734c-cc73-486f-89bc-69c9c41fe649",
@@ -10716,7 +10716,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.463091
+                "unitPriceUSD": 3.399037
               }
             ],
             "collection": {
@@ -10742,7 +10742,7 @@
             "id": "68cef97a-9d4e-4036-b18e-ecc6c74623d3",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 8,
-            "supply": 30000,
+            "supply": 2,
             "burnedSupply": 4,
             "uri": "/ipfs/QmVpVBfRAeCsfpuSWUbw3S17wvdX8ggLNvzNEkVNareAd1",
             "metadataId": "a129964a-8acb-4d04-9d5b-d3c51e88e63f",
@@ -10784,7 +10784,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.463091
+                "unitPriceUSD": 3.399037
               }
             ],
             "collection": {
@@ -10810,7 +10810,7 @@
             "id": "342b6a3d-579a-4d39-b9cb-f777ebc1869c",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10980,
-            "supply": 60000,
+            "supply": 5,
             "burnedSupply": 0,
             "uri": "/ipfs/QmQwPtx7vS1X5hiNTPdDDNzfEHGXV3Z5n94FRRfMvT6RCT",
             "metadataId": "181ad495-3df1-463d-91b6-dc2a73469421",
@@ -10852,7 +10852,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.463091
+                "unitPriceUSD": 3.399037
               }
             ],
             "collection": {
@@ -10878,7 +10878,7 @@
             "id": "2b5de42a-9e2f-4e42-8f30-889e2cfc04da",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10711,
-            "supply": 60000,
+            "supply": 5,
             "burnedSupply": 0,
             "uri": "/ipfs/QmXxGBfRHipoCkBQTdoC6TDpEuupVFxCsZVwjpFQv9k8qd",
             "metadataId": "2a4cbff2-1b43-4ad5-9703-55e572e211bb",
@@ -10920,7 +10920,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.463091
+                "unitPriceUSD": 3.399037
               }
             ],
             "collection": {
@@ -10946,7 +10946,7 @@
             "id": "3ae57ef1-1143-4606-9b3b-cd261fb28a44",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10996,
-            "supply": 60000,
+            "supply": 6,
             "burnedSupply": 0,
             "uri": "/ipfs/QmSTfEYh3t5QJrRXMLnTY6uBQw1UXX7pmsbvY5jzQDg79T",
             "metadataId": "bb755a5f-041f-473f-a89a-841ea592fe37",
@@ -10988,7 +10988,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.463091
+                "unitPriceUSD": 3.399037
               }
             ],
             "collection": {
@@ -11014,7 +11014,7 @@
             "id": "8ed131c3-c699-466b-b330-ff705ba6977c",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 11008,
-            "supply": 60000,
+            "supply": 6,
             "burnedSupply": 0,
             "uri": "/ipfs/QmapZKFoAAibgw4EkRywoMTB3cGmmaMfRyNPzfePn2M3nf",
             "metadataId": "eb42f178-73f3-49dc-bbd8-ba615346f2cf",
@@ -11056,7 +11056,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.463091
+                "unitPriceUSD": 3.399037
               }
             ],
             "collection": {
@@ -11082,7 +11082,7 @@
             "id": "954526d8-f39f-4454-856b-6936a7675f90",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10735,
-            "supply": 60000,
+            "supply": 3,
             "burnedSupply": 2,
             "uri": "/ipfs/QmWfSwf9naRqFZTD7JkWF6xftHSn5N9P7sWLWdS9gzUJ1d",
             "metadataId": "18f5232b-f225-45f7-bf3d-3bcfb4052a10",
@@ -11124,7 +11124,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.463091
+                "unitPriceUSD": 3.399037
               }
             ],
             "collection": {
@@ -11150,7 +11150,7 @@
             "id": "d32432f3-8f20-496f-a553-c3a72ad53fbe",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10978,
-            "supply": 60000,
+            "supply": 5,
             "burnedSupply": 0,
             "uri": "/ipfs/QmdhjkT8RuGohNEgs5dkhwxwjXkC7ATaCP7YqUs6TMqrHC",
             "metadataId": "00ce8137-98f2-4ffa-9ce8-e278ee584929",
@@ -11192,7 +11192,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.463091
+                "unitPriceUSD": 3.399037
               }
             ],
             "collection": {
@@ -11218,7 +11218,7 @@
             "id": "508c2805-b031-4d02-8af5-67dc8fd9885a",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 11021,
-            "supply": 60000,
+            "supply": 3,
             "burnedSupply": 0,
             "uri": "/ipfs/QmSKujnDmcVQmuQz5sovzUUWkTnA9kiv7puE3PtmELcrPL",
             "metadataId": "20497b35-1249-4a37-91de-8ccf942f4f86",
@@ -11260,7 +11260,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.463091
+                "unitPriceUSD": 3.399037
               }
             ],
             "collection": {
@@ -11286,7 +11286,7 @@
             "id": "66101636-5cfc-4a25-ae47-11b7b1b006c9",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10192,
-            "supply": 25000,
+            "supply": 2,
             "burnedSupply": 0,
             "uri": "/ipfs/QmQd1aq671ooG9icFNVK4FbGGv89AXrRD4pmRkbKPrsjNs",
             "metadataId": "8e350cf5-068b-4c35-ab89-18f5cdd682da",
@@ -11333,7 +11333,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.463091
+                "unitPriceUSD": 3.399037
               }
             ],
             "collection": {
@@ -11359,7 +11359,7 @@
             "id": "86e7d455-64b7-4431-8d12-894d976e9aeb",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10336,
-            "supply": 45000,
+            "supply": 2,
             "burnedSupply": 0,
             "uri": "/ipfs/QmWPDybjS84zXKUxdz1XAmczaVqYB1PJvu2FM3goXdYz8s",
             "metadataId": "e413169c-7676-4bef-b79e-85c49cb0dd87",
@@ -11401,7 +11401,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.463091
+                "unitPriceUSD": 3.399037
               }
             ],
             "collection": {
@@ -11427,7 +11427,7 @@
             "id": "84ce5edf-af5f-4c9b-b410-b66198cedaf1",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 11010,
-            "supply": 60000,
+            "supply": 6,
             "burnedSupply": 0,
             "uri": "/ipfs/QmVkKAfeLWreBw2HacmmJpNUxD74mzjynbmrdSaSZHis31",
             "metadataId": "2bfef2be-8cad-4911-a35f-73ccb547dc41",
@@ -11469,7 +11469,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.463091
+                "unitPriceUSD": 3.399037
               }
             ],
             "collection": {
@@ -11495,7 +11495,7 @@
             "id": "20e6a928-ef69-4bfd-b574-fc2221ce8af5",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10199,
-            "supply": 30000,
+            "supply": 1,
             "burnedSupply": 0,
             "uri": "/ipfs/QmSN4oiReewcrBM67h8eux7E7XTkFwor1P4e84Ly3nMgFv",
             "metadataId": "d36271c0-6370-434a-a6f4-8a7e13cec11f",
@@ -11542,7 +11542,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.463091
+                "unitPriceUSD": 3.399037
               }
             ],
             "collection": {
@@ -11568,7 +11568,7 @@
             "id": "18439978-527b-441e-8982-2c4cc75e39ee",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10696,
-            "supply": 60000,
+            "supply": 5,
             "burnedSupply": 0,
             "uri": "/ipfs/QmepHU7jykD8fy8cGvpA8p4cZuGbG19BsjQsBjNFf5gujo",
             "metadataId": "8caeab16-7b1e-4dc5-990e-d66c1f84096b",
@@ -11610,7 +11610,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.463091
+                "unitPriceUSD": 3.399037
               }
             ],
             "collection": {
@@ -11636,7 +11636,7 @@
             "id": "3eb47a27-2981-473a-9eba-6ec00737840e",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10340,
-            "supply": 55000,
+            "supply": 2,
             "burnedSupply": 0,
             "uri": "/ipfs/QmTxBM9zNBYTqBDB7DJ3F5gqmM9gFDgBQ3KxynRUnC6KcQ",
             "metadataId": "48275193-4bcf-48f6-a842-155342f10875",
@@ -11678,7 +11678,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.463091
+                "unitPriceUSD": 3.399037
               }
             ],
             "collection": {
@@ -11704,7 +11704,7 @@
             "id": "b3868c21-45a4-47ed-b93b-b3d6cd9766e6",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10855,
-            "supply": 30000,
+            "supply": 4,
             "burnedSupply": 0,
             "uri": "/ipfs/QmQpTfM2myJBXY4BrS33eRSE7hmbpmBH7CQsfJgAsQKSbM",
             "metadataId": "931d69c5-3429-4a4a-b574-a3da8927a15f",
@@ -11751,7 +11751,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.463091
+                "unitPriceUSD": 3.399037
               }
             ],
             "collection": {
@@ -11777,7 +11777,7 @@
             "id": "4d80148e-e4e7-4be2-8e9c-b8b43dae8bf6",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 11017,
-            "supply": 60000,
+            "supply": 6,
             "burnedSupply": 0,
             "uri": "/ipfs/QmUjtkS5HqRKKXV6p6omD6p1AdNzHtc8HyymaBuhSw2Emt",
             "metadataId": "1c6f41d0-a938-438f-b01e-e0bb427591fa",
@@ -11819,7 +11819,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.463091
+                "unitPriceUSD": 3.399037
               }
             ],
             "collection": {
@@ -11845,7 +11845,7 @@
             "id": "7529216c-3efe-4c68-b373-e26a8cb04d32",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10361,
-            "supply": 25000,
+            "supply": 5,
             "burnedSupply": 0,
             "uri": "/ipfs/QmQ2ojAmFEueLnkvnvZcpNr8v3BCwSX4Gu2SGG9VVmtQ8R",
             "metadataId": "4b027e5a-5224-4880-922c-ff09fd005775",
@@ -11892,7 +11892,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.463091
+                "unitPriceUSD": 3.399037
               }
             ],
             "collection": {
@@ -11918,7 +11918,7 @@
             "id": "0d9e6c3e-8379-49a8-af7e-233baf57a5e3",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10820,
-            "supply": 60000,
+            "supply": 7,
             "burnedSupply": 0,
             "uri": "/ipfs/QmR4aX7QiBkxu5FVcz1YyuY8opiWf1hrG2x69nxAaEAe41",
             "metadataId": "789faae8-36db-4fed-ae48-e5a4656828fb",
@@ -11960,7 +11960,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.463091
+                "unitPriceUSD": 3.399037
               }
             ],
             "collection": {
@@ -11986,7 +11986,7 @@
             "id": "d90c3eb6-0ea7-4e44-9a45-5ad7f9cca62a",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10733,
-            "supply": 60000,
+            "supply": 3,
             "burnedSupply": 0,
             "uri": "/ipfs/QmRCBMfGWpmLjRXyERKLQddRjj5WadEaQs4BM5ALy873f6",
             "metadataId": "eb3ebd6f-a865-4776-b213-e268e921c1b9",
@@ -12028,7 +12028,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.463091
+                "unitPriceUSD": 3.399037
               }
             ],
             "collection": {
@@ -12054,7 +12054,7 @@
             "id": "8478b0e3-0467-4f52-8f4d-99cdef8fd4af",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10359,
-            "supply": 25000,
+            "supply": 3,
             "burnedSupply": 0,
             "uri": "/ipfs/QmXskAr3xzQ5WEVU3whN7QLYNuHqSeoVaVEimbFbb43xi6",
             "metadataId": "8916b216-a2c7-446d-a842-370cad75642a",
@@ -12101,7 +12101,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.463091
+                "unitPriceUSD": 3.399037
               }
             ],
             "collection": {
@@ -12127,7 +12127,7 @@
             "id": "92d94413-fb7b-45e3-8ee0-5f874697249a",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10545,
-            "supply": 60000,
+            "supply": 3,
             "burnedSupply": 0,
             "uri": "/ipfs/QmNenp4WD7n7ni4Hn7z1bLLSYsAs5UWHeK5n6FJoFgo4zX",
             "metadataId": "9e241c23-0592-4176-9191-f340176f4546",
@@ -12169,7 +12169,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.463091
+                "unitPriceUSD": 3.399037
               }
             ],
             "collection": {
@@ -12195,7 +12195,7 @@
             "id": "d098369b-e73f-4810-a582-898463101737",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10397,
-            "supply": 56000,
+            "supply": 4,
             "burnedSupply": 2,
             "uri": "/ipfs/QmfYaqr3daDBs7GwNuUNJzAciygAccNzYUhDowYDBkxLao",
             "metadataId": "7e2081df-379e-4774-adb1-94fced267d19",
@@ -12237,7 +12237,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.463091
+                "unitPriceUSD": 3.399037
               }
             ],
             "collection": {
@@ -12263,7 +12263,7 @@
             "id": "d62b1d4f-299a-4ef7-a30e-f4bba9396564",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10709,
-            "supply": 60000,
+            "supply": 7,
             "burnedSupply": 0,
             "uri": "/ipfs/QmdkFgDBUbBsW6Vxt2inbFBE2GoxvHjW7S6Mpt85xtCMjm",
             "metadataId": "c1c90f9b-5b3d-4b84-a9f0-732e9982cc72",
@@ -12305,7 +12305,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.463091
+                "unitPriceUSD": 3.399037
               }
             ],
             "collection": {
@@ -12331,7 +12331,7 @@
             "id": "6b53c080-42b3-4d25-a994-7ed15e26b53a",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10873,
-            "supply": 60000,
+            "supply": 7,
             "burnedSupply": 6,
             "uri": "/ipfs/QmZVXen1zqwMKfDmkSNSdpyYvzr3wctJqApsYpjDMFe5HU",
             "metadataId": "28a9967d-aed4-4105-967a-78ff898cb4dc",
@@ -12373,7 +12373,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.463091
+                "unitPriceUSD": 3.399037
               }
             ],
             "collection": {
@@ -12399,7 +12399,7 @@
             "id": "8d619381-85b1-4dc1-839f-cf43a109aa32",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10694,
-            "supply": 60000,
+            "supply": 3,
             "burnedSupply": 0,
             "uri": "/ipfs/QmSVHBJ5mJEuHv5smxcsTHYy4LxVBoHHrYxZyQe9t2eDXD",
             "metadataId": "de3aa2cc-045c-4d6f-8907-b65caebb3f68",
@@ -12441,7 +12441,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.463091
+                "unitPriceUSD": 3.399037
               }
             ],
             "collection": {
@@ -12467,7 +12467,7 @@
             "id": "28cf7f2d-aa46-40bc-a7d4-77839f613b1f",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10529,
-            "supply": 60000,
+            "supply": 4,
             "burnedSupply": 0,
             "uri": "/ipfs/QmbPc2fTSK7uotEvtaUHKT62Ri4wDzcnoejZ2dDPrNfnzE",
             "metadataId": "4bc0310f-f78b-410c-9b51-ae07139ee6d3",
@@ -12509,7 +12509,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.463091
+                "unitPriceUSD": 3.399037
               }
             ],
             "collection": {
@@ -12535,7 +12535,7 @@
             "id": "50b35b9a-3c58-42c3-b67c-d2f8806f0e3c",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10857,
-            "supply": 60000,
+            "supply": 3,
             "burnedSupply": 0,
             "uri": "/ipfs/QmZNJy5Tu5VyZrQf6qLASRJ7oopQbxj5uKDBCjxvpxp5zv",
             "metadataId": "ec6ac393-844b-4890-b458-acb292da1cde",
@@ -12577,7 +12577,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.463091
+                "unitPriceUSD": 3.399037
               }
             ],
             "collection": {
@@ -12603,7 +12603,7 @@
             "id": "4868cbd8-c03d-4d3a-86b4-cad8f2a409bb",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10667,
-            "supply": 60000,
+            "supply": 5,
             "burnedSupply": 0,
             "uri": "/ipfs/QmSc9s2m47G8QkscRnTn24a9u6Y1RhFWrXRTGVrphhz6jV",
             "metadataId": "fb4a4768-db2d-47d8-9014-a1ccf1c89848",
@@ -12645,7 +12645,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.463091
+                "unitPriceUSD": 3.399037
               }
             ],
             "collection": {
@@ -12671,7 +12671,7 @@
             "id": "3e86063c-41bf-44cc-a0c9-474c60b2adca",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10615,
-            "supply": 60000,
+            "supply": 2,
             "burnedSupply": 2,
             "uri": "/ipfs/QmQB1Xn5yj7d6j6cVfZybKcu7aYpaMHiBjsA1VZChQuDYN",
             "metadataId": "6efd6704-b264-4430-ac71-25fd17ee9271",
@@ -12713,7 +12713,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.463091
+                "unitPriceUSD": 3.399037
               }
             ],
             "collection": {
@@ -12739,7 +12739,7 @@
             "id": "7e01c560-2393-41f2-9406-732733beb3c8",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10822,
-            "supply": 60000,
+            "supply": 3,
             "burnedSupply": 0,
             "uri": "/ipfs/Qmdtj4H7JVQVTg2wmNcZBnppdUuPDqwzbDJ3yHhqtLWb7M",
             "metadataId": "1c555762-ff27-4a44-9359-dba52db24294",
@@ -12781,7 +12781,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.463091
+                "unitPriceUSD": 3.399037
               }
             ],
             "collection": {
@@ -12807,7 +12807,7 @@
             "id": "58c55a30-9ce0-48f4-b5e7-2ad33372537f",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10753,
-            "supply": 60000,
+            "supply": 9,
             "burnedSupply": 0,
             "uri": "/ipfs/QmZGRqK8nRX6DiWJRryDL8Z2GynTtstWMC8ZipTdbCjM17",
             "metadataId": "38ee1e55-0dd2-4d8e-ada7-e266ef9e2be1",
@@ -12849,7 +12849,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.463091
+                "unitPriceUSD": 3.399037
               }
             ],
             "collection": {
@@ -12875,7 +12875,7 @@
             "id": "882f0267-5177-439c-9c66-8d4415aac8e3",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10831,
-            "supply": 60000,
+            "supply": 8,
             "burnedSupply": 0,
             "uri": "/ipfs/QmVphrREFfExrF1vzYhGFrSXbWF4mkdopFFVJJm5mMEgUb",
             "metadataId": "61b71373-0ecc-477d-abe4-6abda1ccaadc",
@@ -12917,7 +12917,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.463091
+                "unitPriceUSD": 3.399037
               }
             ],
             "collection": {
@@ -12943,7 +12943,7 @@
             "id": "a6358267-417e-4b2e-b165-dd1f39f28ac0",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10322,
-            "supply": 45000,
+            "supply": 10,
             "burnedSupply": 0,
             "uri": "/ipfs/QmaZXk6exDruRBHXQ1i3nwvoEzm6udQL79gAkBQuCk3dna",
             "metadataId": "0fc81ce3-058a-47ce-a8fb-3eaf8bc4c5f2",
@@ -12985,7 +12985,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.463091
+                "unitPriceUSD": 3.399037
               }
             ],
             "collection": {
@@ -13011,7 +13011,7 @@
             "id": "28c340b1-8ba6-42f7-9d3f-fd738d045b96",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10795,
-            "supply": 60000,
+            "supply": 9,
             "burnedSupply": 0,
             "uri": "/ipfs/QmNcRP4ARAAQmB8R3MYWYQmjrztdFWdaeP7yRj1qibwDSP",
             "metadataId": "e72072c3-2171-4a4a-a633-a0f109f83762",
@@ -13053,7 +13053,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.463091
+                "unitPriceUSD": 3.399037
               }
             ],
             "collection": {
@@ -13079,7 +13079,7 @@
             "id": "3d1a9c7c-9b4f-428a-9aeb-b992b6d94b8e",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10344,
-            "supply": 52000,
+            "supply": 1,
             "burnedSupply": 0,
             "uri": "/ipfs/QmSjBUK688MQLksx3WDs16uLvyDa1tSVMWo24YzocPvZgV",
             "metadataId": "c0744783-3847-4c80-8ae3-863cba938bd2",
@@ -13121,7 +13121,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.463091
+                "unitPriceUSD": 3.399037
               }
             ],
             "collection": {
@@ -13147,7 +13147,7 @@
             "id": "423ed3e5-b727-4990-b54d-1adadbe04305",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10953,
-            "supply": 60000,
+            "supply": 8,
             "burnedSupply": 0,
             "uri": "/ipfs/QmUR912WYscnQzW4PG67gncRvcq2vzd2jtve9sHCQ4inC5",
             "metadataId": "aad310eb-a6af-469f-8b02-7b787dca6af6",
@@ -13189,7 +13189,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.463091
+                "unitPriceUSD": 3.399037
               }
             ],
             "collection": {
@@ -13215,7 +13215,7 @@
             "id": "16c364af-2b53-4242-983a-0ba35d8dd6ff",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10570,
-            "supply": 60000,
+            "supply": 4,
             "burnedSupply": 0,
             "uri": "/ipfs/QmSwnqTmpwvZH51Uv47opPUxGYx2nknYmGoKoRJQRMDcLL",
             "metadataId": "ae69caec-7033-4ead-bab5-5b67bc144af3",
@@ -13257,7 +13257,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.463091
+                "unitPriceUSD": 3.399037
               }
             ],
             "collection": {
@@ -13283,7 +13283,7 @@
             "id": "61c731bf-1569-4e8a-8f08-80008344f0a7",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10543,
-            "supply": 60000,
+            "supply": 5,
             "burnedSupply": 0,
             "uri": "/ipfs/QmezCBm4vebu2VxMMhijtxRqZVgag8ah4QUS8Gh6Fzj4r8",
             "metadataId": "fdffe803-1192-4c3a-a2af-d54f1d15d4c0",
@@ -13325,7 +13325,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.463091
+                "unitPriceUSD": 3.399037
               }
             ],
             "collection": {
@@ -13351,7 +13351,7 @@
             "id": "acc1338d-ba92-4e55-a320-4fe6568cba69",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10556,
-            "supply": 60000,
+            "supply": 11,
             "burnedSupply": 2,
             "uri": "/ipfs/QmcZ5WXkz4KWr86jBVigeJAnLNw8wKVURuTrTeyZuHPh51",
             "metadataId": "457981ad-57a5-49b9-bebe-00050bf40111",
@@ -13393,7 +13393,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.463091
+                "unitPriceUSD": 3.399037
               }
             ],
             "collection": {
@@ -13419,7 +13419,7 @@
             "id": "c1dba4c7-8c2c-47a0-8aa4-d0b621144eae",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10354,
-            "supply": 55000,
+            "supply": 3,
             "burnedSupply": 2,
             "uri": "/ipfs/QmWnRDZEwmhjt9DXXvZVs451b2F5h93eJ8ARGfjZDU2nye",
             "metadataId": "2a28f801-7238-44a1-bc05-2b49db7af0c7",
@@ -13461,7 +13461,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.463091
+                "unitPriceUSD": 3.399037
               }
             ],
             "collection": {
@@ -13487,7 +13487,7 @@
             "id": "08ee570b-9ba9-45e2-947c-f85dc434bc10",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10566,
-            "supply": 60000,
+            "supply": 5,
             "burnedSupply": 0,
             "uri": "/ipfs/QmQMuqzJ39mRQhRhixKbPQPAUahyZdcB31XSUNGQ9g5a5h",
             "metadataId": "badf68e3-79e5-4c6d-a028-8ef154c90307",
@@ -13529,7 +13529,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.463091
+                "unitPriceUSD": 3.399037
               }
             ],
             "collection": {
@@ -13555,7 +13555,7 @@
             "id": "fba113e6-8f47-4763-b86e-02ef87f79250",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10369,
-            "supply": 20000,
+            "supply": 3,
             "burnedSupply": 0,
             "uri": "/ipfs/Qmd5V6s2sd9feMR9RkkS5nLwBvNziRR4CWRgSNb8GhvaGc",
             "metadataId": "e5a37569-a317-4ddb-83de-7152e96858c0",
@@ -13602,7 +13602,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.463091
+                "unitPriceUSD": 3.399037
               }
             ],
             "collection": {
@@ -13628,7 +13628,7 @@
             "id": "738aabc7-4e9c-47af-aa33-2bdbac2121e9",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10371,
-            "supply": 26000,
+            "supply": 5,
             "burnedSupply": 0,
             "uri": "/ipfs/QmYtVhh5sWviRjM9Qq1ggboXuxjLLwEmyFn2F4yHkDF2xK",
             "metadataId": "6475cb9d-7059-425b-8fed-9601e0409297",
@@ -13675,7 +13675,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.463091
+                "unitPriceUSD": 3.399037
               }
             ],
             "collection": {
@@ -13701,7 +13701,7 @@
             "id": "076f81eb-ef8e-4cc3-95fc-a866b2926864",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10342,
-            "supply": 58000,
+            "supply": 4,
             "burnedSupply": 0,
             "uri": "/ipfs/QmQ71NfjWuiZkBDX8FXruCBVsAJZZCYaPeEtNHuvX3XA9u",
             "metadataId": "582e7893-85fb-45d7-bdb9-520177ef9fee",
@@ -13743,7 +13743,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.463091
+                "unitPriceUSD": 3.399037
               }
             ],
             "collection": {
@@ -13769,7 +13769,7 @@
             "id": "5412df21-f36e-48bc-9f07-ed5f5853a6e5",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10535,
-            "supply": 60000,
+            "supply": 3,
             "burnedSupply": 0,
             "uri": "/ipfs/QmZdksYJkaHNek9pwKohAXnc4e3dt5WjKCm3rjQQvt7iXy",
             "metadataId": "056974fc-4903-4c37-b833-4257333ed945",
@@ -13811,7 +13811,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.463091
+                "unitPriceUSD": 3.399037
               }
             ],
             "collection": {
@@ -13837,7 +13837,7 @@
             "id": "0599895f-2604-49ef-9a9c-c371258ff0fc",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10651,
-            "supply": 60000,
+            "supply": 8,
             "burnedSupply": 2,
             "uri": "/ipfs/QmP4QSf5DTu9dyxdKqXxaRENQGnEcxAwHU5bhFgYxe7VnX",
             "metadataId": "7134c5bb-9a66-4227-bcf5-138e522155dd",
@@ -13879,7 +13879,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.463091
+                "unitPriceUSD": 3.399037
               }
             ],
             "collection": {
@@ -13905,7 +13905,7 @@
             "id": "af9fff6f-a3e3-4f69-9308-499303166d0b",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10330,
-            "supply": 50000,
+            "supply": 9,
             "burnedSupply": 0,
             "uri": "/ipfs/QmbFDhBsr8nNCHkTADhi2GhNEqSBh63cafStKd7BEEwrJe",
             "metadataId": "2333237b-f347-4be3-91d0-35aa86a4d7df",
@@ -13947,7 +13947,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.463091
+                "unitPriceUSD": 3.399037
               }
             ],
             "collection": {
@@ -13973,7 +13973,7 @@
             "id": "ab512b21-ef63-491d-88d3-6a1e662c931f",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10200,
-            "supply": 30000,
+            "supply": 8,
             "burnedSupply": 0,
             "uri": "/ipfs/QmPxLKup1bbYyMdxSyame6By5uQqbDb5sPGkhD5yBvbFAc",
             "metadataId": "87619030-0df7-4ad6-bf4c-616db36af6bc",
@@ -14020,7 +14020,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.463091
+                "unitPriceUSD": 3.399037
               }
             ],
             "collection": {
@@ -14046,7 +14046,7 @@
             "id": "d953903b-2fae-4b09-862d-0761a9f40952",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10299,
-            "supply": 50000,
+            "supply": 11,
             "burnedSupply": 0,
             "uri": "/ipfs/Qmc3JxcgSKnp9iDkAyWBU95nKCPPBTcdSDthJ1W7ZiTzBS",
             "metadataId": "080335be-375f-4f7b-8a35-254e72ff0060",
@@ -14088,7 +14088,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.463091
+                "unitPriceUSD": 3.399037
               }
             ],
             "collection": {
@@ -14114,7 +14114,7 @@
             "id": "6758cd68-a7e9-4518-a0a2-314a0b161ca2",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10853,
-            "supply": 30000,
+            "supply": 3,
             "burnedSupply": 0,
             "uri": "/ipfs/QmNVQuj83FpJ6ghdKAni2FqaDPUDduS8pKZDfZJT1QkxVi",
             "metadataId": "8ba74a87-67d1-419d-b51d-a9b1cab876d7",
@@ -14161,7 +14161,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.463091
+                "unitPriceUSD": 3.399037
               }
             ],
             "collection": {
@@ -14187,7 +14187,7 @@
             "id": "f0e60610-e7e0-4238-acfd-6a8e7a84ee60",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10493,
-            "supply": 60000,
+            "supply": 2,
             "burnedSupply": 0,
             "uri": "/ipfs/QmWgooywXYRa6Hh79hVa3Dqe1NQ1ptbJcHVxrXoyTHaoBt",
             "metadataId": "c710a82e-7e80-4e03-bce3-474303abc9ba",
@@ -14229,7 +14229,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.463091
+                "unitPriceUSD": 3.399037
               }
             ],
             "collection": {
@@ -14255,7 +14255,7 @@
             "id": "54bfedb0-f82a-4b53-a24d-21a02a1d5dc6",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10789,
-            "supply": 60000,
+            "supply": 8,
             "burnedSupply": 0,
             "uri": "/ipfs/QmVeiR3n7dk2NVfWzNgP5qGBy4PtfGdmYtmwwqmxJC1A5N",
             "metadataId": "e9eca831-73c1-44c0-8236-fa7bef77b7fe",
@@ -14297,7 +14297,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.463091
+                "unitPriceUSD": 3.399037
               }
             ],
             "collection": {
@@ -14323,7 +14323,7 @@
             "id": "abbfe0f5-e96d-4f4b-9222-723b33f32c00",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 11023,
-            "supply": 60000,
+            "supply": 5,
             "burnedSupply": 14,
             "uri": "/ipfs/QmbEefriEh6wP4D2WD9YYwggkPKcT2DYdbhgqSwQ6brUuw",
             "metadataId": "bb0e44a5-f9ed-44b1-8521-1f80484a3c0b",
@@ -14365,7 +14365,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.463091
+                "unitPriceUSD": 3.399037
               }
             ],
             "collection": {
@@ -14391,7 +14391,7 @@
             "id": "d1ff9d71-b193-420d-bb18-54c47d648557",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 18,
-            "supply": 50000,
+            "supply": 4,
             "burnedSupply": 6,
             "uri": "/ipfs/QmRQsXY3Uxx3rZpQrwbTgVVu1mx9ydyLgVzbPECmJ2s3vK",
             "metadataId": "a4123daa-5981-40c3-a60c-74cc11286ce0",
@@ -14433,7 +14433,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.463091
+                "unitPriceUSD": 3.399037
               }
             ],
             "collection": {
@@ -14459,7 +14459,7 @@
             "id": "030452dd-1aec-4546-881a-de96406f573a",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10372,
-            "supply": 26000,
+            "supply": 4,
             "burnedSupply": 0,
             "uri": "/ipfs/QmSEqT6k7pxRdGaLvQZEGJW5LGxBoHA71V97r5Z5bYPmAo",
             "metadataId": "d6d0c62a-9c82-4216-9ff2-c95e4ec08823",
@@ -14506,7 +14506,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.463091
+                "unitPriceUSD": 3.399037
               }
             ],
             "collection": {
@@ -14532,7 +14532,7 @@
             "id": "46f43662-b13d-4c3b-93b7-670c4055d30e",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10498,
-            "supply": 60000,
+            "supply": 11,
             "burnedSupply": 0,
             "uri": "/ipfs/QmW6unjTHrDy6Fj3i4wQDfWniZKSaX3HHAhxTGxX7qGY2i",
             "metadataId": "c28fc000-a82a-4f4f-a8c1-a038f3ca06f9",
@@ -14574,7 +14574,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.463091
+                "unitPriceUSD": 3.399037
               }
             ],
             "collection": {
@@ -14600,7 +14600,7 @@
             "id": "dad48b97-8bfe-43f1-965b-9df9b0d71ee3",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10500,
-            "supply": 60000,
+            "supply": 3,
             "burnedSupply": 0,
             "uri": "/ipfs/Qme6xLLNK3CTe6gBi5PQ7XW3MmdMLUoUkSJzjBaZaAbixm",
             "metadataId": "2059eeff-1733-43eb-b83d-9a898701258e",
@@ -14642,7 +14642,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.463091
+                "unitPriceUSD": 3.399037
               }
             ],
             "collection": {
@@ -14668,7 +14668,7 @@
             "id": "7fd8e1a9-655d-4862-8415-198d5b35eded",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10512,
-            "supply": 60000,
+            "supply": 3,
             "burnedSupply": 2,
             "uri": "/ipfs/QmUcaQkqMpdHQWiU8n3vArGw4SBLAvQ5E7qVsWuTGLXiAR",
             "metadataId": "32b47277-3a95-4004-91ba-c8e6460707b8",
@@ -14710,7 +14710,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.463091
+                "unitPriceUSD": 3.399037
               }
             ],
             "collection": {
@@ -14736,7 +14736,7 @@
             "id": "af5ab0c5-c258-4d1a-a583-cee96cde023f",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10108,
-            "supply": 50000,
+            "supply": 1,
             "burnedSupply": 2,
             "uri": "/ipfs/QmWaBj6owKAbbqpn7pnJcQ3wJU8CddYgvoub2bm1MgNDss",
             "metadataId": "55376436-f571-48d9-9327-86817e9b7adc",
@@ -14778,7 +14778,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.463091
+                "unitPriceUSD": 3.399037
               }
             ],
             "collection": {
@@ -14804,7 +14804,7 @@
             "id": "94dba81c-984c-4c58-a9f5-6f6f5b927957",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10519,
-            "supply": 60000,
+            "supply": 4,
             "burnedSupply": 0,
             "uri": "/ipfs/QmcU5iMrDBpAyEsjAhDywYPsanTNezZtyZ6NtNUFoXw9N4",
             "metadataId": "7b010013-45e3-4d5f-8943-44902a8fdfdd",
@@ -14846,7 +14846,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.463091
+                "unitPriceUSD": 3.399037
               }
             ],
             "collection": {
@@ -14872,7 +14872,7 @@
             "id": "f6a06b2f-b057-445c-93a9-634fb45003cf",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10799,
-            "supply": 60000,
+            "supply": 4,
             "burnedSupply": 0,
             "uri": "/ipfs/QmTQRwjDuRy2qHH6K3NzpRBo4naTc2zCxbCP3RPz5ftCxp",
             "metadataId": "1691161f-a901-4734-8b17-0965be4fa962",
@@ -14914,7 +14914,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.463091
+                "unitPriceUSD": 3.399037
               }
             ],
             "collection": {
@@ -14940,7 +14940,7 @@
             "id": "0b8b4484-f2b7-4d8c-b970-164d807c474e",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10809,
-            "supply": 60000,
+            "supply": 4,
             "burnedSupply": 2,
             "uri": "/ipfs/QmbfdBQp21JqdWRqTzdypBngrasbdyyHVq4tmvLTda69gr",
             "metadataId": "9821c0c7-85a5-49cf-99fb-711f533b7bf7",
@@ -14982,7 +14982,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.463091
+                "unitPriceUSD": 3.399037
               }
             ],
             "collection": {
@@ -15008,7 +15008,7 @@
             "id": "5201c47e-f3ce-45f1-8a4f-d6ba8e8b8cc8",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10313,
-            "supply": 50000,
+            "supply": 2,
             "burnedSupply": 0,
             "uri": "/ipfs/QmZDzG4QR6h72Tr5fveDLPp6XhWzZDQHGVzYtQZHrQkVMC",
             "metadataId": "8985b786-328f-4017-b5b4-933aebde3952",
@@ -15050,7 +15050,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.463091
+                "unitPriceUSD": 3.399037
               }
             ],
             "collection": {
@@ -15076,7 +15076,7 @@
             "id": "28b42ec6-fc35-4285-9784-afd87b57c0bb",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10751,
-            "supply": 60000,
+            "supply": 2,
             "burnedSupply": 0,
             "uri": "/ipfs/QmR3zFvBD6Wkh5YuzfCiWWChadMpDdTrPq9x8Eh7ub9VZ1",
             "metadataId": "fa714bd0-5aca-4543-9be2-b63448a2ffb3",
@@ -15118,7 +15118,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.463091
+                "unitPriceUSD": 3.399037
               }
             ],
             "collection": {
@@ -15144,7 +15144,7 @@
             "id": "999f96b4-5028-4f21-be92-44bf4c365d5c",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10657,
-            "supply": 60000,
+            "supply": 8,
             "burnedSupply": 0,
             "uri": "/ipfs/QmbupftRUdedZXfzGyBAgqdk464rEAGBW4BPbNdakcgEhG",
             "metadataId": "f51fce84-35e0-47f8-b6ff-95c75f3dda90",
@@ -15186,7 +15186,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.463091
+                "unitPriceUSD": 3.399037
               }
             ],
             "collection": {
@@ -15212,7 +15212,7 @@
             "id": "0e1b4d5a-9cc6-4084-a484-316af3d4f274",
             "collectionId": "2db8416c-b040-49a6-8b96-0f1ee5ec780f",
             "tokenId": 10193,
-            "supply": 25000,
+            "supply": 2,
             "burnedSupply": 0,
             "uri": "/ipfs/QmYtC5uKP6w7b1nwHw8JzdU5ZAjE89tZFGeKhXnBxE35D5",
             "metadataId": "74428107-9ca6-4d58-abad-baba703a04e7",
@@ -15259,7 +15259,7 @@
             },
             "sales": [
               {
-                "unitPriceUSD": 3.463091
+                "unitPriceUSD": 3.399037
               }
             ],
             "collection": {
