@@ -39,7 +39,7 @@ const sortTokenFn = (sort: 'ASC' | 'DESC' = 'ASC') => {
 const TokenList = component$(() => {
   const ref = useSignal<HTMLElement>();
   const gridNavRef = useSignal<HTMLElement>();
-  const { tokens } = useContext(PoolContext);
+  const { pool, tokens } = useContext(PoolContext);
   const filter = useContext(TokenFilterContext);
   const pagination = useSignal(50);
   const allTokens = Object.values(tokens);
@@ -83,7 +83,7 @@ const TokenList = component$(() => {
       {paginatedTokens.value.map((token) => {
         const { id, metadata } = token;
         return <li class="card" key={id} id={id}>
-          <a href={'./token/' + id}>
+          <a href={'/pool/' + pool.id + '/token/' + id}>
             <TokenImg width={300} token={token}/>
             <h3>{metadata?.name}</h3>
             <footer class="actions" aria-label="Bucket for this token" preventdefault:click onClick$={e => e.stopPropagation()}>
