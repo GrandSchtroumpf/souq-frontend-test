@@ -2,6 +2,7 @@
   <style>
     .text {
       fill: black;
+      stroke: black;
     }
     @media (prefers-color-scheme: dark) {
       .text {
