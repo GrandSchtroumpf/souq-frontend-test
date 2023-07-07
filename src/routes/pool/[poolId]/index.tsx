@@ -4,11 +4,12 @@ import { Form, FormField, Input, Select, Option } from "qwik-hueeye";
 import type { CollectionToken, Trait, Traits } from "~/models";
 import { Bucket, BucketToken } from "~/components/bucket/bucket";
 import styles from './index.css?inline';
-import type { StaticGenerateHandler} from "@builder.io/qwik-city";
+import type { DocumentHead, StaticGenerateHandler} from "@builder.io/qwik-city";
 import { Link, useLocation } from "@builder.io/qwik-city";
 import { PoolContext } from "./layout";
 import { useGridFocus } from "~/components/nav";
 import { TokenImg } from "~/components/token-img";
+import poolData from '~/DATA.json';
 
 const TokenFilterContext = createContextId<Signal<TokenFilter>>('TokenFilterContext');
 type TokenFilter = {
@@ -180,5 +181,35 @@ export default component$(() => {
 export const onStaticGenerate: StaticGenerateHandler = async () => {
   return {
     params: [{ poolId: '1f53a93b-9e8e-41fd-9b90-acfde6e5a6c2' }]
+  };
+};
+
+
+export const head: DocumentHead = ({params}) => {
+  const pool = poolData;
+  return {    
+    title: pool.collectionName,
+    meta: [
+      {
+        name: 'description',
+        content: `Souq pool for ${pool.collectionName}`,
+      },
+      {
+        name: 'id',
+        content: params.poolId,
+      },
+      {
+        name: 'og:title',
+        content: pool.collectionName
+      },
+      {
+        name: 'og:description',
+        content: `Souq pool for ${pool.collectionName}`,
+      },
+      {
+        name: 'og:image',
+        content: "https://i.seadn.io/gae/YPGHP7VAvzy-MCVU67CV85gSW_Di6LWbp-22LGEb3H6Yz9v4wOdAaAhiswnwwL5trMn8tZiJhgbdGuBN9wvpH10d_oGVjVIGM-zW5A?auto=format&dpr=1&w=1200"
+      },
+    ],
   };
 };

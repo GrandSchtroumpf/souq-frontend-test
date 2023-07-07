@@ -1,7 +1,7 @@
 import { component$, useContext, useStyles$ } from "@builder.io/qwik";
-import type { StaticGenerateHandler} from "@builder.io/qwik-city";
+import type { DocumentHead, StaticGenerateHandler} from "@builder.io/qwik-city";
 import { Link, useLocation } from "@builder.io/qwik-city";
-import type { Attribute } from "~/models";
+import type { Attribute, CollectionToken } from "~/models";
 import { Bucket, BucketToken } from "~/components/bucket/bucket";
 import { TokenImg } from "~/components/token-img";
 import { PoolContext } from "../../layout";
@@ -74,5 +74,40 @@ export const onStaticGenerate: StaticGenerateHandler = async () => {
   const ids = poolData.subPools.map(subpool => subpool.shares.map(share => share.collectionToken.id)).flat();
   return {
     params: ids.map(tokenId => ({ poolId: '1f53a93b-9e8e-41fd-9b90-acfde6e5a6c2', tokenId }))
+  };
+};
+
+export const head: DocumentHead = ({params}) => {
+  let token: CollectionToken;
+  for (const subpool of poolData.subPools) {
+    for (const share of subpool.shares) {
+      if (share.collectionToken.id === params.tokenId) token = share.collectionToken;
+    }
+  }
+  if (!token!) return {};
+  return {    
+    title: token.metadata.name,
+    meta: [
+      {
+        name: 'description',
+        content: token.metadata.description,
+      },
+      {
+        name: 'id',
+        content: params.tokenId,
+      },
+      {
+        name: 'og:title',
+        content: token.metadata.name
+      },
+      {
+        name: 'og:description',
+        content: token.metadata.description
+      },
+      {
+        name: 'og:image',
+        content: `https://souq-frontend-test.vercel.app/img/${token.tokenId}/450w.webp`
+      },
+    ],
   };
 };
