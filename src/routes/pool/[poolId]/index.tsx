@@ -19,12 +19,14 @@ type TokenFilter = {
   [key in keyof Traits]: string[]
 }>
 
+interface LastItemProps {
+  amount: number;
+  max: number
+}
 /** Component used to load more tokens when it enters the view */
-const LastItem = component$(({ ref, completed }: { ref: Signal<HTMLElement | undefined>, completed: boolean }) => {
-  if (completed) return <></>;
-  return <footer class="last-item" ref={ref} aria-hidden="true">
-    <button disabled class="btn-fill">Loading Tokens</button>
-  </footer>;
+const LastItem = component$(({ amount, max }: LastItemProps) => {
+  if (amount >= max) return <></>;
+  return <button disabled class="btn-fill">Loading Tokens {amount} / {max}</button>;
 });
 
 const sortTokenFn = (sort: 'ASC' | 'DESC' = 'ASC') => {
@@ -56,9 +58,9 @@ const TokenList = component$(() => {
       }
       return true;
     })
-    .sort(sortTokenFn(sort))
-    .slice(0, pagination.value);
+    .sort(sortTokenFn(sort));
   });
+  const paginatedTokens = useComputed$(() => filteredTokens.value.slice(0, pagination.value));
 
   useGridFocus(gridNavRef, 'li > a');
 
@@ -78,7 +80,7 @@ const TokenList = component$(() => {
 
   return <nav ref={gridNavRef} aria-label="List of tokens" class="token-nav">
     <ul role="list" class="cards">
-      {filteredTokens.value.map((token) => {
+      {paginatedTokens.value.map((token) => {
         const { id, metadata } = token;
         return <li class="card" key={id} id={id}>
           <Link href={'./token/' + id}>
@@ -91,7 +93,9 @@ const TokenList = component$(() => {
         </li>
       })}
     </ul>
-    <LastItem ref={ref} completed={max === pagination.value}/>
+    <footer class="last-item" ref={ref} aria-hidden="true">
+      <LastItem max={filteredTokens.value.length} amount={paginatedTokens.value.length}/>
+    </footer>
   </nav>
 });
 
