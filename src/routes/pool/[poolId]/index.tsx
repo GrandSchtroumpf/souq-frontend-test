@@ -188,7 +188,7 @@ export const onStaticGenerate: StaticGenerateHandler = async () => {
 export const head: DocumentHead = ({params}) => {
   const pool = poolData;
   return {    
-    title: pool.collectionName,
+    title: `Souq - ${pool.collectionName}`,
     meta: [
       {
         name: 'description',
@@ -200,7 +200,7 @@ export const head: DocumentHead = ({params}) => {
       },
       {
         name: 'og:title',
-        content: pool.collectionName
+        content: `Souq - ${pool.collectionName}`
       },
       {
         name: 'og:description',

@@ -86,7 +86,7 @@ export const head: DocumentHead = ({params}) => {
   }
   if (!token!) return {};
   return {    
-    title: token.metadata.name,
+    title: `Souq - ${token.metadata.name}`,
     meta: [
       {
         name: 'description',
@@ -98,7 +98,7 @@ export const head: DocumentHead = ({params}) => {
       },
       {
         name: 'og:title',
-        content: token.metadata.name
+        content: `Souq - ${token.metadata.name}`
       },
       {
         name: 'og:description',
@@ -106,7 +106,7 @@ export const head: DocumentHead = ({params}) => {
       },
       {
         name: 'og:image',
-        content: `https://souq-frontend-test.vercel.app/img/${token.tokenId}/450w.webp`
+        content: `https://souq-frontend-test.vercel.app/img/${params.tokenId}/450w.webp`
       },
     ],
   };
