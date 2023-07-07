@@ -5,7 +5,7 @@ import { useEthereum } from "~/hooks/ethereum";
 import styles from './wallet.css?inline';
 
 const supportedChain = 1;
-const shortAddress = (address: string) => `${address.slice(0, 6)}...${address.slice(-4)}`;
+export const shortAddress = (address: string) => `${address.slice(0, 6)}...${address.slice(-4)}`;
 
 const ConnectWallet = component$(() => {
   const { state, connect, findClients, switchChain } = useEthereum();

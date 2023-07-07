@@ -7,6 +7,7 @@ import { TokenImg } from "~/components/token-img";
 import { PoolContext } from "../../layout";
 import poolData from '~/DATA.json';
 import styles from './index.scss?inline';
+import { shortAddress } from "~/components/wallet/wallet";
 
 interface TokenTraitsProps {
   attributes: Attribute[] | null;
@@ -50,7 +51,9 @@ export default component$(() => {
       <article aria-labelledby="token-name">
         <h1 id="token-name">{token.metadata.name}</h1>
         <p class="subtitle">
-          Address: <a target="_blank" href={`https://etherscan.io/address/${token.collection.address}`}>{token.collection.address}</a><br/>
+          Address: <a target="_blank" href={`https://etherscan.io/address/${token.collection.address}`}>
+            {shortAddress(token.collection.address)}
+          </a><br/>
           Token ID: <b>{token.tokenId}</b>
         </p>
       </article>
@@ -63,7 +66,9 @@ export default component$(() => {
       </article>
       <footer class="bucket-token" aria-labelledby="token-bucket">
         <h3 id="token-bucket">Add to your bucket</h3>
-        <BucketToken token={token}/>
+        <div class="bucket-actions">
+          <BucketToken token={token}/>
+        </div>
       </footer>
     </section>
     <Bucket />
