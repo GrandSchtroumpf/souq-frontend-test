@@ -5,7 +5,7 @@ import type { CollectionToken, Trait, Traits } from "~/models";
 import { Bucket, BucketToken } from "~/components/bucket/bucket";
 import styles from './index.css?inline';
 import type { DocumentHead, StaticGenerateHandler} from "@builder.io/qwik-city";
-import { Link, useLocation } from "@builder.io/qwik-city";
+import { useLocation } from "@builder.io/qwik-city";
 import { PoolContext } from "./layout";
 import { useGridFocus } from "~/components/nav";
 import { TokenImg } from "~/components/token-img";
@@ -83,13 +83,13 @@ const TokenList = component$(() => {
       {paginatedTokens.value.map((token) => {
         const { id, metadata } = token;
         return <li class="card" key={id} id={id}>
-          <Link href={'./token/' + id}>
+          <a href={'./token/' + id}>
             <TokenImg width={300} token={token}/>
             <h3>{metadata?.name}</h3>
             <footer class="actions" aria-label="Bucket for this token" preventdefault:click onClick$={e => e.stopPropagation()}>
               <BucketToken token={token}/>
             </footer>
-          </Link>
+          </a>
         </li>
       })}
     </ul>

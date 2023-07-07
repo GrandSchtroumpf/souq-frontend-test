@@ -1,6 +1,6 @@
 import { component$, useContext, useStyles$ } from "@builder.io/qwik";
 import type { DocumentHead, StaticGenerateHandler} from "@builder.io/qwik-city";
-import { Link, useLocation } from "@builder.io/qwik-city";
+import { useLocation } from "@builder.io/qwik-city";
 import type { Attribute, CollectionToken } from "~/models";
 import { Bucket, BucketToken } from "~/components/bucket/bucket";
 import { TokenImg } from "~/components/token-img";
@@ -39,12 +39,12 @@ export default component$(() => {
   if (!token?.metadata) return <p>No token found with id "{tokenId}"</p>
   return <main id="token-page">
     <nav aria-label="breadcrumb">
-      <Link class="btn" href={back}>
+      <a class="btn" href={back}>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
           <path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"/>
         </svg>
         {pool.name}
-      </Link>
+      </a>
     </nav>
     <section class="surface token-details" aria-label={'Description of ' + token.metadata.name}>
       <TokenImg token={token} width={300} eager class="gradient token-img"/>
