@@ -153,11 +153,17 @@ export default component$(() => {
   
   const focusSearch = $(() => {
     document.querySelector<HTMLElement>('input[type="search"]')?.focus();
-  })
+  });
+
+  const poolImgUrl = 'https://i.seadn.io/gae/YPGHP7VAvzy-MCVU67CV85gSW_Di6LWbp-22LGEb3H6Yz9v4wOdAaAhiswnwwL5trMn8tZiJhgbdGuBN9wvpH10d_oGVjVIGM-zW5A?auto=format&dpr=1';
+  const poolImgProps = {
+    src: `${poolImgUrl}&w=2000`,
+    srcset: [500, 1000, 1500, 2000].map(w => `${poolImgUrl}&w=${w} ${w}w`).join(', '),
+  }
 
   return <main id="pool-page">
     <header id="pool-header">
-      <img width={1920} height={450} src="https://i.seadn.io/gae/YPGHP7VAvzy-MCVU67CV85gSW_Di6LWbp-22LGEb3H6Yz9v4wOdAaAhiswnwwL5trMn8tZiJhgbdGuBN9wvpH10d_oGVjVIGM-zW5A?auto=format&dpr=1&w=1920"/>
+      <img width={1920} height={450} alt={pool.collectionName} title={pool.collectionName} {...poolImgProps} />
     </header>
     <section aria-label="Tokens">
       <Form class="token-filters" role="search" initialValue={filter.value} onChange$={v => filter.value = v}>
