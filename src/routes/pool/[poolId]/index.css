@@ -120,6 +120,9 @@
 }
 
 @media (max-width: 899px) {
+  #pool-header img {
+    height: unset;
+  }
   .filter-list {
     overflow-x: auto;
   }
@@ -130,10 +133,9 @@
     --card-width: 200px;
   }
 }
-@media (max-width: 399px) {
-  #pool-header img {
-    height: unset;
-  }
+/* TODO: find how to get this value dynamically */
+@media (max-width: 446px) {
+
   .card a {
     display: grid;
     grid-template-columns: 100px 1fr;

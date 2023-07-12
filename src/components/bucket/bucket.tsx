@@ -37,6 +37,7 @@ export const useBucketProvider = (pool: Pool, tokens: Record<string, CollectionT
     const amounts = [];
     const tokenIds = [];
     for (const [key, value] of Object.entries(bucket)) {
+      if (value === 0) continue;
       amounts.push(value);
       tokenIds.push(tokens[key].tokenId);
     }
@@ -61,6 +62,7 @@ export const useBucketProvider = (pool: Pool, tokens: Record<string, CollectionT
   useVisibleTask$(() => {
     const local = JSON.parse(localStorage.getItem(`bucket.${pool.id}`) ?? '{}');
     for (const [key, value] of Object.entries(local)) {
+      if (value === 0) continue;
       bucket[key] = value as number;
     } 
   });
