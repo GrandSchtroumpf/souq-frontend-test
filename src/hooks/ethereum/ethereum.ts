@@ -49,7 +49,6 @@ export function useEthereumProvider(props: EthereumProps) {
     status: 'disconnected',
     clients: [],
     chainId: props.chainId,
-    provider: noSerialize(getDefaultProvider('https://eth.llamarpc.com'))
   }, { deep: false });
 
   const findClients = $(async () => {
