@@ -34,7 +34,7 @@ const sortTokenFn = (sort: 'ASC' | 'DESC' = 'ASC') => {
   const multiplicator = sort === 'ASC' ? 1 : -1;
   return (a: CollectionToken, b: CollectionToken) => {
     return multiplicator * (a.sales[0].unitPriceUSD - b.sales[0].unitPriceUSD)
-  }
+  } 
 }
 
 const TokenList = component$(() => {
@@ -42,7 +42,7 @@ const TokenList = component$(() => {
   const gridNavRef = useSignal<HTMLElement>();
   const { pool, tokens } = useContext(PoolContext);
   const filter = useContext(TokenFilterContext);
-  const pagination = useSignal(50);
+  const pagination = useSignal(20);
   const allTokens = Object.values(tokens);
   const max = allTokens.length;
   const filteredTokens = useComputed$(() => {
@@ -85,7 +85,7 @@ const TokenList = component$(() => {
         const { id, metadata } = token;
         return <li class="card" key={id} id={id}>
           <a href={'/pool/' + pool.id + '/token/' + id}>
-            <TokenImg width={300} token={token}/>
+            <TokenImg width={250} token={token} sizes="(max-width: 446px) 100px, 250px"/>
             <h3>{metadata?.name}</h3>
             <footer class="actions" aria-label="Bucket for this token" preventdefault:click onClick$={e => e.stopPropagation()}>
               <BucketToken token={token}/>

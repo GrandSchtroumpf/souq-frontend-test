@@ -8,8 +8,9 @@ interface TokenImgProps {
   eager?: boolean;
   class?: string;
   id?: string;
+  sizes?: string;
 }
-const sizes = [50, 150, 300, 450];
+const sizes = [50, 100, 200, 250, 400, 500, 600];
 
 export const TokenImg = component$(({width, token, eager, ...props}: TokenImgProps) => {
   const src = `/img/${token.id}/original.webp`;

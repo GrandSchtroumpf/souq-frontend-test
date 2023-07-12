@@ -226,21 +226,32 @@ const pools = {
   "parallel": "YPGHP7VAvzy-MCVU67CV85gSW_Di6LWbp-22LGEb3H6Yz9v4wOdAaAhiswnwwL5trMn8tZiJhgbdGuBN9wvpH10d_oGVjVIGM-zW5A.avif",
 }
 
+const tokenSizes = [50, 100, 200, 250, 400, 500, 600];
+
 async function optimizeImg([id, url]) {
   const folder = join(cwd(), 'public/img', id);
   if (!existsSync(folder)) await mkdir(folder);
-  const res = await fetch(url);
-  const blob = await res.blob();
-  const buffer = await blob.arrayBuffer();
-  const animated = url.endsWith('.gif');
-  const img = sharp(buffer, {animated});
-  return Promise.all([
-    img.toFormat('webp').toFile(`./public/img/${id}/original.webp`),
-    img.resize({ width: 50 }).toFormat('webp').toFile(`./public/img/${id}/50w.webp`),
-    img.resize({ width: 150 }).toFormat('webp').toFile(`./public/img/${id}/150w.webp`),
-    img.resize({ width: 300 }).toFormat('webp').toFile(`./public/img/${id}/300w.webp`),
-    img.resize({ width: 450 }).toFormat('webp').toFile(`./public/img/${id}/450w.webp`),
-  ]);
+  try {
+    const fileExist = (fileName) => existsSync(join(cwd(), 'public/img', id, `${fileName}.webp`))
+    // Cannot load img with fetch for some reason
+    // const res = await fetch(url);
+    // const blob = await res.blob();
+    // const input = await blob.arrayBuffer();
+    const input = `./public/img/${id}/original.webp`
+    const animated = url.endsWith('.gif');
+    const img = sharp(input, {animated}); //.toFormat("webp")
+    const operations = [];
+    if (!fileExist('original')) {
+      operations.push(img.toFile(`./public/img/${id}/original.webp`));
+    }
+    for (const width of tokenSizes) {
+      if (fileExist(`${width}w`)) continue;
+      operations.push(img.resize({ width }).toFile(`./public/img/${id}/${width}w.webp`));
+    }
+    return Promise.all(operations);
+  } catch(err) {
+    console.error(`Could not download file ${id}`)
+  }
 }
 
 async function main() {
