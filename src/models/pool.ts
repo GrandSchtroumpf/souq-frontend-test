@@ -2,25 +2,9 @@
 
 export interface Pool {
   id: string
-  accessToken: string
-  address: string
-  name: string
-  capacity: string
-  clusters: Cluster[]
   collectionAddress: string
   collectionName: string
-  collectionTokens: CollectionToken[]
-  collectionType: string
-  fee: Fee
-  paused: boolean
-  stablecoinAddress: string
-  stablecoinName: string
-  stablecoinDecimals: number
-  subPools: SubPool[]
   traits: Traits
-  tvl: number
-  useAccess: boolean
-  volume: number
 }
 
 export interface Cluster {
@@ -34,14 +18,11 @@ export interface CollectionToken {
   tokenId: number
   supply: number
   burnedSupply: number
-  uri: string
-  metadataId: string
   clusterId: number
   createdAt: string
   updatedAt: string
   metadata: Metadata
   sales: Sale[]
-  collection: Collection
 }
 
 export interface Metadata {
@@ -49,12 +30,7 @@ export interface Metadata {
   tokenId: number
   name: string
   description: string
-  image: string
-  internalImg: string
-  externalUrl: string
   attributes: Attribute[]
-  createdAt: string
-  updatedAt: string
 }
 
 export interface Attribute {

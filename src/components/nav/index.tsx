@@ -49,7 +49,7 @@ const leaveFocus = $((root: HTMLElement) => {
 
 export const useGridFocus = (root: Signal<HTMLElement | undefined>, selector: string = 'li > a') => {
   useVisibleTask$(() => {
-    const handler = (event: KeyboardEvent) => {
+    const handler = $((event: KeyboardEvent) => {
       if (!root.value) return;
       const key = event.key;
       if (['ArrowLeft', 'ArrowRight', 'ArrowUp', 'ArrowDown'].includes(key)) event.preventDefault();
@@ -58,7 +58,7 @@ export const useGridFocus = (root: Signal<HTMLElement | undefined>, selector: st
       if (key === 'ArrowDown') nextLine(root.value, selector);
       if (key === 'ArrowUp') previousLine(root.value, selector);
       if (key === 'Escape') leaveFocus(root.value);
-    }
+    });
     root.value?.addEventListener('keydown', handler);
     return () => root.value?.removeEventListener('keydown', handler);
   });

@@ -1,11 +1,11 @@
 import { component$, useContext, useStyles$ } from "@builder.io/qwik";
 import type { DocumentHead, StaticGenerateHandler} from "@builder.io/qwik-city";
 import { useLocation } from "@builder.io/qwik-city";
-import type { Attribute, CollectionToken } from "~/models";
+import type { Attribute } from "~/models";
 import { Bucket, BucketToken } from "~/components/bucket/bucket";
 import { TokenImg } from "~/components/token-img";
 import { PoolContext } from "../../layout";
-import poolData from '~/DATA.json';
+import tokenData from '~/DATA/tokens.json';
 import styles from './index.scss?inline';
 import { shortAddress } from "~/components/wallet/wallet";
 
@@ -43,7 +43,7 @@ export default component$(() => {
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
           <path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"/>
         </svg>
-        {pool.name}
+        {pool.collectionName}
       </a>
     </nav>
     <section class="surface token-details" aria-label={'Description of ' + token.metadata.name}>
@@ -51,8 +51,8 @@ export default component$(() => {
       <article aria-labelledby="token-name">
         <h1 id="token-name">{token.metadata.name}</h1>
         <p class="subtitle">
-          Address: <a target="_blank" href={`https://etherscan.io/address/${token.collection.address}`}>
-            {shortAddress(token.collection.address)}
+          Address: <a target="_blank" href={`https://etherscan.io/address/${pool.collectionAddress}`}>
+            {shortAddress(pool.collectionAddress)}
           </a><br/>
           Token ID: <b>{token.tokenId}</b>
         </p>
@@ -76,19 +76,14 @@ export default component$(() => {
 })
 
 export const onStaticGenerate: StaticGenerateHandler = async () => {
-  const ids = poolData.subPools.map(subpool => subpool.shares.map(share => share.collectionToken.id)).flat();
+  const ids = Object.keys(tokenData);
   return {
     params: ids.map(tokenId => ({ poolId: '1f53a93b-9e8e-41fd-9b90-acfde6e5a6c2', tokenId }))
   };
 };
 
 export const head: DocumentHead = ({params}) => {
-  let token: CollectionToken;
-  for (const subpool of poolData.subPools) {
-    for (const share of subpool.shares) {
-      if (share.collectionToken.id === params.tokenId) token = share.collectionToken;
-    }
-  }
+  const token = tokenData[params.tokenId as keyof typeof tokenData];
   if (!token!) return {};
   return {    
     title: `Souq - ${token.metadata.name}`,

@@ -26,11 +26,11 @@ async function getSupplies(contract, tokenIds) {
 }
 
 async function main() {
-  const dataFile = join(cwd(), 'src/DATA.json');
+  const dataFile = join(cwd(), 'src/DATA/tokens.json');
   const file = await fs.readFile(dataFile, 'utf-8');
   const abi = await fs.readFile(join(cwd(), 'src/hooks/ethereum/contracts/MME1155/abi.json'), 'utf-8');
-  const data = JSON.parse(file);
-  const tokenIds = data.subPools.map(subpool => subpool.shares.map(share => share.collectionToken.tokenId)).flat();
+  const tokens = JSON.parse(file);
+  const tokenIds = Object.values(tokens).map(token => token.metadata.tokenId);
   
   const provider = getDefaultProvider('https://eth.llamarpc.com');
   const contract = new Contract('0x72f2A9e83c31686b7803AA1b9B822521901DaEa4', JSON.parse(abi), provider);
@@ -40,15 +40,13 @@ async function main() {
     getSupplies(contract, tokenIds),
   ]);
 
-  for (const subpool of data.subPools) {
-    if (!subpool.status) continue;
-    for (const share of subpool.shares) {
-      const id = share.collectionToken.tokenId;
-      share.collectionToken.sales = [{ unitPriceUSD: prices[id] }];
-      share.collectionToken.supply = supplies[id];
-    }
+  for (const [id, token] of Object.entries(tokens)) {
+    const tokenId = token.metadata.tokenId;
+    tokens[id].sales = [{ unitPriceUSD: prices[tokenId] }];
+    tokens[id].supply = supplies[tokenId];
   }
-  fs.writeFile(dataFile, JSON.stringify(data))
+
+  fs.writeFile(dataFile, JSON.stringify(tokens))
 }
 
 main();

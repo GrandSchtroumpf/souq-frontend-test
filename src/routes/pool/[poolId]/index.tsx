@@ -1,15 +1,16 @@
-import { $, component$, createContextId, useComputed$, useContext, useContextProvider, useSignal, useStyles$, useVisibleTask$ } from "@builder.io/qwik";
+import { $, component$, createContextId, useComputed$, useContext, useContextProvider, useSignal, useStyles$, useTask$, useVisibleTask$ } from "@builder.io/qwik";
 import type { Signal} from "@builder.io/qwik";
+import { isServer } from '@builder.io/qwik/build';
 import { Form, FormField, Input, Select, Option } from "qwik-hueeye";
 import type { CollectionToken, Trait, Traits } from "~/models";
 import { Bucket, BucketToken } from "~/components/bucket/bucket";
 import styles from './index.css?inline';
-import type { DocumentHead, StaticGenerateHandler} from "@builder.io/qwik-city";
+import type { DocumentHead, StaticGenerateHandler } from "@builder.io/qwik-city";
 import { useLocation } from "@builder.io/qwik-city";
 import { PoolContext } from "./layout";
 import { useGridFocus } from "~/components/nav";
 import { TokenImg } from "~/components/token-img";
-import poolData from '~/DATA.json';
+import poolData from '~/DATA/pool.json';
 
 const TokenFilterContext = createContextId<Signal<TokenFilter>>('TokenFilterContext');
 type TokenFilter = {
@@ -138,17 +139,18 @@ export default component$(() => {
   }
   const filter = useSignal<TokenFilter>(initialFilters);
   useContextProvider(TokenFilterContext, filter);
-  useVisibleTask$(({ track }) => {
+  useTask$  (({ track }) => {
     track(() => filter.value);
+    if (isServer) return;
+    const searchParams = new URLSearchParams();
     for (const [key, value] of Object.entries(filter.value)) {
       if (Array.isArray(value)) {
-        url.searchParams.delete(key); // clear before appending
-        value.forEach(v => url.searchParams.append(key, v));
+        value.forEach(v => searchParams.append(key, v));
       } else if (value !== '') {
-        url.searchParams.set(key, value);
+        searchParams.set(key, value);
       }
     }
-    history.replaceState(null, '', '?' + url.searchParams.toString());
+    history.replaceState(null, '', '?' + searchParams.toString());
   });
   
   const focusSearch = $(() => {

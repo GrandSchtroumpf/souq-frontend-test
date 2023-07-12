@@ -1,4 +1,4 @@
-import { component$, $, useStore, useVisibleTask$, useContextProvider, createContextId, useStyles$, useContext, useSignal, useComputed$, event$ } from "@builder.io/qwik";
+import { component$, $, useStore, useVisibleTask$, useContextProvider, createContextId, useStyles$, useContext, useSignal, useComputed$, event$, useTask$ } from "@builder.io/qwik";
 import type { QwikMouseEvent } from "@builder.io/qwik";
 import { Modal } from "qwik-hueeye";
 import { useEthereum } from "~/hooks/ethereum";
@@ -20,53 +20,50 @@ export type BucketService = ReturnType<typeof useBucketProvider>;
 
 export const BucketContext = createContextId<BucketService>('BucketContext');
 
-export const useBucketProvider = (pool: Pool) => {
+export const useBucketProvider = (pool: Pool, tokens: Record<string, CollectionToken>) => {
   const { state } = useEthereum();
   const bucket = useStore<Record<string, number>>({}, {deep: false});
   const totalItems = useComputed$(() => Object.values(bucket).reduce((acc, value) => acc + value, 0));
   const total = useSignal(BigInt(0));
   const tokenPrice = useSignal(BigInt(0));
   const fees = useSignal<FeeReturn>();
-  const tokens: Record<string, CollectionToken> = {};
-  const allTokens = pool.subPools.map(subPool => subPool.shares.map(share => share.collectionToken)).flat();
-  for (const token of allTokens) {
-    tokens[token.id] = token;
-  }
 
   const save = $(() => {
     const data = JSON.stringify(bucket);
     localStorage.setItem(`bucket.${pool.id}`, data);
   });
 
-  useVisibleTask$(() => {
-    const local = JSON.parse(localStorage.getItem(`bucket.${pool.id}`) ?? '{}');
-    for (const [key, value] of Object.entries(local)) {
-      bucket[key] = value as number;
+  const updatePrice = $(async () => {
+    const amounts = [];
+    const tokenIds = [];
+    for (const [key, value] of Object.entries(bucket)) {
+      amounts.push(value);
+      tokenIds.push(tokens[key].tokenId);
     }
-  });
+    if (!state.provider) throw new Error('You need a provider');
+    const contract = getMME1155(state.provider);
+    const quotation = await contract.getQuote(amounts, tokenIds, true, true);
+    fees.value = quotation.fees;
+    total.value = quotation.total;
+    tokenPrice.value = quotation.shares.reduce((acc, token) => acc + token.value - token.fees.totalFee, BigInt(0))
+  })
 
-  useVisibleTask$(({ track }) => {
+  useTask$(({ track }) => {
     track(() => totalItems.value);
     if (!totalItems.value) {
       total.value = BigInt(0);
       return;
-    } 
-    const timeout = setTimeout(async () => {
-      const amounts = [];
-      const tokenIds = [];
-      for (const [key, value] of Object.entries(bucket)) {
-        amounts.push(value);
-        tokenIds.push(tokens[key].tokenId);
-      }
-      if (!state.provider) throw new Error('You need a provider');
-      const contract = getMME1155(state.provider);
-      const quotation = await contract.getQuote(amounts, tokenIds, true, true);
-      fees.value = quotation.fees;
-      total.value = quotation.total;
-      tokenPrice.value = quotation.shares.reduce((acc, token) => acc + token.value - token.fees.totalFee, BigInt(0))
-    }, 300);
+    }
+    const timeout = setTimeout(updatePrice, 300);
     return () => clearTimeout(timeout);
   })
+  
+  useVisibleTask$(() => {
+    const local = JSON.parse(localStorage.getItem(`bucket.${pool.id}`) ?? '{}');
+    for (const [key, value] of Object.entries(local)) {
+      bucket[key] = value as number;
+    } 
+  });
 
   const service = {
     bucket,
