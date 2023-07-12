@@ -107,7 +107,7 @@ export function useEthereumProvider(props: EthereumProps) {
 
   const getProvider = $(() => {
     if (!state.provider) {
-      service.state.provider = noSerialize(getDefaultProvider('https://eth.llamarpc.com'))
+      state.provider = noSerialize(getDefaultProvider('https://eth.llamarpc.com'))
     }
     return state.provider!;
   })
