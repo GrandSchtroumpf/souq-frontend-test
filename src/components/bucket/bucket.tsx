@@ -21,7 +21,7 @@ export type BucketService = ReturnType<typeof useBucketProvider>;
 export const BucketContext = createContextId<BucketService>('BucketContext');
 
 export const useBucketProvider = (pool: Pool, tokens: Record<string, CollectionToken>) => {
-  const { state } = useEthereum();
+  const { getProvider } = useEthereum();
   const bucket = useStore<Record<string, number>>({}, {deep: false});
   const totalItems = useComputed$(() => Object.values(bucket).reduce((acc, value) => acc + value, 0));
   const total = useSignal(BigInt(0));
@@ -41,8 +41,8 @@ export const useBucketProvider = (pool: Pool, tokens: Record<string, CollectionT
       amounts.push(value);
       tokenIds.push(tokens[key].tokenId);
     }
-    if (!state.provider) throw new Error('You need a provider');
-    const contract = getMME1155(state.provider);
+    const provider = await getProvider();
+    const contract = getMME1155(provider);
     const quotation = await contract.getQuote(amounts, tokenIds, true, true);
     fees.value = quotation.fees;
     total.value = quotation.total;

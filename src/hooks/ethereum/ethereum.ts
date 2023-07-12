@@ -106,8 +106,14 @@ export function useEthereumProvider(props: EthereumProps) {
     return connector?.switchChain(chainId);
   });
 
+  const getProvider = $(() => {
+    if (!state.provider) {
+      service.state.provider = noSerialize(getDefaultProvider('https://eth.llamarpc.com'))
+    }
+    return state.provider!;
+  })
+
   const getSigner = $(async () => {
-    console.log(state);
     if (!(state.provider instanceof BrowserProvider)) {
       await connect();
     }
@@ -115,7 +121,7 @@ export function useEthereumProvider(props: EthereumProps) {
     return state.provider.getSigner();
   })
 
-  const service = { state, findClients, connect, disconnect, switchChain, getSigner };
+  const service = { state, findClients, connect, disconnect, switchChain, getProvider, getSigner };
   useContextProvider(EthereumContext, service);
   return service;
 }
@@ -124,11 +130,7 @@ export const useEthereum = () => {
   const service = useContext(EthereumContext);
   useVisibleTask$(() => {
     const wallet = sessionStorage.getItem('wallet');
-    if (wallet) {
-      service.connect(JSON.parse(wallet));
-    } else {
-      service.state.provider = noSerialize(getDefaultProvider('https://eth.llamarpc.com'))
-    }
+    if (wallet) service.connect(JSON.parse(wallet));
   });
   return service;
 }
