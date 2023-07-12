@@ -1,0 +1,167 @@
+{
+  "collectionName": "Parallel Alpha",
+  "id": "1f53a93b-9e8e-41fd-9b90-acfde6e5a6c2",
+  "traits": {
+      "State": {
+          "name": "State",
+          "options": [
+              {
+                  "name": "Day",
+                  "value": 6
+              },
+              {
+                  "name": "Night",
+                  "value": 7
+              },
+              {
+                  "name": "Light",
+                  "value": 2
+              },
+              {
+                  "name": "Earth",
+                  "value": 1
+              },
+              {
+                  "name": "Dark",
+                  "value": 1
+              },
+              {
+                  "name": "Mars",
+                  "value": 1
+              }
+          ],
+          "attributes": [
+              "Day",
+              "Night",
+              "Light",
+              "Earth",
+              "Dark",
+              "Mars"
+          ]
+      },
+      "Rarity": {
+          "name": "Rarity",
+          "options": [
+              {
+                  "name": "Uncommon",
+                  "value": 71
+              },
+              {
+                  "name": "Common",
+                  "value": 118
+              },
+              {
+                  "name": "Rare",
+                  "value": 26
+              }
+          ],
+          "attributes": [
+              "Uncommon",
+              "Common",
+              "Rare"
+          ]
+      },
+      "Class": {
+          "name": "Class",
+          "options": [
+              {
+                  "name": "First Edition",
+                  "value": 142
+              },
+              {
+                  "name": "PL",
+                  "value": 13
+              },
+              {
+                  "name": "SE",
+                  "value": 60
+              }
+          ],
+          "attributes": [
+              "First Edition",
+              "PL",
+              "SE"
+          ]
+      },
+      "Artist": {
+          "name": "Artist",
+          "options": [
+              {
+                  "name": "Oscar Mar",
+                  "value": 37
+              },
+              {
+                  "name": "Chris Bjerre",
+                  "value": 36
+              },
+              {
+                  "name": "Sasha Vinogradova",
+                  "value": 18
+              },
+              {
+                  "name": "Nacho Yagüe",
+                  "value": 35
+              },
+              {
+                  "name": "Dhenzel Obeng",
+                  "value": 35
+              },
+              {
+                  "name": "Oscar Cafaro",
+                  "value": 28
+              },
+              {
+                  "name": "Taehoon Park",
+                  "value": 26
+              }
+          ],
+          "attributes": [
+              "Oscar Mar",
+              "Chris Bjerre",
+              "Sasha Vinogradova",
+              "Nacho Yagüe",
+              "Dhenzel Obeng",
+              "Oscar Cafaro",
+              "Taehoon Park"
+          ]
+      },
+      "Parallel": {
+          "name": "Parallel",
+          "options": [
+              {
+                  "name": "Marcolian",
+                  "value": 30
+              },
+              {
+                  "name": "Augencore",
+                  "value": 33
+              },
+              {
+                  "name": "Earthen",
+                  "value": 39
+              },
+              {
+                  "name": "Kathari",
+                  "value": 32
+              },
+              {
+                  "name": "Universal",
+                  "value": 54
+              },
+              {
+                  "name": "Shroud",
+                  "value": 27
+              }
+          ],
+          "attributes": [
+              "Marcolian",
+              "Augencore",
+              "Earthen",
+              "Kathari",
+              "Universal",
+              "Shroud"
+          ]
+      }
+  },
+  "collectionAddress": "0x76be3b62873462d2142405439777e971754e8e77"
+}
